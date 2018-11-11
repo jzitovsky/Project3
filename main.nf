@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-params.file_dir = 'data/p2_abstracts/'
+params.file_dir = 'data/p2_abstracts/*.txt'
 params.out_dir = 'data/'
 params.out_file = 'finalData.csv'
 
