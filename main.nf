@@ -15,7 +15,7 @@ process simple {
     stdout strings
 
 """
-    cat(file)
+    cat($f)
 """
 }
 
