@@ -1,0 +1,6 @@
+Pharm Nanotechnol. 2018 Sep 18. doi: 10.2174/2211738506666180918122337. [Epubahead of print]
+Drug Delivery for Cancer Immunotherapy and Vaccines.
+Batty CJ(1), Tiet P(1), Bachelder EM(1), Ainslie KM(1).
+Author information:(1)Eshelman School of Pharmacy, Division of Pharmacoengineering and MolecularPharmaceutics, The University of North Carolina at Chapel Hill. United States.
+Cancer cells are able to avoid immune surveillance and exploit the immune systemto grow and metastasize. With the development of nano- and micro-particles, therehas been a growing number of immunotherapy delivery systems developed to elicitinnate and adaptive immune responses to eradicate cancer cells. This can beaccomplished by training resident immune cells to recognize and eliminate cellswith tumor-associated antigens or by providing external stimuli to enhance tumorcell apoptosis in the immunosuppressive tumor microenvironment (TME). In thisreview we will focus on nano- and micro-particle (NP and MP) basedimmunotherapies and vaccines used to elicit a potent and sustained antitumorimmune response.
+Copyright© Bentham Science Publishers; For any queries, please email atepub@benthamscience.org.
