@@ -29,7 +29,7 @@ process python_transform_list {
     stdout lengths_transformed
 
     """
-    #!/usr/local/bin/python
+    #!/usr/local/bin/python3.5
 
     numbers = $l
     lstring = 'c(' + ','.join([str(x) for x in numbers]) + ')'
