@@ -1,5 +1,3 @@
-The dashboard will utilize the CSV data produced by your pipeline.
-The dashboard should display the top ten collaborating institutions (based on number of abstracts shared with UNC), and allow the user to view the most abundant, differentiating words in the abstracts associated with each collaborating institution. 
 
 #!/usr/bin/env nextflow
 
