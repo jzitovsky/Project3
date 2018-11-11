@@ -19,8 +19,7 @@ process simple {
 """
 }
 
-process python_transform_list {
-    container 'python:3.7-slim'
+process r_transform_list {
 
     input:
     val l from strings.collect()
@@ -29,32 +28,8 @@ process python_transform_list {
     stdout lengths_transformed
 
     """
-    #!/usr/bin/python3.5
+    #!/usr/bin/Rscript
 
-    numbers = $l
-    lstring = 'c(' + ','.join([str(x) for x in numbers]) + ')'
-    print(lstring)
+    print($l)
     """
-}
 
-process simple2 {
-    container 'rocker/tidyverse:3.5'
-    publishDir params.out_dir, mode: 'copy'
-
-    input:
-    val l from lengths_transformed
-
-    output:
-    file params.out_file into last_file
-
-    """
-    #!/usr/local/bin/Rscript
-
-    string = $l
-data.frame(string)
-
-    write.csv(string, '$params.out_file')
-    """
-}
-
-lengths_transformed.subscribe {  println it  }
