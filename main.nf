@@ -37,7 +37,7 @@ process python_transform_list {
     """
 }
 
-process simple {
+process simple2 {
     container 'rocker/tidyverse:3.5'
     publishDir params.out_dir, mode: 'copy'
 
