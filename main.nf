@@ -20,21 +20,5 @@ process get_seq_length {
     """
 }
 
-process python_transform_list {
-    container 'python:3.7-slim'
-
-    input:
-    val l from lengths.collect()
-
-    output:
-    stdout lengths_transformed
-
-    """
-    #!/usr/local/bin/python
-    numbers = $l
-    lstring = 'c(' + ','.join([str(x) for x in numbers]) + ')'
-    print(lstring)
-    """
-}
 
 lengths_transformed.subscribe {  println it  }
