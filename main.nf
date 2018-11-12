@@ -19,20 +19,22 @@ process simple {
 """
 }
 
-process python_transform_list2 {
+process python_transform_list {
     container 'python:3.7-slim'
 
     input:
-    val l from strings.collect()
+    val l from lengths.collect()
 
     output:
     stdout lengths_transformed
 
     """
     #!/usr/bin/python3.5
+    
     numbers = $l
     lstring = 'c(' + ','.join([str(x) for x in numbers]) + ')'
     print(lstring)
     """
 }
+
 
