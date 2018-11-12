@@ -1,0 +1,82 @@
+Nov-11 22:09:57.659 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf
+Nov-11 22:09:57.776 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
+Nov-11 22:09:57.786 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [compassionate_euclid] - revision: f5b1893e7b
+Nov-11 22:09:57.868 [main] DEBUG nextflow.Session - Session uuid: 9fd665d0-13e2-4371-a0fe-e79f1c29f84f
+Nov-11 22:09:57.868 [main] DEBUG nextflow.Session - Run name: compassionate_euclid
+Nov-11 22:09:57.871 [main] DEBUG nextflow.Session - Executor pool size: 12
+Nov-11 22:09:57.885 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 0.30.1 build 4844
+  Modified: 11-06-2018 08:29 UTC (04:29 EDT)
+  System: Linux 4.4.0-75-generic
+  Runtime: Groovy 2.4.15 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_171-b11
+  Encoding: UTF-8 (UTF-8)
+  Process: 4173@bc18-n14.isis.unc.edu [152.19.196.61]
+  CPUs: 12 - Mem: 39.3 GB (33.8 GB) - Swap: 16 GB (16 GB)
+Nov-11 22:09:57.972 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
+Nov-11 22:09:57.972 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/joshz/Project3/bin
+Nov-11 22:09:58.136 [main] DEBUG nextflow.Session - Session start invoked
+Nov-11 22:09:58.145 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Nov-11 22:09:58.145 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Nov-11 22:09:58.390 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-11 22:09:58.413 [main] DEBUG nextflow.Channel - files for syntax: glob; folder: data/p2_abstracts/; pattern: *40.txt; options: null
+Nov-11 22:09:58.529 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
+Nov-11 22:09:58.529 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
+Nov-11 22:09:58.536 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
+Nov-11 22:09:58.538 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
+Nov-11 22:09:58.544 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=39.3 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Nov-11 22:09:58.549 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
+Nov-11 22:09:58.549 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Nov-11 22:09:58.552 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
+Nov-11 22:09:58.608 [main] DEBUG nextflow.Session - >>> barrier register (process: get_seq_length)
+Nov-11 22:09:58.611 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > get_seq_length -- maxForks: 12
+Nov-11 22:09:58.695 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Nov-11 22:09:58.695 [main] DEBUG nextflow.Session - Session await
+Nov-11 22:09:58.929 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-11 22:09:58.934 [Task submitter] INFO  nextflow.Session - [f3/c9709a] Submitted process > get_seq_length (4)
+Nov-11 22:09:58.952 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-11 22:09:58.953 [Task submitter] INFO  nextflow.Session - [82/87a2d2] Submitted process > get_seq_length (3)
+Nov-11 22:09:58.957 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-11 22:09:58.957 [Task submitter] INFO  nextflow.Session - [2c/b4ce62] Submitted process > get_seq_length (1)
+Nov-11 22:09:58.961 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-11 22:09:58.961 [Task submitter] INFO  nextflow.Session - [31/693484] Submitted process > get_seq_length (2)
+Nov-11 22:09:58.966 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: get_seq_length (4); status: COMPLETED; exit: 2; error: -; workDir: /home/joshz/Project3/work/f3/c9709a0f790deb5f2ae2d0fe023a2b]
+Nov-11 22:09:59.001 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'get_seq_length (4)'
+
+Caused by:
+  Process `get_seq_length (4)` terminated with an error exit status (2)
+
+Command executed:
+
+  cat(l)
+
+Command exit status:
+  2
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 2: syntax error near unexpected token `l'
+
+Work dir:
+  /home/joshz/Project3/work/f3/c9709a0f790deb5f2ae2d0fe023a2b
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+Nov-11 22:09:59.006 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `get_seq_length (4)` terminated with an error exit status (2)
+Nov-11 22:09:59.022 [Task monitor] DEBUG nextflow.Session - The following nodes are still active:
+  [operator] subscribe
+
+Nov-11 22:09:59.024 [main] DEBUG nextflow.Session - Session await > all process finished
+Nov-11 22:09:59.025 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Nov-11 22:09:59.027 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: get_seq_length (3); status: COMPLETED; exit: 2; error: -; workDir: /home/joshz/Project3/work/82/87a2d22c06dbfc0d38237d2d27a170]
+Nov-11 22:09:59.029 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
+Nov-11 22:09:59.034 [main] WARN  n.processor.TaskPollingMonitor - Killing pending tasks (2)
+Nov-11 22:09:59.040 [main] DEBUG nextflow.executor.LocalTaskHandler - Unable to kill get_seq_length (1) -- command: kill -TERM 4275; exit: 1 
+ bash: line 0: kill: (4275) - No such process
+
+Nov-11 22:09:59.043 [main] DEBUG nextflow.executor.LocalTaskHandler - Unable to kill get_seq_length (2) -- command: kill -TERM 4285; exit: 1 
+ bash: line 0: kill: (4285) - No such process
+
+Nov-11 22:09:59.045 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=0; failedCount=4; ignoredCount=0; cachedCount=0; succeedDuration=0ms; failedDuration=2ms; cachedDuration=0ms]
+Nov-11 22:09:59.090 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Nov-11 22:09:59.103 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

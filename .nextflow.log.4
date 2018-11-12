@@ -1,0 +1,47 @@
+Nov-11 22:04:47.962 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf
+Nov-11 22:04:48.080 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
+Nov-11 22:04:48.090 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [serene_gutenberg] - revision: 344d23e13d
+Nov-11 22:04:48.171 [main] DEBUG nextflow.Session - Session uuid: 498cbc72-da0c-4872-b556-e2b26578bb9c
+Nov-11 22:04:48.171 [main] DEBUG nextflow.Session - Run name: serene_gutenberg
+Nov-11 22:04:48.173 [main] DEBUG nextflow.Session - Executor pool size: 12
+Nov-11 22:04:48.186 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 0.30.1 build 4844
+  Modified: 11-06-2018 08:29 UTC (04:29 EDT)
+  System: Linux 4.4.0-75-generic
+  Runtime: Groovy 2.4.15 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_171-b11
+  Encoding: UTF-8 (UTF-8)
+  Process: 3051@bc18-n14.isis.unc.edu [152.19.196.61]
+  CPUs: 12 - Mem: 39.3 GB (33.8 GB) - Swap: 16 GB (16 GB)
+Nov-11 22:04:48.266 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
+Nov-11 22:04:48.266 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/joshz/Project3/bin
+Nov-11 22:04:48.436 [main] DEBUG nextflow.Session - Session start invoked
+Nov-11 22:04:48.448 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Nov-11 22:04:48.448 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Nov-11 22:04:48.717 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-11 22:04:48.739 [main] DEBUG nextflow.Channel - files for syntax: glob; folder: data/fastas/; pattern: *40.txt; options: null
+Nov-11 22:04:48.767 [Thread-1] DEBUG nextflow.Channel - No such file: data/fastas/ -- Skipping visit
+Nov-11 22:04:48.851 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
+Nov-11 22:04:48.851 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
+Nov-11 22:04:48.857 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
+Nov-11 22:04:48.859 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
+Nov-11 22:04:48.864 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=39.3 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Nov-11 22:04:48.869 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
+Nov-11 22:04:48.870 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Nov-11 22:04:48.873 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
+Nov-11 22:04:48.930 [main] DEBUG nextflow.Session - >>> barrier register (process: get_seq_length)
+Nov-11 22:04:48.933 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > get_seq_length -- maxForks: 12
+Nov-11 22:04:48.981 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: get_seq_length)
+Nov-11 22:04:48.995 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
+Nov-11 22:04:48.995 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
+Nov-11 22:04:48.995 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
+Nov-11 22:04:48.996 [main] DEBUG nextflow.Session - >>> barrier register (process: python_transform_list)
+Nov-11 22:04:48.996 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > python_transform_list -- maxForks: 12
+Nov-11 22:04:48.998 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: python_transform_list)
+Nov-11 22:04:48.999 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Nov-11 22:04:48.999 [main] DEBUG nextflow.Session - Session await
+Nov-11 22:04:49.000 [main] DEBUG nextflow.Session - Session await > all process finished
+Nov-11 22:04:49.079 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
+Nov-11 22:04:49.079 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Nov-11 22:04:49.128 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=0; failedCount=0; ignoredCount=0; cachedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms]
+Nov-11 22:04:49.137 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Nov-11 22:04:49.150 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

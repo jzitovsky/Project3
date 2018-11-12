@@ -1,0 +1,11 @@
+2018-11-11 21:55:24	-	desperate_wilson	-	ebb7781f09cfe784ea074f4988c0e62c	528c76ab-d925-44a8-80e7-5ae274ea2306	nextflow main.nf
+2018-11-11 21:56:00	1.3s	sharp_fourier	OK	a9aed3b5401c90f7f886e1dcfea83fd3	60407461-aa0b-49cf-b570-7149161968aa	nextflow main.nf
+2018-11-11 21:56:09	1.8s	awesome_goldstine	OK	a9aed3b5401c90f7f886e1dcfea83fd3	94089c06-ec1a-40ea-ab0e-7d3b06ea18ca	nextflow main.nf
+2018-11-11 22:00:31	1.3s	tender_noether	OK	64683de26b104865d40a362e4854ef9e	60f3a8c4-478a-44c9-9b32-ef7a192935c6	nextflow main.nf
+2018-11-11 22:00:38	1.2s	astonishing_lorenz	OK	64683de26b104865d40a362e4854ef9e	9c219122-c170-4d1b-b1aa-6683201e9c9e	nextflow main.nf
+2018-11-11 22:02:54	-	sharp_lamarr	-	b5a101263aecca2eeff7de9a856a2174	fa2b82cf-841b-4bef-bd96-5c7664eb2acd	nextflow main.nf
+2018-11-11 22:04:48	1.1s	serene_gutenberg	OK	344d23e13d781577ac557e25af05df0b	498cbc72-da0c-4872-b556-e2b26578bb9c	nextflow main.nf
+2018-11-11 22:09:11	1.5s	nice_wozniak	OK	3ea23b63df1a7f5ae5387b6cbc2a76d1	4a187fee-1338-4bd8-baab-f5b8d3e1c149	nextflow main.nf
+2018-11-11 22:09:57	2.1s	compassionate_euclid	ERR	f5b1893e7b5749dcecdc44badf493086	9fd665d0-13e2-4371-a0fe-e79f1c29f84f	nextflow main.nf
+2018-11-11 22:11:16	1.5s	pedantic_babbage	OK	e15ceabee44ebe7bca0ebb3cdbec1685	b0fbae4e-d7c3-44a1-bfad-8c6c348fb3e3	nextflow main.nf
+2018-11-11 22:12:46	2s	exotic_sax	ERR	0564c882d088f1b383f5e91c4d77f147	a50d1a66-0d25-498c-8f03-71de3498b7ee	nextflow main.nf
