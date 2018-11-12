@@ -36,5 +36,3 @@ process python_transform_list2 {
     """
 }
 
-lengths_transformed.subscribe {  println it  }
-
