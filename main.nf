@@ -30,6 +30,27 @@ process r_transform_list {
     """
     #!/usr/bin/Rscript
 
-    print($l)
+    print(lstring)
     """
+}
+
+process simple2 {
+    container 'rocker/tidyverse:3.5'
+    publishDir params.out_dir, mode: 'copy'
+
+    input:
+    val l from lengths_transformed
+
+    output:
+    file params.out_file into last_file
+
+    """
+    #!/usr/local/bin/Rscript
+    string = $l
+data.frame(string)
+    write.csv(string, '$params.out_file')
+    """
+}
+
+lengths_transformed.subscribe {  println it  }
 
