@@ -16,7 +16,7 @@ process get_seq_length {
     stdout lengths
 
     """
-    cat(l)
+    cat $f
     """
 }
 
