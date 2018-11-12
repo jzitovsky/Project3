@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-params.file_dir = 'data/fastas/*.fasta'
+params.file_dir = 'data/fastas/*40.txt'
 params.out_dir = 'data/'
 params.out_file = 'histogram.png'
 
@@ -16,10 +16,6 @@ process get_seq_length {
     stdout lengths
 
     """
-    #!/usr/local/bin/Rscript
-    suppressMessages(library(Biostrings))
-    s = readDNAStringSet('$f')
-    l = length(s[[1]])
     cat(l)
     """
 }
@@ -64,4 +60,4 @@ process plot_lengths_hist {
     """
 }
 
-lengths_transformed.subscribe {  println it  }
+lengths.subscribe {  println it  }
