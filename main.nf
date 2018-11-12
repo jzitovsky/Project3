@@ -29,11 +29,11 @@ process python_transform_list {
     stdout lengths_transformed
 
     """
-#!/usr/bin/python3.5
+    #!/usr/local/bin/python
     
-numbers = $l
-lstring = 'c(' + ','.join([str(x) for x in numbers]) + ')'
-print(lstring)
+    numbers = $l
+    lstring = 'c(' + ','.join([str(x) for x in numbers]) + ')'
+    print(lstring)
     """
 }
 
