@@ -7,6 +7,7 @@ params.out_file = 'finalData.csv'
 file_channel = Channel.fromPath( params.file_dir )
 
 process simple {
+container 'bioconductor/release_core2:R3.5.0_Bioc3.7'
 
     input:
     file f from file_channel
