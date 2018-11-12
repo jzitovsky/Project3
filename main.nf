@@ -35,7 +35,7 @@ process r_transform_list {
     """
 }
 
-process simple2 {
+process simple3 {
     container 'rocker/tidyverse:3.5'
     publishDir params.out_dir, mode: 'copy'
 
