@@ -1,4 +1,3 @@
-
 #!/usr/bin/env nextflow
 
 params.file_dir = 'data/fastas/*.fasta'
