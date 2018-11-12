@@ -19,5 +19,22 @@ process simple {
 """
 }
 
-strings.subscribe {  println it  }
+process python_transform_list {
+    container 'python:3.7-slim'
+
+    input:
+    val l from lengths.collect()
+
+    output:
+    stdout lengths_transformed
+
+    """
+    #!/usr/bin/python3.5
+    numbers = $l
+    lstring = 'c(' + ','.join([str(x) for x in numbers]) + ')'
+    print(lstring)
+    """
+}
+
+strings.lengths_transformed {  println it  }
 
