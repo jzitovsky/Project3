@@ -29,7 +29,8 @@ process r_transform_list {
 
     """
     #!/usr/bin/Rscript
-
+    
+    lstring = $l;
     print(lstring)
     """
 }
