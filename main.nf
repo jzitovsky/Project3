@@ -21,4 +21,4 @@ process get_seq_length {
 }
 
 
-lengths_transformed.subscribe {  println it  }
+lengths.subscribe {  println it  }
