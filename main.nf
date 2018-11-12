@@ -19,39 +19,5 @@ process simple {
 """
 }
 
-process r_transform_list {
-
-    input:
-    val l from strings.collect()
-
-    output:
-    stdout lengths_transformed
-
-    """
-    #!/usr/bin/Rscript
-    
-    lstring = $l;
-    print(lstring[[1]])
-    """
-}
-
-process simple3 {
-    container 'rocker/tidyverse:3.5'
-    publishDir params.out_dir, mode: 'copy'
-
-    input:
-    val l from lengths_transformed
-
-    output:
-    file params.out_file into last_file
-
-    """
-    #!/usr/local/bin/Rscript
-    string = $l
-data.frame(string)
-    write.csv(string, '$params.out_file')
-    """
-}
-
-lengths_transformed.subscribe {  println it  }
+strings.subscribe {  println it  }
 
