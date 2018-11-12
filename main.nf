@@ -30,7 +30,7 @@ process r_transform_list {
     """
     #!/usr/bin/Rscript
     
-    lstring = $l;
+    lstring = "$l";
     print(lstring)
     """
 }
