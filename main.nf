@@ -19,7 +19,7 @@ process simple {
 """
 }
 
-process python_transform_list {
+process python_transform_list2 {
     container 'python:3.7-slim'
 
     input:
