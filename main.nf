@@ -23,7 +23,7 @@ process python_transform_list {
     container 'python:3.7-slim'
 
     input:
-    val l from lengths.collect()
+    val l from strings.collect()
 
     output:
     stdout lengths_transformed
