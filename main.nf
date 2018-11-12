@@ -37,27 +37,4 @@ process python_transform_list {
     """
 }
 
-process plot_lengths_hist {
-    container 'rocker/tidyverse:3.5'
-    publishDir params.out_dir, mode: 'copy'
-
-    input:
-    val l from lengths_transformed
-
-    output:
-    file params.out_file into last_fig
-
-    """
-    #!/usr/local/bin/Rscript
-    library(tidyverse)
-    numbers = tibble(n = $l)
-    ggplot(numbers, aes(x=n)) +
-        geom_histogram() +
-        xlab('sequence length') +
-        ylab('count') +
-        theme_bw()
-    ggsave('$params.out_file', width = 10, height = 8, units = 'cm')
-    """
-}
-
-lengths.subscribe {  println it  }
+lengths_transformed.subscribe {  println it  }
