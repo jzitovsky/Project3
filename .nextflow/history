@@ -25,3 +25,20 @@
 2018-11-13 13:39:17	17.1s	spontaneous_mccarthy	OK	f203b9b1ec74b3eff78d2260b4e166d9	50dcbb94-3dbc-4978-bfae-0254b7b1c327	nextflow main2.nf
 2018-11-13 14:19:16	17.1s	stoic_almeida	OK	f203b9b1ec74b3eff78d2260b4e166d9	855f23aa-3073-429f-b2b8-3407e379a22e	nextflow main2.nf
 2018-11-13 14:21:32	17.4s	sick_wiles	OK	f203b9b1ec74b3eff78d2260b4e166d9	73c98910-52af-4525-9d40-6832a01f1f98	nextflow main2.nf
+2018-11-13 15:24:44	17.9s	intergalactic_lichterman	ERR	1375236215606e49ea9ead5294c23ccb	26b13c2e-44d3-47a1-abed-4ac2ab7a00b4	nextflow main2.nf
+2018-11-13 15:30:13	17.8s	cheeky_gates	ERR	1375236215606e49ea9ead5294c23ccb	b7af3dcb-84fb-4b8a-99d0-55f8323796b5	nextflow main2.nf
+2018-11-13 15:42:09	18.5s	soggy_blackwell	ERR	756a7dc0829b7f2f971b3136383f5d72	6c366f38-a2e0-4ad9-88e5-e00898a1a159	nextflow main2.nf
+2018-11-13 15:43:42	18.2s	irreverent_baekeland	ERR	40912423c3909935136495888b97ca0c	d09d3fa8-f9cf-4bda-9478-a81f98feb981	nextflow main2.nf
+2018-11-13 15:47:13	17.6s	marvelous_pare	ERR	575892ab5be304674f751efb7dd479f6	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf
+2018-11-13 15:52:54	3.4s	desperate_hugle	ERR	dca7a718e73fef1c6a6e1ae3d2d0c249	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf -resume
+2018-11-13 15:55:39	-	agitated_golick	-	595869739abce2ff75d526c0cbc8f7b8	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf -resume
+2018-11-13 15:56:30	1.5s	elated_colden	ERR	a3ea25c13e174428b32f3686b1c29443	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf -resume
+2018-11-13 15:58:23	3.5s	astonishing_curie	ERR	b6bf3e30fc56a00377b753f81781c43f	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf -resume
+2018-11-13 16:05:09	3.3s	admiring_hoover	ERR	10e8a329ed09d94fc9cacee6f944d2ae	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf -resume
+2018-11-13 16:10:20	2.6s	jovial_avogadro	ERR	81456cc7c2179fbf5cef4cf8cffe8945	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf -resume
+2018-11-13 16:11:07	2.7s	mighty_volta	ERR	44164bb835f4fece29e47b3b2a68c699	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf -resume
+2018-11-13 16:13:20	2.8s	trusting_wilson	ERR	88d4182f1aee8dc67255d97b670a62ec	28ed4416-c0ba-4132-9375-415c9afdb487	nextflow main2.nf -resume
+2018-11-13 16:24:04	-	elegant_northcutt	-	0f605cadc797897d857b9df1307aa11a	97831365-be78-4052-a4a6-8e857a4ef340	nextflow main2.nf
+2018-11-13 16:24:55	17.1s	disturbed_torricelli	OK	7a788ae89f41dd641da8f0cabb472ebd	d378a7c0-c545-4d80-b416-669d4a4f7c93	nextflow main2.nf
+2018-11-13 16:26:32	1.6s	astonishing_hopper	OK	eefb878841665b4828e3b1a5958b0f90	d378a7c0-c545-4d80-b416-669d4a4f7c93	nextflow main2.nf -resume
+2018-11-13 16:26:48	17.6s	high_gilbert	OK	eefb878841665b4828e3b1a5958b0f90	071f3ff1-8b06-48df-a2ba-d7dee55075e7	nextflow main2.nf
