@@ -16,3 +16,10 @@
 2018-11-13 09:31:37	3.3s	elated_goldwasser	OK	620b3a1bb8f5f6ddfefd6cf0d00a8ee7	fde29581-42c6-4648-a9f6-d29e7f549371	nextflow main.nf
 2018-11-13 09:48:25	2.6s	scruffy_pesquet	ERR	e5c60860c3eb740080f3cc104e2aaf45	25d218b2-c77e-477c-a996-c0c942b8d2c3	nextflow main.nf
 2018-11-13 11:59:19	4.4s	chaotic_laplace	ERR	e5c60860c3eb740080f3cc104e2aaf45	08b0d4b2-27db-4bda-b4ba-4b534a833fdd	nextflow main.nf
+2018-11-13 12:41:40	4.8s	compassionate_rosalind	ERR	f8d1782f9e9b878ec42b5df2a20652ad	6b7a4b81-600f-4f91-bacc-b811b31f7d22	nextflow main.nf
+2018-11-13 12:47:40	4.9s	infallible_brahmagupta	ERR	203ab6dde098d896005223e91e3f9c50	184ed42b-357d-4f0d-943d-0fe5255238b2	nextflow main.nf
+2018-11-13 13:25:06	4.9s	elegant_pesquet	ERR	203ab6dde098d896005223e91e3f9c50	96bdbeb3-f3db-49bf-8564-8496dea91669	nextflow main.nf
+2018-11-13 13:36:19	1.6s	amazing_majorana	ERR	203ab6dde098d896005223e91e3f9c50	289e8478-5132-4cd0-be6a-b82f79fe4920	nextflow main.nf
+2018-11-13 13:36:50	-	distracted_swartz	-	7f94ceb77b4def672a60455f281aa203	2a244bdf-aa69-4176-829b-ed831f59302e	nextflow main2.nf
+2018-11-13 13:37:25	17.6s	stoic_lumiere	OK	f3035432b384f90a2222b931815ae68a	69a27551-4b4c-4567-a4b1-4c4bebc320d7	nextflow main2.nf
+2018-11-13 13:39:17	17.1s	spontaneous_mccarthy	OK	f203b9b1ec74b3eff78d2260b4e166d9	50dcbb94-3dbc-4978-bfae-0254b7b1c327	nextflow main2.nf

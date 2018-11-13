@@ -63,6 +63,6 @@ processData = function(str) {
 
 
 args = commandArgs(trailingOnly = TRUE)
-str = args[1]
+str = readChar(args[1], file.info(args[1])$size)
 lista = processData(str)
 saveRDS(lista, "lista.rds")

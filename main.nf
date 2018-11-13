@@ -15,7 +15,7 @@ process get_abstracts {
     stdout strings
 
     """
-    cat $f
+    cat $f | tr -d '\"'
     """
 }
 
@@ -31,7 +31,3 @@ process process_abstracts {
     Rscript $baseDir/bin/processData.R "$s"
     """
 }
-
-
-
-rds_out.subscribe {  println it  }
