@@ -19,6 +19,7 @@ processData = function(str) {
       if (str_detect(x, keyWords[i])) {
         wordPlace = str_locate(x, keyWords[i])[1,1]
         commaPlaces = str_locate_all(x, '[,.]')[[1]][,1]
+	if (length(commaPlaces)==0) return(x) #return the whole string if there are no commas or periods
         begin=1
         end=str_length(x)+1
         for (j in 1:length(commaPlaces)) {

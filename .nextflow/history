@@ -14,3 +14,5 @@
 2018-11-13 09:30:07	1.7s	nostalgic_mcnulty	ERR	c4a770c634560d7d5340dc7e60115408	31053e8b-e3af-4faa-9143-07cfb972574a	nextflow main.nf
 2018-11-13 09:30:32	1.5s	ridiculous_mcclintock	ERR	c4a770c634560d7d5340dc7e60115408	454abb60-18a4-4430-a13f-87496d72f78d	nextflow main.nf
 2018-11-13 09:31:37	3.3s	elated_goldwasser	OK	620b3a1bb8f5f6ddfefd6cf0d00a8ee7	fde29581-42c6-4648-a9f6-d29e7f549371	nextflow main.nf
+2018-11-13 09:48:25	2.6s	scruffy_pesquet	ERR	e5c60860c3eb740080f3cc104e2aaf45	25d218b2-c77e-477c-a996-c0c942b8d2c3	nextflow main.nf
+2018-11-13 11:59:19	4.4s	chaotic_laplace	ERR	e5c60860c3eb740080f3cc104e2aaf45	08b0d4b2-27db-4bda-b4ba-4b534a833fdd	nextflow main.nf
