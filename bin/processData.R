@@ -14,7 +14,7 @@ processData = function(str) {
   
   #algorithm to get company name
   getCompany = function(x) {
-    keyWords = c("university", "hospital", "agency", "clinic", "institute", "centre", "center", "ltd", "college", "school")
+    keyWords = c("university", "hospital", "agency", "clinic", "institute", "centre", "center", "ltd", "college", "school", "organization", "organisation")
     for (i in 1:length(keyWords)) {
       if (str_detect(x, keyWords[i])) {
         wordPlace = str_locate(x, keyWords[i])[1,1]
@@ -49,7 +49,7 @@ processData = function(str) {
   unqWords = unique(words) #vector of (unique) words
   #lots of spaces not recorded in descriptions...
   
-  ID = str_sub(str, 1, 60); #making an ID that uniquely maps to the abstract
+  ID = toString(args[1])  #making an ID (the file name)  that uniquely maps to the abstract
   collab3 = c(ID, collab3) 
   words = c(ID, words)
   unqWords = c(ID, unqWords) #putting ID into lists

@@ -1,253 +1,33 @@
-Nov-13 13:36:18.913 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf
-Nov-13 13:36:19.023 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
-Nov-13 13:36:19.031 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [amazing_majorana] - revision: 203ab6dde0
-Nov-13 13:36:19.102 [main] DEBUG nextflow.Session - Session uuid: 289e8478-5132-4cd0-be6a-b82f79fe4920
-Nov-13 13:36:19.102 [main] DEBUG nextflow.Session - Run name: amazing_majorana
-Nov-13 13:36:19.104 [main] DEBUG nextflow.Session - Executor pool size: 8
-Nov-13 13:36:19.117 [main] DEBUG nextflow.cli.CmdRun - 
+Nov-13 13:36:50.132 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main2.nf
+Nov-13 13:36:50.242 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
+Nov-13 13:36:50.250 [main] INFO  nextflow.cli.CmdRun - Launching `main2.nf` [distracted_swartz] - revision: 7f94ceb77b
+Nov-13 13:36:50.320 [main] DEBUG nextflow.Session - Session uuid: 2a244bdf-aa69-4176-829b-ed831f59302e
+Nov-13 13:36:50.320 [main] DEBUG nextflow.Session - Run name: distracted_swartz
+Nov-13 13:36:50.322 [main] DEBUG nextflow.Session - Executor pool size: 8
+Nov-13 13:36:50.335 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 0.30.1 build 4844
   Modified: 11-06-2018 08:29 UTC (04:29 EDT)
   System: Linux 4.4.0-75-generic
   Runtime: Groovy 2.4.15 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_171-b11
   Encoding: UTF-8 (UTF-8)
-  Process: 30790@bc01-n07.isis.unc.edu [152.19.196.218]
+  Process: 32722@bc01-n07.isis.unc.edu [152.19.196.218]
   CPUs: 8 - Mem: 31.4 GB (30 GB) - Swap: 16 GB (16 GB)
-Nov-13 13:36:19.178 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
-Nov-13 13:36:19.318 [main] DEBUG nextflow.Session - Session start invoked
-Nov-13 13:36:19.325 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
-Nov-13 13:36:19.326 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
-Nov-13 13:36:19.547 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Nov-13 13:36:19.565 [main] DEBUG nextflow.Channel - files for syntax: glob; folder: data/p2_abstracts/; pattern: *.txt; options: null
-Nov-13 13:36:19.732 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Nov-13 13:36:19.732 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Nov-13 13:36:19.738 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Nov-13 13:36:19.739 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
-Nov-13 13:36:19.744 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=31.4 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
-Nov-13 13:36:19.747 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
-Nov-13 13:36:19.748 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Nov-13 13:36:19.750 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
-Nov-13 13:36:19.795 [main] DEBUG nextflow.Session - >>> barrier register (process: get_abstracts)
-Nov-13 13:36:19.798 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > get_abstracts -- maxForks: 8
-Nov-13 13:36:19.831 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Nov-13 13:36:19.832 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Nov-13 13:36:19.832 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Nov-13 13:36:19.833 [main] DEBUG nextflow.Session - >>> barrier register (process: process_abstracts)
-Nov-13 13:36:19.833 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > process_abstracts -- maxForks: 8
-Nov-13 13:36:19.834 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
-Nov-13 13:36:19.834 [main] DEBUG nextflow.Session - Session await
-Nov-13 13:36:20.098 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.103 [Task submitter] INFO  nextflow.Session - [88/6a50ba] Submitted process > get_abstracts (3)
-Nov-13 13:36:20.120 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.120 [Task submitter] INFO  nextflow.Session - [1d/482b16] Submitted process > get_abstracts (6)
-Nov-13 13:36:20.123 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.124 [Task submitter] INFO  nextflow.Session - [0f/8f5d23] Submitted process > get_abstracts (8)
-Nov-13 13:36:20.126 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.127 [Task submitter] INFO  nextflow.Session - [82/e3dbb2] Submitted process > get_abstracts (4)
-Nov-13 13:36:20.130 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: get_abstracts (3); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/88/6a50baa240a414baf3e3e16d0e301a]
-Nov-13 13:36:20.130 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.131 [Task submitter] INFO  nextflow.Session - [5a/60c7d5] Submitted process > get_abstracts (1)
-Nov-13 13:36:20.134 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.134 [Task submitter] INFO  nextflow.Session - [0e/5ef6b1] Submitted process > get_abstracts (7)
-Nov-13 13:36:20.137 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.137 [Task submitter] INFO  nextflow.Session - [4b/875686] Submitted process > get_abstracts (5)
-Nov-13 13:36:20.150 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.150 [Task submitter] INFO  nextflow.Session - [77/ba9e98] Submitted process > get_abstracts (2)
-Nov-13 13:36:20.161 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.161 [Task submitter] INFO  nextflow.Session - [97/928e77] Submitted process > get_abstracts (11)
-Nov-13 13:36:20.163 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: get_abstracts (6); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/1d/482b169bb7fee0f83068593c684434]
-Nov-13 13:36:20.172 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.172 [Task submitter] INFO  nextflow.Session - [33/1b9f67] Submitted process > get_abstracts (10)
-Nov-13 13:36:20.181 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: get_abstracts (8); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/0f/8f5d232c828579100cfbba596fc4d8]
-Nov-13 13:36:20.186 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.187 [Task submitter] INFO  nextflow.Session - [c3/9d42db] Submitted process > get_abstracts (12)
-Nov-13 13:36:20.189 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: get_abstracts (4); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/82/e3dbb2ba5a15162a979ce158adc81f]
-Nov-13 13:36:20.196 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.196 [Task submitter] INFO  nextflow.Session - [a4/2cb473] Submitted process > get_abstracts (9)
-Nov-13 13:36:20.198 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: get_abstracts (1); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/5a/60c7d5010f053a17fb11a4168c8f1b]
-Nov-13 13:36:20.201 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: get_abstracts (7); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/0e/5ef6b1a5f33391f2e4f1881a2f7acc]
-Nov-13 13:36:20.203 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.204 [Task submitter] INFO  nextflow.Session - [43/b1df19] Submitted process > get_abstracts (13)
-Nov-13 13:36:20.206 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.206 [Task submitter] INFO  nextflow.Session - [7b/211fb0] Submitted process > get_abstracts (14)
-Nov-13 13:36:20.208 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: get_abstracts (5); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/4b/8756866c1e3eedab58cda191b4c949]
-Nov-13 13:36:20.214 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: get_abstracts (2); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/77/ba9e98a45ac50c4e5221f6593a0015]
-Nov-13 13:36:20.218 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.218 [Task submitter] INFO  nextflow.Session - [df/b31d01] Submitted process > get_abstracts (15)
-Nov-13 13:36:20.219 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: get_abstracts (11); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/97/928e779d950e8cf0ef87f553dabeb3]
-Nov-13 13:36:20.229 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.229 [Task submitter] INFO  nextflow.Session - [e9/26891b] Submitted process > get_abstracts (19)
-Nov-13 13:36:20.235 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: get_abstracts (10); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/33/1b9f678e09f1412f2f5ac4b1f61d82]
-Nov-13 13:36:20.237 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: get_abstracts (12); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/c3/9d42db67ff285e800071ed3949f4a8]
-Nov-13 13:36:20.239 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: get_abstracts (9); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/a4/2cb473d6e36822f7ef9cca44889e50]
-Nov-13 13:36:20.241 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: get_abstracts (13); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/43/b1df197828a26c300693e9f8be1af8]
-Nov-13 13:36:20.243 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: get_abstracts (14); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/7b/211fb033c774345a712431852b8e30]
-Nov-13 13:36:20.245 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: get_abstracts (19); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/e9/26891b900bc34f6ba52ed3d1c2790e]
-Nov-13 13:36:20.250 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.251 [Task submitter] INFO  nextflow.Session - [fd/19a0ad] Submitted process > get_abstracts (22)
-Nov-13 13:36:20.252 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: get_abstracts (15); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/df/b31d01759b599a18e95177f7ed7e8e]
-Nov-13 13:36:20.253 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.253 [Task submitter] INFO  nextflow.Session - [a0/fbe331] Submitted process > get_abstracts (16)
-Nov-13 13:36:20.255 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.255 [Task submitter] INFO  nextflow.Session - [3a/a13bbd] Submitted process > get_abstracts (17)
-Nov-13 13:36:20.256 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.257 [Task submitter] INFO  nextflow.Session - [7a/302080] Submitted process > get_abstracts (23)
-Nov-13 13:36:20.259 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.259 [Task submitter] INFO  nextflow.Session - [8f/3c8b3f] Submitted process > get_abstracts (18)
-Nov-13 13:36:20.261 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.262 [Task submitter] INFO  nextflow.Session - [c9/7affc2] Submitted process > get_abstracts (21)
-Nov-13 13:36:20.264 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.264 [Task submitter] INFO  nextflow.Session - [25/7d416f] Submitted process > get_abstracts (20)
-Nov-13 13:36:20.271 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.271 [Task submitter] INFO  nextflow.Session - [60/50a615] Submitted process > get_abstracts (24)
-Nov-13 13:36:20.295 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: get_abstracts (22); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/fd/19a0ad7d0a24a882e3ed7048ab6766]
-Nov-13 13:36:20.299 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.300 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: get_abstracts (16); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/a0/fbe33116e027f2cdf1bdb082cd2e9e]
-Nov-13 13:36:20.300 [Task submitter] INFO  nextflow.Session - [3c/56f781] Submitted process > process_abstracts (1)
-Nov-13 13:36:20.304 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: get_abstracts (17); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/3a/a13bbdc8d23e88226e76e84389cb50]
-Nov-13 13:36:20.306 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.306 [Task submitter] INFO  nextflow.Session - [56/3a5466] Submitted process > get_abstracts (27)
-Nov-13 13:36:20.311 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: get_abstracts (23); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/7a/302080275266315ae17a40c1da0002]
-Nov-13 13:36:20.312 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.313 [Task submitter] INFO  nextflow.Session - [26/dd47f2] Submitted process > get_abstracts (29)
-Nov-13 13:36:20.317 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: get_abstracts (18); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/8f/3c8b3fa213c19ae6172ac7a06b96d2]
-Nov-13 13:36:20.321 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: get_abstracts (21); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/c9/7affc29e6c474795b4ae38a03d0704]
-Nov-13 13:36:20.323 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.324 [Task submitter] INFO  nextflow.Session - [40/ca9d79] Submitted process > get_abstracts (33)
-Nov-13 13:36:20.327 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.327 [Task submitter] INFO  nextflow.Session - [7b/0f9885] Submitted process > get_abstracts (32)
-Nov-13 13:36:20.331 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: get_abstracts (20); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/25/7d416f6994b68beffa1fbd575bc296]
-Nov-13 13:36:20.333 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 25; name: get_abstracts (24); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/60/50a6150338c52b441a220b60859479]
-Nov-13 13:36:20.335 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 28; name: get_abstracts (27); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/56/3a5466b92ded9bc6797e4ce9a66fff]
-Nov-13 13:36:20.336 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.336 [Task submitter] INFO  nextflow.Session - [8e/a53e3e] Submitted process > get_abstracts (26)
-Nov-13 13:36:20.339 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.339 [Task submitter] INFO  nextflow.Session - [61/08c61a] Submitted process > get_abstracts (30)
-Nov-13 13:36:20.341 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.342 [Task submitter] INFO  nextflow.Session - [16/b34575] Submitted process > get_abstracts (28)
-Nov-13 13:36:20.346 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 30; name: get_abstracts (29); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/26/dd47f2f4a106c0b82405d2f173a354]
-Nov-13 13:36:20.348 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 33; name: get_abstracts (32); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/7b/0f9885d149eed5b79f23b005604259]
-Nov-13 13:36:20.352 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.352 [Task submitter] INFO  nextflow.Session - [ff/90caaa] Submitted process > get_abstracts (34)
-Nov-13 13:36:20.355 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.355 [Task submitter] INFO  nextflow.Session - [78/d02b81] Submitted process > get_abstracts (35)
-Nov-13 13:36:20.366 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.366 [Task submitter] INFO  nextflow.Session - [44/37affc] Submitted process > get_abstracts (36)
-Nov-13 13:36:20.371 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 35; name: get_abstracts (33); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/40/ca9d79f089292266cafd696c268a8f]
-Nov-13 13:36:20.372 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 27; name: get_abstracts (26); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/8e/a53e3e99d51dd32a1733112ac71b04]
-Nov-13 13:36:20.375 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 31; name: get_abstracts (30); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/61/08c61a241876409b71eef0835a73a3]
-Nov-13 13:36:20.378 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 29; name: get_abstracts (28); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/16/b345751da0aed867de98760d38a97d]
-Nov-13 13:36:20.379 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.379 [Task submitter] INFO  nextflow.Session - [f7/6812b8] Submitted process > get_abstracts (37)
-Nov-13 13:36:20.381 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.382 [Task submitter] INFO  nextflow.Session - [b2/c7284b] Submitted process > get_abstracts (31)
-Nov-13 13:36:20.384 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.384 [Task submitter] INFO  nextflow.Session - [46/33c06d] Submitted process > get_abstracts (25)
-Nov-13 13:36:20.387 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 36; name: get_abstracts (34); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/ff/90caaad11f7bfd488550f0f7674616]
-Nov-13 13:36:20.389 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.390 [Task submitter] INFO  nextflow.Session - [53/4980d1] Submitted process > process_abstracts (2)
-Nov-13 13:36:20.397 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.397 [Task submitter] INFO  nextflow.Session - [16/917b55] Submitted process > get_abstracts (39)
-Nov-13 13:36:20.407 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 37; name: get_abstracts (35); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/78/d02b817e1efdd0f3866e707b044450]
-Nov-13 13:36:20.410 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 38; name: get_abstracts (36); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/44/37affcaacb52fc56fe4e73bb46964d]
-Nov-13 13:36:20.412 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.412 [Task submitter] INFO  nextflow.Session - [04/955292] Submitted process > get_abstracts (43)
-Nov-13 13:36:20.416 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 39; name: get_abstracts (37); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/f7/6812b86c09e8a2a8a28b85e0a604f8]
-Nov-13 13:36:20.416 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.417 [Task submitter] INFO  nextflow.Session - [a9/f186b5] Submitted process > get_abstracts (38)
-Nov-13 13:36:20.424 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 32; name: get_abstracts (31); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/b2/c7284bc2dca586cc2daa97d418685e]
-Nov-13 13:36:20.426 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 26; name: get_abstracts (25); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/46/33c06d3da8742227b82246e54b288c]
-Nov-13 13:36:20.428 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.428 [Task submitter] INFO  nextflow.Session - [40/9166fe] Submitted process > get_abstracts (41)
-Nov-13 13:36:20.430 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.430 [Task submitter] INFO  nextflow.Session - [5a/2de5f6] Submitted process > get_abstracts (45)
-Nov-13 13:36:20.434 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 45; name: get_abstracts (43); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/04/955292b627653b296f821474c72b9b]
-Nov-13 13:36:20.443 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 41; name: get_abstracts (39); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/16/917b55e8b591e9dd261caf2325fcfb]
-Nov-13 13:36:20.448 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.448 [Task submitter] INFO  nextflow.Session - [a1/2a9c30] Submitted process > get_abstracts (40)
-Nov-13 13:36:20.451 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.451 [Task submitter] INFO  nextflow.Session - [34/2c355f] Submitted process > get_abstracts (42)
-Nov-13 13:36:20.453 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.454 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 40; name: get_abstracts (38); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/a9/f186b5bffab4c97b85562093af645a]
-Nov-13 13:36:20.454 [Task submitter] INFO  nextflow.Session - [8e/b28812] Submitted process > get_abstracts (44)
-Nov-13 13:36:20.461 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 47; name: get_abstracts (45); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/5a/2de5f654c32c5de709f3e0e52e6503]
-Nov-13 13:36:20.464 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.465 [Task submitter] INFO  nextflow.Session - [a7/ea3a1e] Submitted process > process_abstracts (3)
-Nov-13 13:36:20.472 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.472 [Task submitter] INFO  nextflow.Session - [b3/f9103a] Submitted process > get_abstracts (46)
-Nov-13 13:36:20.478 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 43; name: get_abstracts (41); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/40/9166fef422fe0ec22e6a4da22e78f9]
-Nov-13 13:36:20.481 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 42; name: get_abstracts (40); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/a1/2a9c30d6de8cf8e7b518a52ac81e41]
-Nov-13 13:36:20.481 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.482 [Task submitter] INFO  nextflow.Session - [6b/b17e19] Submitted process > get_abstracts (48)
-Nov-13 13:36:20.494 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 44; name: get_abstracts (42); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/34/2c355fd1540639c42f175d072f3f49]
-Nov-13 13:36:20.496 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.497 [Task submitter] INFO  nextflow.Session - [e4/f16872] Submitted process > get_abstracts (49)
-Nov-13 13:36:20.509 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 46; name: get_abstracts (44); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/8e/b28812e3b65cb87e25887447f00193]
-Nov-13 13:36:20.515 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 49; name: get_abstracts (46); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/b3/f9103a954dd4765357e609d344ffff]
-Nov-13 13:36:20.519 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 52; name: get_abstracts (49); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/e4/f168724979072b4de951d78cf2b7de]
-Nov-13 13:36:20.523 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.524 [Task submitter] INFO  nextflow.Session - [15/f60e70] Submitted process > get_abstracts (51)
-Nov-13 13:36:20.526 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.526 [Task submitter] INFO  nextflow.Session - [3c/e33a83] Submitted process > get_abstracts (54)
-Nov-13 13:36:20.528 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.536 [Task submitter] INFO  nextflow.Session - [9b/d3cccb] Submitted process > get_abstracts (50)
-Nov-13 13:36:20.539 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.539 [Task submitter] INFO  nextflow.Session - [2a/681801] Submitted process > get_abstracts (53)
-Nov-13 13:36:20.548 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: process_abstracts (1); status: COMPLETED; exit: 1; error: -; workDir: /home/joshz/Project3/work/3c/56f7816b82c08ef130278babdca2a6]
-Nov-13 13:36:20.550 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-13 13:36:20.551 [Task submitter] INFO  nextflow.Session - [05/3319ec] Submitted process > get_abstracts (52)
-Nov-13 13:36:20.573 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'process_abstracts (1)'
-
-Caused by:
-  Process `process_abstracts (1)` terminated with an error exit status (1)
-
-Command executed:
-
-  Rscript /home/joshz/Project3/bin/processData.R "Clin J Oncol Nurs. 2018 Jun 1;22(3):297-303. doi: 10.1188/18.CJON.297-303.
-  Antiemetic Guidelines: Using Education to Improve Adherence and Reduce Incidenceof CINV in Patients Receiving Highly Emetogenic Chemotherapy.
-  Mellin C(1), Lexa M(1), Leak Bryant A(2), Mason S(3), Mayer DK(4).
-  Author information:(1)North Carolina Cancer Hospital.(2)University of North Carolina-Chapel Hill.(3)University of North Carolina Medical Center.(4)UNC Lineberger Comprehensive Cancer Center.
-  BACKGROUND: With the development of increasingly effective antiemetic regimens,guideline adherence can prevent 70%-80% of chemotherapy-induced nausea andvomiting (CINV) in patients with cancer.OBJECTIVES: This quality improvement project aims to increase rates of adherenceto national guidelines and, ultimately, decrease rates of CINV experienced bypatients receiving highly emetogenic chemotherapy.METHODS: A retrospective chart analysis was performed. In-person education wasprovided to staff nurses and advanced practice providers on guidelines, followedby a survey immediately postintervention and again at three months.FINDINGS: Prior to the intervention, 49% of patients were found to experienceCINV, with only 7% receiving guideline-appropriate prophylaxis. At three months,37% of patients experienced CINV, with 22% receiving appropriate prophylaxis.
-  "
-
-Command exit status:
-  1
-
-Command output:
-  (empty)
-
-Command error:
-  Error in file(con, "rb") : cannot open the connection
-  Calls: readChar -> file
-  In addition: Warning message:
-  In file(con, "rb") :
-    cannot open file 'Clin J Oncol Nurs. 2018 Jun 1;22(3):297-303. doi: 10.1188/18.CJON.297-303.
-  Antiemetic Guidelines: Using Education to Improve Adherence and Reduce Incidenceof CINV in Patients Receiving Highly Emetogenic Chemotherapy.
-  Mellin C(1), Lexa M(1), Leak Bryant A(2), Mason S(3), Mayer DK(4).
-  Author information:(1)North Carolina Cancer Hospital.(2)University of North Carolina-Chapel Hill.(3)University of North Carolina Medical Center.(4)UNC Lineberger Comprehensive Cancer Center.
-  BACKGROUND: With the development of increasingly effective antiemetic regimens,guideline adherence can prevent 70%-80% of chemotherapy-induced nausea andvomiting (CINV) in patients with cancer.OBJECTIVES: This quality improvement project aims to increase rates of adherenceto national guidelines and, ultimately, decrease rates of CINV experienced bypatients receiving highly emetogenic chemotherapy.METHODS: A retrospective chart analysis was performed. In-person education wasprovided to staff nurses and  [... truncated]
-  Execution halted
-
-Work dir:
-  /home/joshz/Project3/work/3c/56f7816b82c08ef130278babdca2a6
-
-Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
-Nov-13 13:36:20.576 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `process_abstracts (1)` terminated with an error exit status (1)
-Nov-13 13:36:20.593 [Task monitor] DEBUG nextflow.Session - The following nodes are still active:
-[process] process_abstracts
-  status=ACTIVE
-  port 0: (queue) OPEN; channel: s
-  port 1: (cntrl) OPEN; channel: $
-
-Nov-13 13:36:20.596 [main] DEBUG nextflow.Session - Session await > all process finished
-Nov-13 13:36:20.596 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Nov-13 13:36:20.597 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 51; name: get_abstracts (48); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/6b/b17e19b662f0a3a3bf0cb5f207fce8]
-Nov-13 13:36:20.599 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 55; name: get_abstracts (51); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/15/f60e70095037af6f605fe761822cee]
-Nov-13 13:36:20.600 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 58; name: get_abstracts (54); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/3c/e33a836115a5ed471e50901cbc80fa]
-Nov-13 13:36:20.601 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 53; name: get_abstracts (50); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/9b/d3cccb3eef565279df63a7978d272c]
-Nov-13 13:36:20.603 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 57; name: get_abstracts (53); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/2a/6818012112546a32db08e042f22269]
-Nov-13 13:36:20.605 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 56; name: get_abstracts (52); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/05/3319ec92378e0496dbd76e96765ac6]
-Nov-13 13:36:20.605 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
-Nov-13 13:36:20.606 [main] WARN  n.processor.TaskPollingMonitor - Killing pending tasks (2)
-Nov-13 13:36:20.616 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=53; failedCount=3; ignoredCount=0; cachedCount=0; succeedDuration=606ms; failedDuration=214ms; cachedDuration=0ms]
-Nov-13 13:36:20.627 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
-Nov-13 13:36:20.638 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+Nov-13 13:36:50.396 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
+Nov-13 13:36:50.537 [main] DEBUG nextflow.Session - Session start invoked
+Nov-13 13:36:50.544 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Nov-13 13:36:50.545 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Nov-13 13:36:50.761 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-13 13:36:50.766 [main] DEBUG nextflow.Session - Session aborted -- Cause: No such property: rams for class: _nf_script_25690501
+Possible solutions: class
+Nov-13 13:36:50.840 [main] ERROR nextflow.cli.Launcher - @unknown
+groovy.lang.MissingPropertyException: No such property: rams for class: _nf_script_25690501
+Possible solutions: class
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:66)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:310)
+	at _nf_script_25690501.run(_nf_script_25690501:1)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:341)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:165)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:232)
+	at nextflow.cli.Launcher.run(Launcher.groovy:428)
+	at nextflow.cli.Launcher.main(Launcher.groovy:586)
