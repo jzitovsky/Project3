@@ -1,4 +1,0 @@
-Error in if (commaPlaces[j] < wordPlace) begin = commaPlaces[j] : 
-  missing value where TRUE/FALSE needed
-Calls: processData -> lapply -> FUN
-Execution halted
