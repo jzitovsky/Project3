@@ -48,3 +48,11 @@
 2018-11-13 17:50:43	18.5s	furious_fermi	ERR	3b2dfeeb1e0366c18a1bcde107621e61	33f4c5b3-f3e3-43f6-a647-f50e58196656	nextflow main.nf
 2018-11-13 17:58:15	22.6s	adoring_varahamihira	OK	3b2dfeeb1e0366c18a1bcde107621e61	85db7a92-0596-4163-a195-55c0ac46bbc7	nextflow main.nf
 2018-11-13 17:59:25	20.9s	condescending_carlsson	OK	3b2dfeeb1e0366c18a1bcde107621e61	71fc98da-d525-48c6-a701-525304b3acdd	nextflow main.nf
+2018-11-13 18:19:35	-	ecstatic_heisenberg	-	847c92ba24d24ec560a7cbb0aa914e35	3651e186-8656-47e9-8932-c4d5eeca86f1	nextflow main.nf
+2018-11-13 18:20:58	19.9s	angry_brenner	OK	7fff0eba0213cb75b79ba35d74a909d7	9041ce1a-d3d7-4888-bbdb-e08dd5c80cc1	nextflow main.nf
+2018-11-13 18:26:24	-	deadly_bernard	-	32fd8b5adf91803f87f0c2ed7a852738	ddaa3899-e582-497f-86d0-1efe4a3cafaf	nextflow main.nf
+2018-11-13 18:27:35	-	magical_hugle	-	32fd8b5adf91803f87f0c2ed7a852738	f118a530-29db-41b8-86c2-552ceb1bc196	nextflow main.nf
+2018-11-13 18:29:07	-	distraught_ride	-	e485cdea9987eef2e57c18dd8b87b082	3be8c613-a44c-4b55-9de3-aa650ee250c0	nextflow main.nf
+2018-11-13 18:29:54	-	distraught_curie	-	e485cdea9987eef2e57c18dd8b87b082	c519eac5-d870-413a-b4be-ae8773e607bb	nextflow main.nf
+2018-11-13 18:31:49	-	naughty_hopper	-	5cf8786b820aff6f1f9db7e6d35f1b99	5191c295-e9ce-4395-bc46-d541c260c337	nextflow main.nf
+2018-11-13 18:32:22	19.8s	sick_wright	ERR	94dee79baa480cc3d7b1d7189b4af49f	22145660-300d-4419-8168-b1e690708e18	nextflow main.nf
