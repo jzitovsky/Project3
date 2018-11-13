@@ -42,3 +42,9 @@
 2018-11-13 16:24:55	17.1s	disturbed_torricelli	OK	7a788ae89f41dd641da8f0cabb472ebd	d378a7c0-c545-4d80-b416-669d4a4f7c93	nextflow main2.nf
 2018-11-13 16:26:32	1.6s	astonishing_hopper	OK	eefb878841665b4828e3b1a5958b0f90	d378a7c0-c545-4d80-b416-669d4a4f7c93	nextflow main2.nf -resume
 2018-11-13 16:26:48	17.6s	high_gilbert	OK	eefb878841665b4828e3b1a5958b0f90	071f3ff1-8b06-48df-a2ba-d7dee55075e7	nextflow main2.nf
+2018-11-13 17:15:35	-	fervent_bartik	-	922c6997f6645dfc123d9fe7dadf48a2	0c88f79a-4272-4c96-ad65-097ba2894696	nextflow main.nf
+2018-11-13 17:16:18	17.9s	distracted_faggin	ERR	3b2dfeeb1e0366c18a1bcde107621e61	a364022c-2622-466e-a311-fb8d7eb657fe	nextflow main.nf
+2018-11-13 17:18:44	18.2s	amazing_stonebraker	ERR	3b2dfeeb1e0366c18a1bcde107621e61	ea60b0d2-6499-4313-8d0f-fd2b69457a77	nextflow main.nf
+2018-11-13 17:50:43	18.5s	furious_fermi	ERR	3b2dfeeb1e0366c18a1bcde107621e61	33f4c5b3-f3e3-43f6-a647-f50e58196656	nextflow main.nf
+2018-11-13 17:58:15	22.6s	adoring_varahamihira	OK	3b2dfeeb1e0366c18a1bcde107621e61	85db7a92-0596-4163-a195-55c0ac46bbc7	nextflow main.nf
+2018-11-13 17:59:25	20.9s	condescending_carlsson	OK	3b2dfeeb1e0366c18a1bcde107621e61	71fc98da-d525-48c6-a701-525304b3acdd	nextflow main.nf

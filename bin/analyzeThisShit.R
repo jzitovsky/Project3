@@ -1,0 +1,7 @@
+library(tidyverse)
+args = commandArgs(trailingOnly = TRUE)
+col = read_csv(args[1])
+words = read_csv(args[2])
+unqWords = read_csv(args[3])
+master = list(collaborators = col, words = words, uniqueWords = unqWords)
+saveRDS(master, "saveThisShit.rds")
