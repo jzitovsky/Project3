@@ -9,3 +9,8 @@
 2018-11-11 22:09:57	2.1s	compassionate_euclid	ERR	f5b1893e7b5749dcecdc44badf493086	9fd665d0-13e2-4371-a0fe-e79f1c29f84f	nextflow main.nf
 2018-11-11 22:11:16	1.5s	pedantic_babbage	OK	e15ceabee44ebe7bca0ebb3cdbec1685	b0fbae4e-d7c3-44a1-bfad-8c6c348fb3e3	nextflow main.nf
 2018-11-11 22:12:46	2s	exotic_sax	ERR	0564c882d088f1b383f5e91c4d77f147	a50d1a66-0d25-498c-8f03-71de3498b7ee	nextflow main.nf
+2018-11-13 09:23:26	-	magical_picasso	-	92394ff0d713e9be60ee7e32ac58b70e	e0e06e06-66cc-4218-b91e-976fa9cfce71	nextflow main.nf
+2018-11-13 09:26:11	1.6s	naughty_leavitt	ERR	c4a770c634560d7d5340dc7e60115408	86203f94-b742-446b-a760-1afcb536a6e8	nextflow main.nf
+2018-11-13 09:30:07	1.7s	nostalgic_mcnulty	ERR	c4a770c634560d7d5340dc7e60115408	31053e8b-e3af-4faa-9143-07cfb972574a	nextflow main.nf
+2018-11-13 09:30:32	1.5s	ridiculous_mcclintock	ERR	c4a770c634560d7d5340dc7e60115408	454abb60-18a4-4430-a13f-87496d72f78d	nextflow main.nf
+2018-11-13 09:31:37	3.3s	elated_goldwasser	OK	620b3a1bb8f5f6ddfefd6cf0d00a8ee7	fde29581-42c6-4648-a9f6-d29e7f549371	nextflow main.nf

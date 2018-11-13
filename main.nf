@@ -6,35 +6,32 @@ params.out_file = 'histogram.png'
 
 file_channel = Channel.fromPath( params.file_dir )
 
-process get_seq_length {
-    container 'bioconductor/release_core2:R3.5.0_Bioc3.7'
+process get_abstracts {
 
     input:
     file f from file_channel
 
     output:
-    stdout lengths
+    stdout strings
 
     """
     cat $f
     """
 }
 
-process python_transform_list {
-    container 'python:3.7-slim'
+process process_abstracts {
 
     input:
-    val l from lengths.collect()
+    val s from strings
 
     output:
-    stdout lengths_transformed
+    file '*.rds' into rds_out
 
     """
-    #!/usr/local/bin/python
-    numbers = $l
-    lstring = 'c(' + ','.join([str(x) for x in numbers]) + ')'
-    print(lstring)
+    Rscript $baseDir/bin/processData.R "$s"
     """
 }
 
-lengths_transformed.subscribe {  println it  }
+
+
+rds_out.subscribe {  println it  }
