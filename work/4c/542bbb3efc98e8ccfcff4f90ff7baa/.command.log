@@ -1,3 +1,0 @@
-Error in read.table(args[1], sep = "\t", header = T, check.names = F) : 
-  more columns than column names
-Execution halted

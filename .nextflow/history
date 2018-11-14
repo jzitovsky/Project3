@@ -62,3 +62,4 @@
 2018-11-14 14:13:39	2.5s	disturbed_rubens	ERR	9fa4e101f24565f7410dcd601dae722e	87e4f5a8-fb1a-4e72-afb3-50c7ac3926b1	nextflow main.nf
 2018-11-14 14:17:12	2.2s	prickly_hypatia	OK	9fa4e101f24565f7410dcd601dae722e	87e4f5a8-fb1a-4e72-afb3-50c7ac3926b1	nextflow main.nf -resume
 2018-11-14 14:23:35	49.1s	suspicious_kalam	OK	3aaff1c94cf1ee2599587e7e37a224f1	6f475fa3-ab35-426d-b7e0-376c42f846f6	nextflow main.nf
+2018-11-14 14:53:16	48.5s	determined_spence	OK	3aaff1c94cf1ee2599587e7e37a224f1	d982b63d-48d3-4769-94ff-28dad4440d4c	nextflow main.nf

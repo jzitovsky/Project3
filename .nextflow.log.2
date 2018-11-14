@@ -1,95 +1,64 @@
-Nov-14 14:13:39.219 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf
-Nov-14 14:13:39.346 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
-Nov-14 14:13:39.355 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [disturbed_rubens] - revision: 9fa4e101f2
-Nov-14 14:13:39.426 [main] DEBUG nextflow.Session - Session uuid: 87e4f5a8-fb1a-4e72-afb3-50c7ac3926b1
-Nov-14 14:13:39.426 [main] DEBUG nextflow.Session - Run name: disturbed_rubens
-Nov-14 14:13:39.428 [main] DEBUG nextflow.Session - Executor pool size: 8
-Nov-14 14:13:39.441 [main] DEBUG nextflow.cli.CmdRun - 
+Nov-14 14:17:11.950 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf -resume
+Nov-14 14:17:12.077 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
+Nov-14 14:17:12.086 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [prickly_hypatia] - revision: 9fa4e101f2
+Nov-14 14:17:12.150 [main] DEBUG nextflow.Session - Session uuid: 87e4f5a8-fb1a-4e72-afb3-50c7ac3926b1
+Nov-14 14:17:12.150 [main] DEBUG nextflow.Session - Run name: prickly_hypatia
+Nov-14 14:17:12.152 [main] DEBUG nextflow.Session - Executor pool size: 8
+Nov-14 14:17:12.165 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 0.30.1 build 4844
   Modified: 11-06-2018 08:29 UTC (04:29 EDT)
   System: Linux 4.4.0-75-generic
   Runtime: Groovy 2.4.15 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_171-b11
   Encoding: UTF-8 (UTF-8)
-  Process: 5363@bc02-n09.isis.unc.edu [152.19.196.234]
+  Process: 5577@bc02-n09.isis.unc.edu [152.19.196.234]
   CPUs: 8 - Mem: 31.4 GB (30.2 GB) - Swap: 16 GB (16 GB)
-Nov-14 14:13:39.503 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
-Nov-14 14:13:39.650 [main] DEBUG nextflow.Session - Session start invoked
-Nov-14 14:13:39.657 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
-Nov-14 14:13:39.657 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
-Nov-14 14:13:39.890 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Nov-14 14:13:39.908 [main] DEBUG nextflow.Channel - files for syntax: glob; folder: data/p2_abstracts/; pattern: *40.txt; options: null
-Nov-14 14:13:40.069 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Nov-14 14:13:40.069 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Nov-14 14:13:40.074 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Nov-14 14:13:40.076 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
-Nov-14 14:13:40.081 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=31.4 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
-Nov-14 14:13:40.085 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
-Nov-14 14:13:40.085 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Nov-14 14:13:40.087 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
-Nov-14 14:13:40.132 [main] DEBUG nextflow.Session - >>> barrier register (process: process_abstracts)
-Nov-14 14:13:40.135 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > process_abstracts -- maxForks: 8
-Nov-14 14:13:40.192 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Nov-14 14:13:40.192 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Nov-14 14:13:40.192 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Nov-14 14:13:40.193 [main] DEBUG nextflow.Session - >>> barrier register (process: analyze_data)
-Nov-14 14:13:40.193 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > analyze_data -- maxForks: 8
-Nov-14 14:13:40.196 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
-Nov-14 14:13:40.196 [main] DEBUG nextflow.Session - Session await
-Nov-14 14:13:40.436 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:40.441 [Task submitter] INFO  nextflow.Session - [ca/9330c9] Submitted process > process_abstracts (1)
-Nov-14 14:13:40.457 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:40.458 [Task submitter] INFO  nextflow.Session - [94/18f9aa] Submitted process > process_abstracts (3)
-Nov-14 14:13:40.461 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:40.461 [Task submitter] INFO  nextflow.Session - [db/98531d] Submitted process > process_abstracts (2)
-Nov-14 14:13:40.464 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:40.465 [Task submitter] INFO  nextflow.Session - [2e/f7b959] Submitted process > process_abstracts (4)
-Nov-14 14:13:41.061 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: process_abstracts (1); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/ca/9330c9a937ae5c871e613a7fa23675]
-Nov-14 14:13:41.080 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: process_abstracts (3); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/94/18f9aab41b519185e744e88969caef]
-Nov-14 14:13:41.087 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: process_abstracts (2); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/db/98531de611abf55c1b95605ab29234]
-Nov-14 14:13:41.091 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: process_abstracts (4); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/2e/f7b959a0ba24d773a7f371756f68cd]
-Nov-14 14:13:41.194 [Actor Thread 8] DEBUG nextflow.Session - <<< barrier arrive (process: process_abstracts)
-Nov-14 14:13:41.296 [Actor Thread 3] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.013 s; external sort time: 0.002 s; total time: 0.015 s
-Nov-14 14:13:41.296 [Actor Thread 1] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.013 s; external sort time: 0.002 s; total time: 0.015 s
-Nov-14 14:13:41.296 [Actor Thread 5] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.012 s; external sort time: 0.003 s; total time: 0.015 s
-Nov-14 14:13:41.303 [Actor Thread 3] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /tmp/d33cc02b9c9aa08edaf64301d9859509.collect-file
-Nov-14 14:13:41.303 [Actor Thread 5] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /tmp/2cc0b156dca3f526468b9dd1b8dd25bf.collect-file
-Nov-14 14:13:41.303 [Actor Thread 1] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /tmp/151bada426f9bbaced29d865083b305f.collect-file
-Nov-14 14:13:41.311 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:41.311 [Task submitter] INFO  nextflow.Session - [05/f74222] Submitted process > analyze_data (1)
-Nov-14 14:13:41.312 [Actor Thread 5] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-5322378427119816165
-Nov-14 14:13:41.312 [Actor Thread 1] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-9043803027932737960
-Nov-14 14:13:41.312 [Actor Thread 3] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-5019274813000515140
-Nov-14 14:13:41.481 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: analyze_data (1); status: COMPLETED; exit: 1; error: -; workDir: /home/joshz/Project3/work/05/f7422284ab941d5107ed22010a0ed1]
-Nov-14 14:13:41.505 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'analyze_data (1)'
-
-Caused by:
-  Process `analyze_data (1)` terminated with an error exit status (1)
-
-Command executed:
-
-  Rscript /home/joshz/Project3/bin/analyzeData.R collaborators.txt words.txt unqWords.txt
-
-Command exit status:
-  1
-
-Command output:
-  (empty)
-
-Command error:
-  Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
-    line 1 did not have 254 elements
-  Calls: read.table -> scan
-  Execution halted
-
-Work dir:
-  /home/joshz/Project3/work/05/f7422284ab941d5107ed22010a0ed1
-
-Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
-Nov-14 14:13:41.508 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: analyze_data)
-Nov-14 14:13:41.508 [main] DEBUG nextflow.Session - Session await > all process finished
-Nov-14 14:13:41.509 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `analyze_data (1)` terminated with an error exit status (1)
-Nov-14 14:13:41.524 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Nov-14 14:13:41.525 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
-Nov-14 14:13:41.532 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=4; failedCount=1; ignoredCount=0; cachedCount=0; succeedDuration=2.2s; failedDuration=85ms; cachedDuration=0ms]
-Nov-14 14:13:41.535 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
-Nov-14 14:13:41.548 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+Nov-14 14:17:12.241 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
+Nov-14 14:17:12.438 [main] DEBUG nextflow.Session - Session start invoked
+Nov-14 14:17:12.445 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Nov-14 14:17:12.446 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Nov-14 14:17:12.684 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-14 14:17:12.702 [main] DEBUG nextflow.Channel - files for syntax: glob; folder: data/p2_abstracts/; pattern: *40.txt; options: null
+Nov-14 14:17:12.862 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
+Nov-14 14:17:12.862 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
+Nov-14 14:17:12.867 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
+Nov-14 14:17:12.869 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
+Nov-14 14:17:12.873 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=31.4 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Nov-14 14:17:12.877 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
+Nov-14 14:17:12.878 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Nov-14 14:17:12.880 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
+Nov-14 14:17:12.924 [main] DEBUG nextflow.Session - >>> barrier register (process: process_abstracts)
+Nov-14 14:17:12.926 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > process_abstracts -- maxForks: 8
+Nov-14 14:17:12.982 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
+Nov-14 14:17:12.982 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
+Nov-14 14:17:12.982 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
+Nov-14 14:17:12.983 [main] DEBUG nextflow.Session - >>> barrier register (process: analyze_data)
+Nov-14 14:17:12.983 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > analyze_data -- maxForks: 8
+Nov-14 14:17:12.986 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Nov-14 14:17:12.986 [main] DEBUG nextflow.Session - Session await
+Nov-14 14:17:13.302 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [2e/f7b959] Cached process > process_abstracts (4)
+Nov-14 14:17:13.302 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [ca/9330c9] Cached process > process_abstracts (1)
+Nov-14 14:17:13.302 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [db/98531d] Cached process > process_abstracts (2)
+Nov-14 14:17:13.302 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [94/18f9aa] Cached process > process_abstracts (3)
+Nov-14 14:17:13.321 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: process_abstracts)
+Nov-14 14:17:13.457 [Actor Thread 8] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.004 s; external sort time: 0.002 s; total time: 0.006 s
+Nov-14 14:17:13.457 [Actor Thread 7] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.004 s; external sort time: 0.002 s; total time: 0.006 s
+Nov-14 14:17:13.458 [Actor Thread 8] DEBUG nextflow.file.FileCollector - >> temp file exists? true
+Nov-14 14:17:13.458 [Actor Thread 7] DEBUG nextflow.file.FileCollector - >> temp file exists? true
+Nov-14 14:17:13.458 [Actor Thread 9] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.007 s; external sort time: 0.0 s; total time: 0.007 s
+Nov-14 14:17:13.459 [Actor Thread 9] DEBUG nextflow.file.FileCollector - >> temp file exists? true
+Nov-14 14:17:13.460 [Actor Thread 8] DEBUG nextflow.file.FileCollector - Retrivied cached collect-files from: /tmp/2cc0b156dca3f526468b9dd1b8dd25bf.collect-file -- cached files: [/home/joshz/Project3/work/tmp/8b/0d1efb44b501fd1a9f034699bca11e/words.txt]
+Nov-14 14:17:13.460 [Actor Thread 9] DEBUG nextflow.file.FileCollector - Retrivied cached collect-files from: /tmp/d33cc02b9c9aa08edaf64301d9859509.collect-file -- cached files: [/home/joshz/Project3/work/tmp/84/9c84bf2e9a9f945b9a88f700d6e199/unqWords.txt]
+Nov-14 14:17:13.460 [Actor Thread 7] DEBUG nextflow.file.FileCollector - Retrivied cached collect-files from: /tmp/151bada426f9bbaced29d865083b305f.collect-file -- cached files: [/home/joshz/Project3/work/tmp/25/d87bc43d8439d20ae0a8819ab456e9/collaborators.txt]
+Nov-14 14:17:13.470 [Actor Thread 7] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-6179542843629810349
+Nov-14 14:17:13.470 [Actor Thread 9] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-1068377090572332918
+Nov-14 14:17:13.471 [Actor Thread 8] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-6325761201817579040
+Nov-14 14:17:13.501 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-14 14:17:13.505 [Task submitter] INFO  nextflow.Session - [31/0f04cb] Submitted process > analyze_data (1)
+Nov-14 14:17:14.191 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: analyze_data (1); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/31/0f04cbfdbb9311d4ca07b453f4bc49]
+Nov-14 14:17:14.195 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: analyze_data)
+Nov-14 14:17:14.195 [main] DEBUG nextflow.Session - Session await > all process finished
+Nov-14 14:17:14.197 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
+Nov-14 14:17:14.197 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Nov-14 14:17:14.206 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=1; failedCount=0; ignoredCount=0; cachedCount=4; succeedDuration=640ms; failedDuration=0ms; cachedDuration=2.2s]
+Nov-14 14:17:14.212 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Nov-14 14:17:14.223 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
