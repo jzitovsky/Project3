@@ -1,60 +1,32 @@
-Nov-13 18:29:07.534 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf
-Nov-13 18:29:07.662 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
-Nov-13 18:29:07.670 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [distraught_ride] - revision: e485cdea99
-Nov-13 18:29:07.742 [main] DEBUG nextflow.Session - Session uuid: 3be8c613-a44c-4b55-9de3-aa650ee250c0
-Nov-13 18:29:07.742 [main] DEBUG nextflow.Session - Run name: distraught_ride
-Nov-13 18:29:07.744 [main] DEBUG nextflow.Session - Executor pool size: 8
-Nov-13 18:29:07.758 [main] DEBUG nextflow.cli.CmdRun - 
+Nov-13 18:31:49.674 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf
+Nov-13 18:31:49.826 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
+Nov-13 18:31:49.835 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [naughty_hopper] - revision: 5cf8786b82
+Nov-13 18:31:49.905 [main] DEBUG nextflow.Session - Session uuid: 5191c295-e9ce-4395-bc46-d541c260c337
+Nov-13 18:31:49.905 [main] DEBUG nextflow.Session - Run name: naughty_hopper
+Nov-13 18:31:49.907 [main] DEBUG nextflow.Session - Executor pool size: 8
+Nov-13 18:31:49.919 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 0.30.1 build 4844
   Modified: 11-06-2018 08:29 UTC (04:29 EDT)
   System: Linux 4.4.0-75-generic
   Runtime: Groovy 2.4.15 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_171-b11
   Encoding: UTF-8 (UTF-8)
-  Process: 6575@bc01-n07.isis.unc.edu [152.19.196.218]
+  Process: 6757@bc01-n07.isis.unc.edu [152.19.196.218]
   CPUs: 8 - Mem: 31.4 GB (29.8 GB) - Swap: 16 GB (16 GB)
-Nov-13 18:29:07.819 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
-Nov-13 18:29:07.983 [main] DEBUG nextflow.Session - Session start invoked
-Nov-13 18:29:07.991 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
-Nov-13 18:29:07.991 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
-Nov-13 18:29:08.223 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Nov-13 18:29:08.241 [main] DEBUG nextflow.Channel - files for syntax: glob; folder: data/p2_abstracts/; pattern: *.txt; options: null
-Nov-13 18:29:08.406 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Nov-13 18:29:08.407 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Nov-13 18:29:08.412 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Nov-13 18:29:08.414 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
-Nov-13 18:29:08.418 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=31.4 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
-Nov-13 18:29:08.422 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
-Nov-13 18:29:08.422 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Nov-13 18:29:08.424 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
-Nov-13 18:29:08.469 [main] DEBUG nextflow.Session - >>> barrier register (process: process_abstracts)
-Nov-13 18:29:08.472 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > process_abstracts -- maxForks: 8
-Nov-13 18:29:08.526 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Nov-13 18:29:08.526 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Nov-13 18:29:08.526 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Nov-13 18:29:08.530 [main] DEBUG nextflow.Session - >>> barrier register (process: analyze_data)
-Nov-13 18:29:08.531 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > analyze_data -- maxForks: 8
-Nov-13 18:29:08.690 [main] DEBUG nextflow.Session - Session aborted -- Cause: No such property: analout for class: _nf_script_f282a9ba
-Nov-13 18:29:08.716 [main] DEBUG nextflow.Session - The following nodes are still active:
-[process] process_abstracts
-  status=ACTIVE
-  port 0: (queue) OPEN; channel: f
-  port 1: (cntrl) OPEN; channel: $
+Nov-13 18:31:49.980 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
+Nov-13 18:31:50.127 [main] DEBUG nextflow.Session - Session start invoked
+Nov-13 18:31:50.134 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Nov-13 18:31:50.135 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Nov-13 18:31:50.231 [main] DEBUG nextflow.Session - Session aborted -- Cause: startup failed:
+_nf_script_efd723d8: 37: expecting EOF, found '}' @ line 37, column 32.
+   analout.subscribe{ println it }}
+                                  ^
 
-[process] analyze_data
-  status=ACTIVE
-  port 0: (queue) OPEN; channel: c
-  port 1: (cntrl) OPEN; channel: $
+1 error
 
-Nov-13 18:29:08.724 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
-Nov-13 18:29:08.730 [Actor Thread 11] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
-Nov-13 18:29:08.792 [main] ERROR nextflow.cli.Launcher - @unknown
-groovy.lang.MissingPropertyException: No such property: analout for class: _nf_script_f282a9ba
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:66)
-	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:51)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:310)
-	at _nf_script_f282a9ba.run(_nf_script_f282a9ba:37)
-	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:341)
-	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:165)
-	at nextflow.cli.CmdRun.run(CmdRun.groovy:232)
-	at nextflow.cli.Launcher.run(Launcher.groovy:428)
-	at nextflow.cli.Launcher.main(Launcher.groovy:586)
+Nov-13 18:31:50.305 [main] ERROR nextflow.cli.Launcher - startup failed:
+_nf_script_efd723d8: 37: expecting EOF, found '}' @ line 37, column 32.
+   analout.subscribe{ println it }}
+                                  ^
+
+1 error
+

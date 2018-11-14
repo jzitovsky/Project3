@@ -1,4 +1,4 @@
-params.file_dir = 'data/p2_abstracts/*.txt'
+params.file_dir = 'data/p2_abstracts/*40.txt'
 params.out_dir = 'data/'
 params.out_file = 'histogram.png'
 
@@ -31,7 +31,7 @@ process analyze_data {
 	file '*.csv' into analout
  
 	"""
-	Rscript $baseDir/bin/analyzeThisShit.R $c
+	mv $c collabTest.csv
 	"""
 }
 
