@@ -58,3 +58,7 @@
 2018-11-13 18:32:22	19.8s	sick_wright	ERR	94dee79baa480cc3d7b1d7189b4af49f	22145660-300d-4419-8168-b1e690708e18	nextflow main.nf
 2018-11-13 19:51:34	25.1s	pensive_williams	ERR	94dee79baa480cc3d7b1d7189b4af49f	a620e54b-5b14-4ebc-b9ad-b919330d8959	nextflow main2.nf
 2018-11-13 20:00:53	2s	sick_albattani	OK	e6f3d94a35753ab492432657361ec216	aa643441-b212-478c-9958-3e744c930449	nextflow main.nf
+2018-11-14 12:03:02	5.2s	silly_knuth	ERR	9fa4e101f24565f7410dcd601dae722e	94bfed9b-b7f2-458a-ae2b-4b87ebc8a3aa	nextflow main.nf
+2018-11-14 14:13:39	2.5s	disturbed_rubens	ERR	9fa4e101f24565f7410dcd601dae722e	87e4f5a8-fb1a-4e72-afb3-50c7ac3926b1	nextflow main.nf
+2018-11-14 14:17:12	2.2s	prickly_hypatia	OK	9fa4e101f24565f7410dcd601dae722e	87e4f5a8-fb1a-4e72-afb3-50c7ac3926b1	nextflow main.nf -resume
+2018-11-14 14:23:35	49.1s	suspicious_kalam	OK	3aaff1c94cf1ee2599587e7e37a224f1	6f475fa3-ab35-426d-b7e0-376c42f846f6	nextflow main.nf

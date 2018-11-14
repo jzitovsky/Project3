@@ -1,4 +1,4 @@
-params.file_dir = 'data/p2_abstracts/*40.txt'
+params.file_dir = 'data/p2_abstracts/*.txt'
 params.out_dir = 'data/'
 params.out_file = 'histogram.png'
 
@@ -10,9 +10,9 @@ process process_abstracts {
     	file f from file_channel
 
     	output:
-   	file '*.collaborators.csv' into col_out
-	file '*.words.csv' into words_out
-	file '*.unique.csv' into unq_out
+   	file '*.collaborators.txt' into col_out
+	file '*.words.txt' into words_out
+	file '*.unique.txt' into unq_out
 	
 
    	"""
@@ -23,15 +23,15 @@ process process_abstracts {
 process analyze_data {
 
 	input: 
-	file c from col_out.collectFile(name: 'collaborators.csv', newLine: true)
-//	file w from words_out.collectFile(name: 'words.csv', newLine: true)
-//	file u from unq_out.collectFile(name: 'unqWords.csv', newLine: true)
+	file c from col_out.collectFile(name: 'collaborators.txt', newLine: true)
+	file w from words_out.collectFile(name: 'words.txt', newLine: true)
+	file u from unq_out.collectFile(name: 'unqWords.txt', newLine: true)
 
 	output:
-	file '*.csv' into analout
+	file '*.rds' into analout
  
 	"""
-	mv $c collabTest.csv
+	Rscript $baseDir/bin/analyzeData.R $c $w $u
 	"""
 }
 

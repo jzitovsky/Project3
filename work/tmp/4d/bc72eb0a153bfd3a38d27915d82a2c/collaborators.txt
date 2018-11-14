@@ -1,0 +1,880 @@
+abs285.txt	 universityof north carolina
+
+abs145.txt	department of pharmacy nanjing university of chinese medicine nanjing 210023china	NOT DETECTED / OTHER: jiangsu key laboratory for functional substance of chinese medicine nanjing210023 china	state key laboratory cultivation base for tcm quality and efficacy nanjinguniversity of chinese medicine nanjing 210023 china	department of pharmacy china pharmaceutical university nanjing 210009 china	key laboratory of xin'an medicine ministry of education anhui province keylaboratory of r&d of chinese medicine anhui university of traditional chinesemedicine hefei anhui 230038 china	oint department of biomedical engineering university of north carolina atchapel hill and north carolina state university raleigh nc 27695 usa
+
+abs205.txt	niversity of north carolina hospitals	niversity of north carolina hospitals	alifornia cancer center	NOT DETECTED / OTHER: southwest radiation oncology, oklahoma city, oklahoma	enefis sletten cancer institute	arah cannon research institute	NOT DETECTED / OTHER: penrose-st. francis health services, colorado springs, colorado	NOT DETECTED / OTHER: genesis health care partners, san diego, california.
+
+abs107.txt	uropean organisation for research and treatment of cancer	uropean organisation for research and treatment of cancer	 university of north carolina	 university of birmingham	NOT DETECTED / OTHER: genentech, a member of the roche group, san francisco, ca, usa	 the university of texas md anderson cancercenter	NOT DETECTED / OTHER: adelphi values, bollington, cheshire, uk	eiden university medical center and haaglanden medical center	 mayo clinic	NOT DETECTED / OTHER: office of health economics, london, uk	 university ofmagdeburg	 university of british columbia	NOT DETECTED / OTHER: boehringer ingelheim international gmbh, ingelheim, germany	 university ofcopenhagen	 university of sydney	 university hospital regensburg	 university of arizona	 national cancer institute	NOT DETECTED / OTHER: international brain tumour alliance, surrey, uk	NOT DETECTED / OTHER: institut jules bordet, université libre de bruxelles, brussels, belgium	lueclinical phase i	uropean centre for disease prevention and control	u university medical center	 mayo clinic	 university of leeds
+
+abs364.txt	 duke university school of medicine	 duke university school of medicine	 university of north carolina	university of north carolina	 university of northcarolina	NOT DETECTED / OTHER: division of general internal medicine, weill cornell medicine, new york, newyork.
+
+abs180.txt	 university of north carolina at chapelhill
+
+abs61.txt	 university ofliverpool	 university of georgia	 university ofliverpool	university of glasgow	 university ofnorth carolina at chapel hill	 university of north carolina at chapelhill	 university ofliverpool
+
+abs373.txt	 university of northcarolina	 university of northcarolina	 university of north carolina	niversity of pittsburgh	NOT DETECTED / OTHER: peregrine pharmaceuticals, inc, tustin, ca.
+
+abs355.txt	 mohammed vuniversity in rabat	 university mohammed premier	university of north carolina	 university hospital hassan ii of fez	 university mohammed premier	 university mohammed premier	ational center for scientific and technolgical research
+
+abs300.txt	 kumamoto university	 national institute of health sciences biological safetycenter	 kumamoto university	 kumamotouniversity graduate school of medicine	 sugiyama jogakuen university school of lifestudies	 kumamoto university	 university of northcarolina	 fujita health university school ofmedicine	 kumamotouniversity	kumamoto university	 university of north carolina	 kumamoto university
+
+abs337.txt	 university of north carolina 
+
+abs84.txt	 university of northcarolina at chapel hill 	 university of north carolina atchapel hill 
+
+abs149.txt	 university of northcarolina at chapel hill school of medicine	 university of northcarolina at chapel hill school of medicine	university of north carolina at chapel hill	 washington university	university of north carolina at chapel hill
+
+abs423.txt	 new york presbyterian hospital	 northwestern university feinberg school of medicine	 weill cornell medical college	 dana-farber cancer institute	 university of north carolina	 university of chicago medicine	 new york presbyterian hospital
+
+abs275.txt	 university of north carolina gillings school ofglobal public health	 johns hopkins bloomberg school ofpublic health	 university of minnesota	 harvard medical school and harvard pilgrimhealth care institute
+
+abs277.txt	 ruhr-university bochum	NOT DETECTED / OTHER: novo nordisk a/s, bagsværd, denmark	niversity of north carolina school of medicine
+
+abs102.txt	 emory university	 universityof north carolina at chapel hill	 unc lineberger comprehensive cancercenter	 university of north carolinaat chapel hill	 emory university
+
+abs54.txt	 school of medicine at the universityof north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina atchapel hill
+
+abs162.txt	NOT DETECTED / OTHER: barts health nhs trust, london, uk. electronic address:bhawna.sirohi13@gmail.com	 london uk; centre for global development	ata memorial centre	red hutchinson cancer research center	ndiana university medical center	 american university of beirut	ing hussein cancer center	NOT DETECTED / OTHER: tata trusts, mumbai, india	niversity of north carolina	niversity of zambia	niversity of manchester	ospital erasto gaertner	 india; king's health partners comprehensive cancercentre and institute of cancer policy	NOT DETECTED / OTHER: royal marsden nhs foundation trust, london, uk	ll india institute of medical sciences	ing's health partners comprehensive cancer centre and institute of cancerpolicy
+
+abs417.txt	 massachusetts general hospital	 kaiser permanente washington health research institute 	 dartmouth institute for health policy and clinical practice 	NOT DETECTED / OTHER: 4 fort collins radiologic associates , pc, fort collins, colorado	 university of north carolina 	 brigham and women's hospital	 university of new mexico 	 university of washington school of medicine 	 massachusetts general hospital	 university of washington school of medicine ;department of health services
+
+abs152.txt	 university of north carolina atchapel hill	 university of northcarolina at chapel hill	 university of north carolina atchapel hill
+
+abs76.txt	 university of washington school of medicine	 kaiser permanente washington health research institute	 dartmouth institute for health policy & clinical practice	 massachusetts general hospital	 university of north carolina	 brigham and women's hospital	 university of california	 university of vermont	 university of illinois at chicago	 university of california
+
+abs387.txt	 geisel school of medicine at dartmouth	 university of north carolina	 university of arizona	 university of texasmd anderson cancer center	 university oftoronto
+
+abs142.txt	rom the university of texas m
+
+abs66.txt	 university of cape town	 university of capetown	 university of cape town	niversity of north carolina project malawi	 red cross war memorial children's hospital
+
+abs15.txt	 university of north carolina hospitals and clinics	 university of north carolina	 university of north carolina	 university ofnorth carolina
+
+abs172.txt	 university of colorado	 the university of texas md anderson cancercenter	 university ofcolorado	 university ofnorth carolina - chapel hill	 university of colorado	 the university of texas mdanderson cancer center	american university of beirut	 the university of texas md anderson cancer center	university of colorado	he university of texas md anderson cancer center uthealth graduate school ofbiomedical sciences
+
+abs427.txt	niversity of north carolina at chapel hill
+
+abs295.txt	 university ofnorth carolina at chapel hill	 university of north carolina at chapelhill	 moffitt cancer center and researchinstitute	 university ofnorth carolina at chapel hill	 university of north carolina at chapel hill	 moffitt cancer center and researchinstitute	 university of north carolina at chapel hill	emorial sloan kettering cancer center	 moffitt cancer center and research institute	NOT DETECTED / OTHER: q solutions - ea genomics, morrisville, north carolina	 cornell university	ebartolo family personalized medicine institute	university of north carolina at chapel hill	ivision of medical oncology at the university of tennessee health sciencecenter (uthsc)
+
+abs48.txt	 university of north carolina at chapel hill	 university of north carolinalineberger comprehensive cancer center	 national institute of environmental health sciences
+
+abs123.txt	 university of texassouthwestern medical center	 university of texassouthwestern medical center
+
+abs94.txt	 emory university	 emory university	 geisel school of medicine at dartmouth	 geisel school of medicine at dartmouth	niversity of north carolina school of medicine	emory university	NOT DETECTED / OTHER: consultants in gastroenterology, west columbia, south carolina	 emory university
+
+abs150.txt	niversity of north carolina lineberger comprehensive cancer center	anderbilt-ingram cancer center	niversity of north carolina lineberger comprehensive cancer center	niversity of north carolina lineberger comprehensive cancer center	niversity of north carolina lineberger comprehensive cancer center	niversity of north carolina lineberger comprehensive cancer center	anderbilt-ingram cancer center	niversity of north carolina lineberger comprehensive cancer center	niversity of washington/seattle cancer care alliance	niversity of north carolina lineberger comprehensive cancer center	est cancer center at the university of tennessee
+
+abs98.txt	 university of northcarolina
+
+abs377.txt	 university of north carolina at chapel hill	university of north carolina at chapel hill	NOT DETECTED / OTHER: kaiser permanente northern california, division of research, 2000 broadway,oakland, ca, 94612 usa. electronic address: candyce.h.kroenke@kp.org	 university of northcarolina at chapel hill
+
+abs10.txt	NOT DETECTED / OTHER: kaiser permanente northern california division of research. electronicaddress: devon.k.check@kp.org	 kaiser permanente northern california oakland medicalcenter	 university of north carolina at chapel hill	NOT DETECTED / OTHER: kaiser permanente northern california division of research. electronicaddress: valerie.s.lee@kp.org	NOT DETECTED / OTHER: kaiser permanente northern california division of research. electronicaddress: isaac.j.ergas@kp.org	NOT DETECTED / OTHER: kaiser permanente northern california division of research. electronicaddress: janise.m.roh@kp.org	NOT DETECTED / OTHER: kaiser permanente northern california division of research. electronicaddress: larry.kushi@kp.org	 roswell park comprehensive cancerinstitute	NOT DETECTED / OTHER: kaiser permanente northern california division of research. electronicaddress: marilyn.l.kwan@kp.org.
+
+abs262.txt	 tufts university	 brigham and women's hospital and harvardmedical school	NOT DETECTED / OTHER: 3 interleukin genetics, waltham, ma, usa	 university of north carolina	 tuftsuniversity
+
+abs386.txt	 university of north carolina	 university of north carolina 	university of north carolina 	 university of north carolina 
+
+abs4.txt	 usa; penn state cancer institute	university of north carolina	 university of north carolina	university of north carolina
+
+abs43.txt	 third military medical university	huazhong university of science and technology	 third military medical university	 duke university medical center	 institute of basic medical sciences	 third military medical university	 university of london	 university ofnorth carolina at chapel hill	 university of north carolina at chapelhill	 duke university medical center	 third military medical university	 third military medical university	 third militarymedical university
+
+abs110.txt	 boston university school of medicine 	NOT DETECTED / OTHER: b hpv vaccination and hpv vacs program , american cancer society , atlanta ,ga , usa	university of north carolina 
+
+abs5.txt	niversity of north carolina at chapel hill	NOT DETECTED / OTHER: unc project-malawi, lilongwe, malawi	alawi college of medicine	 kamuzu central hospital	 university teaching hospital - womenand newborn hospital	niversity of north carolina at chapel hill	oward university college of medicine	ational cancer institute
+
+abs62.txt	 university of north carolina
+
+abs425.txt	 cedars-sinai medical center	 duke university	 durham va medical center	 university of north carolina at chapel hill	 trinity translationalmedicine institute	 chan school of public health	ayo clinic	NOT DETECTED / OTHER: glaxosmithkline inc., r&d, king of prussia, pa, usa	ashington university school of medicine in st	 cedars-sinai medical center	 durham va medical center
+
+abs402.txt	 university of north carolina at chapel hill	 university of north carolina at chapelhill	 mayo clinic college of medicine	 mayo clinic college of medicine	 mayo clinic collegeof medicine	 national cancer institute	 mayo clinic collegeof medicine	 university of north carolina at chapel hill	 university of north carolina at chapelhill	 university of north carolinaat chapel hill
+
+abs239.txt	 university of north carolina atchapel hill and north carolina state university	 university of california	 university of california
+
+abs218.txt	 university ofnorth carolina at chapel hill 	 texas techuniversity 	 zhengzhou university 
+
+abs193.txt	 max planck institute of molecularphysiology	 university of north carolina	NOT DETECTED / OTHER: faculty of chemistry and chemical biology, tu dortmund, otto-hahn-str. 6,44227 dortmund, germany	 university of zurich	 max planck institute of molecularphysiology
+
+abs291.txt	 university of northcarolina	university of north carolina	 penn state college of medicine	NOT DETECTED / OTHER: penn state cancer institution, hershey, pennsylvania	 university of north carolina	nc lineberger comprehensive cancer center	university of north carolina
+
+abs409.txt	 university of north carolina	 university of california	 university of pennsylvania	 university of pennsylvania	 university of north carolina
+
+abs104.txt	 university ofwashington	 university of north carolina at chapel hill	enter for health equity and community engaged research	 university of north carolina at chapel hill	esearch triangle institute	 national human genome researchinstitute	udsonalpha institute for biotechnology	ational cancer institute	 university of washington	 icahn school ofmedicine at mount sinai	enter for health research	ational institute on minority health and health disparities	 university of north carolina at chapel hill	 university of california	 icahn school of medicine at mount sinai	 university ofcalifornia-san francisco	 university of alabama at birmingham	 university of california	enter for medical ethics and health policy	 universityof california	exas children's cancer center and department of pediatrics	NOT DETECTED / OTHER: bethel gospel assembly, new york, ny 10035, usa	 hackensackuniversity medical center	 baylor college of medicine	 university of california	 university of washington	hildren's hospital at montefiore	university of washington	 national human genome research institute	 university ofwashington
+
+abs129.txt	ity of hope comprehensive cancer center and beckman research institute	NOT DETECTED / OTHER: instituto nacional de ciencias médicas y nutrición salvador zubirán, mexicocity, mexico	ayo clinic	 duke university medical center	 cornell university	 mayo clinic	edstar georgetown university hospital	ake forest university health sciences	ana-farber cancer institute	niversity of washington seattle cancer care alliance	 johns hopkins university	one health cancer center	orthwell health-north shore long island jewish medical center	niversity of north carolina at chapel hill
+
+abs356.txt	 centro hospitalar são joão	 university of north carolina
+
+abs371.txt	 cornell university	 university of north carolina	 cornell university
+
+abs404.txt	 mayo clinic	 case western reserveuniversity	 university of california san diego	 university of colorado anschutzmedical campus	 university of north carolina atchapel hill	 university of washington	 mayo clinic
+
+abs132.txt	 university of groningen	 university ofgroningen	 university of groningen	 university of alabama at birmingham	 university of toronto	 university ofnorth carolina
+
+abs326.txt	 sapienzauniversity of rome	 osaka medical college	 university of north carolina at chapel hill	 memorial sloan-kettering cancer center	 massachusetts general hospital	he institute of cancer research	 sheffield teaching hospitals nhs trust	 baylor college of medicine	 polytechnic university of the marche region	 university of sao paulo	 university clinic hamburg eppendorf	 university of chicago	 memorial sloan-kettering cancer center	 radboud university medical center	NOT DETECTED / OTHER: department of radiology, radiolonet tokai, nagoya, japan	 radboud university medical center	 university of sheffield
+
+abs272.txt	 university of north carolina school ofmedicine	 duke university	 duke university	 university of north carolina school ofmedicine	 duke university medical center
+
+abs47.txt	 university of northcarolina at chapel hill	 university of michigan	 university of north carolina at chapelhill	 university ofnorth carolina at chapel hill	university of north carolina at chapel hill	 east carolina university	 university of miami	 washington university school of medicine	 university of tennessee health science center	 university of north carolina at greensboro	university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs85.txt	 university of north carolina atchapel hill	 university of north carolina	 university of north carolina	 university of north carolina school of medicine	 university of north carolina atchapel hill	 university of north carolina
+
+abs189.txt	niversity of north carolina	uke university medical center	uke university school of nursing	NOT DETECTED / OTHER: duke women's cancer care, raleigh, nc, usa.
+
+abs340.txt	 university of north carolina	enter for precision environmental health	 vanderbilt university medical center	 new mexico state university	 institute of biosciences and technology	 vanderbilt university	 university of north carolina	 vanderbilt university medical center
+
+abs315.txt	 university of north carolina atchapel hill and north carolina state university	 changchun institute of appliedchemistry	 university of north carolina school of medicine
+
+abs200.txt	 the university of north carolina at chapel hill	 the university of north carolina at chapel hill	 the university of north carolina at chapel hill	 the university of north carolina at chapel hill	 virginia commonwealth university at richmond
+
+abs288.txt	 memorial sloan kettering cancer center	 memorial sloan kettering cancer center	 university of north carolina at chapel hill	 cornell university	 kravis center for molecular oncology	 memorial sloan kettering cancercenter	enter for hematologic malignancies
+
+abs320.txt	 harvard university	 harvard university	 university of north carolina andnorth carolina state university	 harvard university
+
+abs343.txt	 university of north carolina at chapel hill	 trinity translationalmedicine institute	 chan school of public health	 university of north carolina at chapelhill	 university of south carolina	 university of north carolina at chapel hill	 university of california los angeles	university of arkansas for medical sciences	 louisiana state university health sciences center	 roswell park comprehensive cancer center	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs18.txt	 university of northcarolina at chapel hill	 university of southern california
+
+abs281.txt	 centre antoine-lacassagne	niversity of north carolina	 la timone university hospital of marseille	 la timone university hospital of marseille
+
+abs408.txt	 the university ofnorth carolina	 the university of north carolina	 the university of north carolina	he lineberger comprehensive cancer center	oston university	 the university of north carolina
+
+abs34.txt	emorial sloan kettering cancer center	aylor college of medicine	 jude children's hospital	ational cancer institute	niversity of california	niversity of north carolina	hildren's hospital of philadelphia	niversity of chicago
+
+abs410.txt	 ponce health sciencesuniversity	 university oftexas at rio grande valley-school of medicine	NOT DETECTED / OTHER: department of basic sciences-microbiology division, step-up summer program,ponce, puerto rico, usa	 university of north carolina	NOT DETECTED / OTHER: southern pathology inc., ponce, puerto rico, usa	 ponce health sciencesuniversity	 mayo clinic	NOT DETECTED / OTHER: department of ob/gyn, ponce, puerto rico, usa.
+
+abs95.txt	duke university medical center	 university of north carolina at chapelhill	 university hospital regensburg	 duke university	duke university medical center
+
+abs406.txt	 the university of north carolina at chapel hill	NOT DETECTED / OTHER: end-of-life, hospice, and palliative care program, rti international, researchtriangle park, north carolina	NOT DETECTED / OTHER: child and adolescent research and evaluation program, rti international,research triangle park, north carolina.
+
+abs316.txt	 university of north carolina gillings school ofglobal public health	 university of north carolina gillings school ofglobal public health	 mayo clinic	 university of north carolina	 michigan stateuniversity	 university of north carolina
+
+abs103.txt	 acadia university	 university of north carolina atgreensboro	 north dakota state university
+
+abs366.txt	 university of north carolina atchapel hill and north carolina state university	 university of north carolina atchapel hill and north carolina state university
+
+abs401.txt	 university of north carolina hospitals
+
+abs183.txt	ayo clinic	niversity hospitals	NOT DETECTED / OTHER: regional health, rapid city, sd, usa	ayo clinic	lbert einstein cancer center	edical university of south carolina	hio state university	d anderson cancer center	 mayo clinic	niversity of north carolina	niversity of chicago	oores uc san diego comprehensive cancer center	emorial sloan kettering cancer center	ayo clinic
+
+abs231.txt	 tokyo university of agriculture and technology 	 ltd 	 ltd 	 university of north carolina atchapel hill and north carolina state university 
+
+abs29.txt	NOT DETECTED / OTHER: mskcc	 memorial sloan kettering cancercenter	 university ofnorth carolina at chapel hill	 broad institute of harvard and mit	 broad institute	 broad institute of mit and harvard	 wellcome trust sanger institute	 johns hopkins university	 memorial sloan kettering cancer center	NOT DETECTED / OTHER: r&d, genomedx biosciences	 university of british columbia	university of texas md anderson cancer center	 memorial sloan kettering cancer center	 aichi cancer center research institute	 the university of tokyo	 ucsc genomics institute	 broad institute of mit and harvard	 university of texas mdanderson cancer center	 the university oftexas md anderson cancer center	 institute for systems biology	institute for systems biology	the university of texas at dallas	 brigham and women's hospital	 university of bologna	 quebec heart and lung institute	 memorial sloan kettering cancer center	 memorial sloan kettering cancer center	NOT DETECTED / OTHER: pathology, upmc	 brigham and women's hospital	 cancer center leon berard	 the university of texas mdanderson cancer center	 university of chicago	 barretos cancer hospital	 memorial sloan kettering cancer center	 university of cambridge	 nyu langone medical center	 university of chicagomedical center and biological sciences	memorial sloan kettering cancer center	 brigham and women's hospital	 brigham and women's hospital	 university of texas md anderson cancercenter	 university of western australia	nationwide children's hospital	 the research institute at nationwide children'shospital	NOT DETECTED / OTHER: nationwide children's, nationwide children's	national cancer institute	 ut md anderson cancer center	 broad institute of mit & harvard	harvard medical school	 bc cancer agency genome sciences centre	 memorial sloan kettering cancercenter	university of tokyo	 university of western australia	emorial sloan kettering cancer center ladanyim@mskcc
+
+abs308.txt	NOT DETECTED / OTHER: rti international, research triangle park, nc, united states (treiman at rtiinternational, 6110 executive blvd, rockville, md 20850). electronic address:ktreiman@rti.org	NOT DETECTED / OTHER: rti international, research triangle park, nc, united states (treiman at rtiinternational, 6110 executive blvd, rockville, md 20850)	NOT DETECTED / OTHER: fight colorectal cancer, alexandria, va, united states	 university of north carolina	 texas a&m university	 university of north carolina
+
+abs296.txt	 the university of north carolina atchapel hill; and school of nursing
+
+abs68.txt	 university of california
+
+abs283.txt	 university ofnorth carolina at chapel hill 	 fudan university	hujiang hospital of southern medical university 	 the first affiliated hospital of guangzhou medical university	 nanjing university 
+
+abs349.txt	 national cancer institute	 national cancer institute	 institute of population-based cancer research	 university of north carolina gillings school ofpublic health	 centers for disease control and prevention	 nationalcancer institute
+
+abs282.txt	 wuhan university	 wuhan universityof technology	 university of northcarolina at chapel hill	 wuhanuniversity	 wuhan university	 wuhanuniversity
+
+abs49.txt	NOT DETECTED / OTHER: department of urology, geisinger, danville, pennsylvania	NOT DETECTED / OTHER: department of epidemiology and health services research, geisinger, danville,pennsylvania	NOT DETECTED / OTHER: biostatistics core, geisinger, danville, pennsylvania	iomedical and translational informatics institute	enter for health research	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina atchapel hill	 yale university schoolof medicine
+
+abs86.txt	 university of colorado	 university of north carolina school of medicine	 university of colorado	rutgers university	 rutgers university	 university of colorado	 university of colorado	 university of colorado
+
+abs83.txt	 university of north carolina at chapel hill 	 university ofnorth carolina at chapel hill 	 university of northcarolina at chapel hill 
+
+abs0.txt	 university of georgia	 university ofnorth carolina at chapel hill	 university ofgeorgia	university of georgia athens
+
+abs177.txt	 university of north carolina atchapel hill	 university of north carolina at chapelhill	 university of north carolinaat chapel hill	 university of north carolina at chapelhill	 university of north carolina at chapel hill
+
+abs333.txt	 zhejianguniversity 	 zhejiang university 	 university ofnorth carolina at chapel hill 
+
+abs382.txt	 university of north carolina school ofmedicine	 university of north carolinahospitals	 university of florida hospitals	 university of florida hospitals	 university of northcarolina school of medicine	 university oftennessee health science center	 university of northcarolina school of medicine	NOT DETECTED / OTHER: rex unc healthcare, raleigh, north carolina.
+
+abs391.txt	 university ofillinois	university of north carolina	 university of wisconsin	duke university	university of north carolina	 university ofillinois	 yonsei university
+
+abs11.txt	 charlotte; university of north carolina
+
+abs161.txt	NOT DETECTED / OTHER: department of pathology and laboratory medicine	 university of north carolina	NOT DETECTED / OTHER: department of internal medicine, division of hematology and oncology	 university of tennessee health science center	university of north carolina school of medicine
+
+abs393.txt	 geisel school of medicine at dartmouth	orris cotton cancer center	he dartmouth institute for health policy and clinical practice	aiser permanente washington health research institute	 geisel school of medicine at dartmouth	 stanford university	 university of minnesota	 the university of north carolina	 university ofcalifornia	 university ofpennsylvania
+
+abs416.txt	 tufts university school ofmedicine	 johns hopkins bloomberg school of public health	ufts university school of dental medicine	idney kimmel comprehensive cancer center at johns hopkins	university of minnesota	niversity of minnesota masonic cancer center	 university of north carolina
+
+abs331.txt	 new york universitylangone medical center
+
+abs181.txt	 medical university of south carolina	 university of north carolina chapel hill (unc)	 unc lineberger comprehensive cancer center	unc lineberger comprehensive cancer center	 school of medicine
+
+abs207.txt	NOT DETECTED / OTHER: rti international, waltham, ma, united states	niversity of north carolina	niversity teaching hospital	niversity of north carolina	NOT DETECTED / OTHER: ministry of health, zambia, zambia	niversity of zambia
+
+abs422.txt	 university of north carolina	 university of north carolina	 university of north carolina
+
+abs357.txt	 unc eshelman school ofpharmacy	NOT DETECTED / OTHER: division of gynecologic oncology, department of obstetrics and gynecology,and	 university of north carolina
+
+abs24.txt	 university of toronto	the hospital for sick children	university of north carolina	 university of toronto	university health network	 university of toronto	university of north carolina	 university of toronto
+
+abs100.txt	 national institute of environmental health sciences	 national institute of environmental health sciences	 university of north carolina at chapel hill
+
+abs400.txt	NOT DETECTED / OTHER: rti-health solutions, 200 park offices drive, research triangle park, nc,27709, usa. tcoles@rti.org	niversity of north carolina at chapel hill department of health policy andmanagement	niversity of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina atchapel hill	 university of northcarolina at chapel hill	 georgetown university	 duke university school of medicine
+
+abs247.txt	 virginia commonwealth university	 university of north carolina at wilmington
+
+abs307.txt	 university of pittsburgh	 stanford medical school	 harvard medical school	 university ofpittsburgh	 university of pittsburgh	 university of north carolina
+
+abs306.txt	 toho university sakura medical center	 toho university sakura medical center	 university of north carolina at chapelhill	 chibaken saiseikai narashino hospital	 chibaken saiseikai narashino hospital	 toho university sakura medical center
+
+abs211.txt	 dukeuniversity medical center	 university of north carolina	 dukeuniversity medical center
+
+abs138.txt	 veterans affairs medical center	 duke university school of medicine	 chan school of public health	edars-sinai medical center	 chan school of public health	 university of north carolina at chapel hill	 trinity translationalmedicine institute
+
+abs197.txt	 university ofnorth carolina at chapel hill	 icahn school of medicine at mt
+
+abs9.txt	 university of cincinnati college of medicine	 university of wisconsin school of medicine and publichealth	 emory university school of medicine	 university of miami miller school of medicine	 university of north carolina	 university of louisville college of medicine	 northwestern university feinberg school of medicine	 university of cincinnati college of medicine
+
+abs237.txt	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs33.txt	 university of north carolina at chapel hill	NOT DETECTED / OTHER: ambry genetics, aliso viejo, california	NOT DETECTED / OTHER: genedx, gaithersburg, maryland	NOT DETECTED / OTHER: invitae corporation, san francisco, california	 institute ofmolecular pathology and immunology of the university of porto	niversity of california irvine	niversity of british columbia	aylor college of medicine	 jude children's research hospital	adboud university medical centre	NOT DETECTED / OTHER: department of medical oncology and therapeutics research, city of hope,duarte, california	imr berghofer medical research institute	NOT DETECTED / OTHER: laboratory for molecular medicine, partners healthcare personalized medicine,cambridge, massachusetts	 memorial sloan kettering cancer center
+
+abs394.txt	 emory university	 seattle university	 wayne state university	 the university of north carolina at chapel hill
+
+abs309.txt	 nantong university	 nantong university	university of north carolina	university of north carolina	 china medical university	university of north carolina
+
+abs196.txt	 shenzhen university 	 university of california 	 university of north carolina atchapel hill and north carolina state university 	 university of north carolina 
+
+abs2.txt	hmrc clinical trials centre	 oslo universityhospital	 university of oslo	NOT DETECTED / OTHER: chris o'brien lifehouse, sydney, nsw, australia	 university ofnorth carolina	oyal brisbane and women's hospital	hristchurch hospital	 university gynecologic oncology	niversity of chicago medicine	cademic medical centre	levohospital	NOT DETECTED / OTHER: apobiologix, toronto, on, m9l2y6, canada	ionomics ltd	eter maccallum cancer centre	 university of melbourne
+
+abs204.txt	 university of utah	 university of northcarolina at chapel hill
+
+abs230.txt	NOT DETECTED / OTHER: from the department of genetics, curriculum in genetics and molecular biology	lineberger comprehensive cancer center	 university of north carolina	NOT DETECTED / OTHER: from the department of genetics, curriculum in genetics and molecular biology,ian_davis@med.unc.edu	 university of north carolina
+
+abs173.txt	university of north carolina at chapel hill	university of north carolina at chapel hill	university of north carolina at chapel hill	university of north carolina at chapel hill
+
+abs378.txt	tate university of new york upstate	ayo clinic	he sidney kimmel comprehensive cancer center at johns hopkins	niversity of california san francisco medical center	oswell park cancer institute	niversity of rochester medical center	ity of hope comprehensive cancer center	niversity of north carolina - chapel hill	 dukeuniversity	ox chase cancer center	ale cancer center	ayo clinic
+
+abs151.txt	 university of north carolina school of medicine	 university of north carolina school of medicine	 university of north carolina
+
+abs437.txt	 university of north carolina at chapel hill	 university of northcarolina at chapel hill	 university of north carolina at chapelhill	 university of minnesota	 university of north carolina at chapel hill
+
+abs361.txt	 university of north carolina at chapel hill
+
+abs51.txt	NOT DETECTED / OTHER: curriculum in bioinformatics and computational biology	enter for gastrointestinal biology and disease	 university of north carolina(unc) at chapel hill	 cornelluniversity	NOT DETECTED / OTHER: department of surgery and	NOT DETECTED / OTHER: department of genetics, unc at chapel hill, chapel hill, north carolina, usa	 and north carolina state university	NOT DETECTED / OTHER: department of pathology and laboratory medicine	NOT DETECTED / OTHER: department of pediatrics	ineberger comprehensive cancer center	NOT DETECTED / OTHER: department of biology, unc at chapel hill, chapel hill, north carolina, usa.
+
+abs198.txt	ranslational research institute	ational center for cancer care and research	jordan university of science and technology	 university of north carolina atgreensboro	 qatar university
+
+abs258.txt	ão paulo state university (unesp)	niversity of north carolina	ão paulo state university (unesp)
+
+abs224.txt	 university of north carolina atchapel hill; lineberger comprehensive cancer center
+
+abs268.txt	NOT DETECTED / OTHER: department of medicine	 university of north carolina at chapel hill hospital
+
+abs182.txt	 university of north carolina
+
+abs243.txt	 the university of north carolina atchapel hill	 the university of north carolina at chapel hill	 the university of north carolina atchapel hill	 the university ofnorth carolina at chapel hill	 the university of north carolina at chapel hill	 the university of north carolina atchapel hill
+
+abs369.txt	niversity of north carolina at chapel hill	niversity college hospital	 texas; dan l duncan comprehensive cancercenter	niversity of north carolina at chapel hill
+
+abs244.txt	 the university of north carolina at chapel hill	 duke university	 university of virginia	 the university of texas md andersoncancer center	 northshore university healthsystem	 the university hospital forthe albert einstein college of medicine
+
+abs119.txt	 the geisel school of medicine atdartmouth college	 the geisel school of medicine atdartmouth college	orris cotton cancer center	 new york university school of medicine	 university of north carolina	 memorial sloan kettering cancer center	 the geisel school of medicine atdartmouth college	 university ofnew mexico	 baylor college of medicine	 the geisel school of medicine atdartmouth college
+
+abs165.txt	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs289.txt	 beth israel deaconess medical center	 university of north carolina at chapel hill	 beth israel deaconess medical center	 boston children'shospital	NOT DETECTED / OTHER: boston biochem inc., cambridge, ma 02139, usa	 harvard university medical school	 university of texas southwestern medicalcenter	 university of texas southwestern medicalcenter
+
+abs419.txt	 university of north carolina medical center	 duke university medical center
+
+abs292.txt	university of north carolina at chapel hill	university of north carolina at chapel hill	 cornelluniversity	 university of north carolina at chapel hill	 universityof north carolina at chapel hill	 university of north carolina atchapel hill	lone epidemiology center at boston university	 university of michigan school of publichealth	 university ofsouthern california/norris comprehensive cancer center	 roswell park cancer institute	 roswell park cancerinstitute	 rutgers cancer institute of new jersey	 boston university school of public health
+
+abs362.txt	 university of north carolina	 victoria university	 peter maccallum cancercentre	 victoria university	 theuniversity of melbourne
+
+abs77.txt	 georgia state university	 university of north carolina chapel hill	 georgia state university	 georgia state university	 university of chicago
+
+abs59.txt	 usa; temple university	 fox chase cancer center	university of north carolina	 fox chase cancer center	 fox chase cancer center	 fox chase cancer center	 fox chase cancer center	 national cancer institute	 fox chase cancer center	 fox chase cancer center	 fox chase cancer center
+
+abs178.txt	 levine cancer institute	 united states; university of north carolina eshelman school ofpharmacy	 levinecancer institute
+
+abs114.txt	 the university of north carolina at chapel hill	NOT DETECTED / OTHER: veritas genetics, danvers, massachusetts, usa	 harvard medical school	NOT DETECTED / OTHER: partners healthcare laboratory for molecular medicine, cambridge,massachusetts, usa	 the ohio stateuniversity wexner medical center	 the university of north carolina at chapel hill	utism & developmental medicine institute	merican college of medical genetics and genomics	edical university of south carolina	ational human genome research institute (nhgri)	aylor college of medicine	 university of utah	NOT DETECTED / OTHER: molecular genetics and genomics in arup laboratories, salt lake city, utah,usa	linical genetics service	 university of wisconsin school ofmedicine and public health	road institute of mit and harvard
+
+abs284.txt	 university of north carolina	 changchun institute of appliedchemistry	 university of north carolina	 the second hospital of jilinuniversity	 university of north carolina	 university of north carolina	 university of north carolina
+
+abs109.txt	 kanazawa university	 kanazawa university	 kanazawa university	university of north carolina	 kanazawa university
+
+abs99.txt	 brigham and women's hospital	ana farber cancer institute	 university of washington	 the universityof north carolina at chapel hill
+
+abs435.txt	 university of north carolina at chapelhill school of medicine	 lineberger comprehensive cancer center	 sheps center for health services research	 university of north carolina eshelman school of pharmacy
+
+abs201.txt	unenfeld-tanenbaum research institute	 university oftoronto	 university oftoronto	 copenhagenuniversity hospital	 university of copenhagen	 university of bristol	ntario cancer institute	 national cancer institute	 harvard th chan schoolof public health	 massachusetts general hospital and harvard medicalschool	nternational agency for research on cancer	 federico ii university	 aarhus university	 and who collaborating center for nutrition andhealth	 national and kapodistrian university of athens	rc/phe centre for environment and health	blokhin cancerresearch centre	 the university of texas md anderson cancer center	 university ofpittsburgh	 university ofaberdeen	 vanderbiltuniversity medical center	 university of oviedo and ciberesp	lalit national cancer control center at carmel medical center and technionfaculty of medicine	university of north carolina at chapel hill	 university of northcarolina at chapel hill	red hutchinson cancer research center	 huntsman cancer institute	 university of bristol	 university medical center	nstitute of epidemiology ii	 ludwigmaximilians university	 technical university	 german cancer researchcenter (dkfz)	 university of liverpool cancerresearch centre institute of translational medicine	 university of sheffield	 radboud university medical centre	he national institute of occupational health	NOT DETECTED / OTHER: faculdade de saúde pública, universidade de são paulo, brazil	 school of medicine of são josé do rio preto	ospital das clínicas da faculdade de medicina da universidade de são paulo	 university of são paulo	c cancer agency	NOT DETECTED / OTHER: departamento de medicina preventiva, faculdade de medicina da universidade desão paulo, são paulo, brazil	 maastrichtuniversity medical center	 radboud university nijmegen medical center	 university of hawaii cancer center	 catalan institute of oncology (ico-idibell)	 dartmouth college	 lee moffitt cancer center & researchinstitute	kåne university hospital	 university of kentucky	 washington state university	 nofer institute of occupationalmedicine	 palacky university	 charles university	 clinicalcenter of serbia	ational institute of public health	 cancer center mariasklodowska-curie institute of oncology	 fondazione policlinico agostino gemelli	cahn school of medicine at mount sinai	nstitute for clinical and translational research
+
+abs125.txt	ary bridge hospital/multicare health system	niversity of north carolina at chapel hill	he university of texas md anderson cancer center	ayo clinic	regon health and science university
+
+abs199.txt	 university of kansas medical center	 hospital general universitario gregoriomarañón	 hospital clínico san carlos	 university of kansas medical center	NOT DETECTED / OTHER: department of medical oncology, instituto nacional de enfermedadesneoplásicas, lima, perú	 hospital clinic of barcelona	NOT DETECTED / OTHER: translational genomics and targeted therapeutics in solid tumors, institutd'investigacions biomediques august pi i sunyer (idibaps), barcelona, spain	 hospital de la santa creu i sant pau	NOT DETECTED / OTHER: laboratory of translational oncology, instituto de investigación sanitariagregorio marañón (iisgm), madrid, spain	 hospital clínico	 ramón y cajal university hospital	 university of north carolina at chapel hill	 hospital general universitario gregoriomarañón
+
+abs412.txt	 the university of texas md anderson cancercenter	 university of north carolina	 the university of texas md anderson cancer center	 the university of texas md anderson cancercenter
+
+abs318.txt	north carolina cancer hospital	university of north carolina-chapel hill	university of north carolina medical center	nc lineberger comprehensive cancer center
+
+abs216.txt	university of north carolina	university of north carolina	NOT DETECTED / OTHER: centro de estudios de estado y sociedad, buenos aires, argentina	erdana university	 the catholic university of koreacollege of medicine	 university of pretoria	NOT DETECTED / OTHER: cancer epidemiology research programme, institut català d'oncologia,barcelona, spain	university of north carolina
+
+abs379.txt	 university of texas southwestern medical center	 istanbul university	 the university of british columbia	 university of north carolina linebergercomprehensive cancer center
+
+abs208.txt	 university of colorado school of medicine 	 the university of north carolinaschool of medicine 	 university of wisconsin 
+
+abs257.txt	 university of north carolina at chapelhill	 university of tennessee	arolinas medical center	NOT DETECTED / OTHER: md anderson orlando, orlando, fl, usa	niversity of alabama	niversity of chicago	niversity of virginia	anderbilt university	 university of north carolina at chapelhill
+
+abs166.txt	 university of northcarolina	 university of northcarolina	 university of northcarolina
+
+abs20.txt	enter for health research	 university of north carolina	NOT DETECTED / OTHER: division of research, kaiser permanente, oakland, ca, usa.
+
+abs44.txt	 dukeuniversity	niversity of north carolina at chapel hill	 vanderbilt university medical center	NOT DETECTED / OTHER: behavioral and epidemiology research group, american cancer society, 250williams st, atlanta, ga 30303, usa	 johns hopkins school of public health	 university of hawai'i cancer center	niversity of southern california and usc norris comprehensive cancer center	 new york university school of medicine	righam and women's hospital	righam and women's hospital	 albert einstein college ofmedicine	 feinsteininstitute for medical research	 division of public health sciences at fredhutchinson cancer research center	 vanderbilt universitymedical center	red hutchinson cancer research center	 vanderbilt university medical center	 duke university	 vanderbilt university medical center	 duke university	 chan school of public health	 massachusetts generalhospital and harvard medical school	 national cancer institute	 german cancer research center (dkfz)	 duke university
+
+abs72.txt	 auburn university	 cornell university	NOT DETECTED / OTHER: department of pathology and laboratory medicine	NOT DETECTED / OTHER: department of neurology	 university of north carolina school of medicine	 texas a&m university	 national cancerinstitute	 nationalcancer institute	 northwestern university	 university of california-san diego	ational institute of neurological disorders and stroke	 colorado state university	 mayo clinic college of medicine	NOT DETECTED / OTHER: department of pathology	 northwesternuniversity	 theuniversity of texas md anderson cancer center	 university ofminnesota	 university of georgia	 national cancer institute	 university of california-davis	national cancer institute	 national cancerinstitute	ational institute of neurological disorders and stroke and the center forcancer research	ational cancer institute
+
+abs399.txt	jordan university of science and technology	 university of north carolina atgreensboro	university of illinois at chicago	jordan university of science and technology	jordan university of science and technology	 qatar university
+
+abs3.txt	 university of north carolina	 university of north carolina	 university of texas at austin	 university of kansas medical center	 university of kansas medical center	 university of north carolina	 university of north carolina	 university of north carolina
+
+abs55.txt	 university of north carolina at chapelhill school of medicine	 university of north carolina at chapelhill school of medicine	 albert einstein college of medicine	 university of north carolina at chapelhill school of medicine	eyer cancer center and englander institute for precision medicine	 university of north carolina at chapelhill school of medicine	 albert einstein college of medicine	 university of north carolina at chapelhill school of medicine	 university of north carolina at chapelhill school of medicine	 university of north carolina atchapel hill school of medicine
+
+abs121.txt	 imperial college	 royal college of surgeons in ireland	 universityof leuven	university of padua	 university of chicago	 northwestern university	 university of north carolina school ofmedicine	 university of sao paulo	 temple university	 oregon health science university	 stanforduniversity	 padova university hospital	 state university of campinas	 university of são paulo school of medicine	 catholic university	 northwestern university	 brigham and women's hospital and boston va healthcaresystem	NOT DETECTED / OTHER: department of surgery, agaplesion-markus-krankenhaus, frankfurt, germany	 universityhospital of leipzig	 federal university of rio grandedo sul	 washington university school of medicine	 federal university of são paulo	 theuniversity of adelaide	 kurokawa hospital	sophageal and lung institute	 mayo clinic	 medical college of wisconsin	 central southuniversity	 johns hopkins university schoolof medicine	 ospedalemaggiore policlinico; department of pathophysiology and transplantation;università degli studi	nstitute for image guided surgery ihu-strasbourg	 "federico ii" university ofnaples	 hospital alemán of buenos aires	 queen mary universityof london	 university of washington school of medicine	 mayo clinic	 universitymedical center utrecht	 flinders university	 university of bordeaux	NOT DETECTED / OTHER: ecd solutions, atlanta, georgia, usa	NOT DETECTED / OTHER: alma (association of patients with achalasia, onlus), naples, italy	epartment of thoracic surgery virginia mason medical center
+
+abs264.txt	och institute for integrative cancer research and department of biology	ana-farber cancer institute	 university ofalberta	ayo clinic	 university of north carolina at chapel hill	niversity of california san diego school of medicine	assachusetts general hospital cancer center	NOT DETECTED / OTHER: md anderson, department of radiation oncology, houston, tx, usa	tanford cancer institute	avid geffen school of medicine at university of california	 boston university and boston medical center	road institute of mit and harvard university	ana-farber cancer institute	och institute for integrative cancer research and department of biology	ana-farber cancer institute	road institute of mit and harvard university
+
+abs113.txt	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 dana-farber cancer institute	 university of north carolina at chapel hill	 university of north carolina atchapel hill	 university of northcarolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapelhill
+
+abs202.txt	 university of north carolina at chapel hill	 university of north carolina at chapel hill; linebergercomprehensive cancer center
+
+abs16.txt	university of texas md anderson cancer center	nanjing normal university	the chinese university of hong kong	niversity of north carolina at chapel hill
+
+abs403.txt	niversity of arizona cancer center	 university of arizona	NOT DETECTED / OTHER: veteran affairs san diego system, san diego, ca, usa	 university of california san diego	 university of north carolina school of medicine	mperial college london	 veterans affairs medical centerand oregon health and science university	 national cancer institute	university of california san diego
+
+abs358.txt	ana-farber cancer institute	 mayo clinic and mayo cancer center	ayo clinic	NOT DETECTED / OTHER: city of hope, duarte, california, usa	niversity of north carolina	uke university	ueens cancer center of queens hospital
+
+abs228.txt	 university of north carolina at chapelhill	 university of north carolina atchapel hill	 university of north carolina at chapelhill
+
+abs278.txt	 university of chicago	niversity of illinois at chicago	 university of toronto	niversity of melbourne	NOT DETECTED / OTHER: deutsches krebsforschungszentrum in der helmholtz-gemeinshaft, heidelberg,germany	niversity cancer center hamburg	red hutchinson cancer research center	ancer prevention institute of california	tanford cancer institute	niversity of north carolina at chapel hill	ox chase cancer center	olumbia university	niversity of utah salt lake city	 university of chicago	tanford university
+
+abs87.txt	offitt cancer center & research institute	 united states; university oftennessee health science center	niversity of south florida	offitt cancer center & research institute	niversity of north carolina	 united states; university ofsouth florida	NOT DETECTED / OTHER: pediatric partners, 3401 pga blvd, suite 300, palm beach gardens, fl 33410,united states. electronic address: tschechtman@pediatricpartners.com	ndiana university school of medicine	NOT DETECTED / OTHER: klein buendel, inc., 1667 cole blvd. ste. 225, golden, co 80401, unitedstates. electronic address: bwalkosz@kleinbuendel.com	ohns hopkins university	 united states; university of cincinnati	offitt cancer center & research institute	 united states; university of southflorida
+
+abs19.txt	 university of kansas	 university of kansas	 louisiana state university	niversity of kansas cancer center	 university of kansas
+
+abs225.txt	 university of northcarolina school of medicine	 university of north carolina at chapelhill	university of north carolina at chapel hill	NOT DETECTED / OTHER: community care partners of greater mecklenburg, charlotte, north carolina	NOT DETECTED / OTHER: mecklenburg county public health department, charlotte, north carolina	NOT DETECTED / OTHER: community care network of north carolina, raleigh, north carolina	 university of north carolina at chapel hill
+
+abs420.txt	 new york university school of medicine	NOT DETECTED / OTHER: epidemiology and prevention unit, fondazione irccs - istituto nazionale deitumori, milan, italy	 national cancer institute	 university of maryland school ofmedicine	 brigham and women's hospital	 umeåuniversity	 university of massachusetts	 johns hopkins bloomberg school of public health	 universityof oxford	 university of north carolina	 national institute of environmental health sciences	 the institute of cancer research	 harvard medical school	 umeå university hospital	 the institute of cancer research	idney kimmel cancer center	 new york university school of medicine
+
+abs397.txt	 duke university hospital	university of north carolina at chapel hill	he anaplastology clinic
+
+abs141.txt	utgers cancer institute of new jersey	 rutgers university	anderbilt-ingram cancer center	utgers robert wood johnson medical school	 university ofnorth carolina	 vanderbiltuniversity medical center	 rutgers university
+
+abs14.txt	 university of arkansas	 university of arkansas	 university of north carolina	 university of arkansas	 university of north carolina	 university of arkansas	 university of arkansas	 university of north carolina	 university of arkansas	 university of north carolina
+
+abs39.txt	 the university oftexas md anderson cancer center 	NOT DETECTED / OTHER: b anesthesiology and surgical oncology research group , houston , tx , usa	 the university of texas md anderson cancercenter 	 university of north carolina school ofmedicine 
+
+abs117.txt	NOT DETECTED / OTHER: esophagus and stomach division, department of surgery, escola paulista demedicina, são paulo, brazil	niversity of north carolina at chapel hill
+
+abs232.txt	offitt cancer center	offitt cancer center	 university of north carolina	 university ofsouth florida
+
+abs248.txt	 university of north carolina	 university of north carolina	 university of north carolina
+
+abs303.txt	he sidney kimmel comprehensive cancer center at johns hopkins	 mayo clinic	tate university of new york upstate	ox chase cancer center	 mayo clinic	oswell park cancer institute	ity of hope comprehensive cancer center	niversity of north carolina	 dukeuniversity	ale cancer center	 mayo clinic
+
+abs251.txt	 the university of north carolina at chapel hill	 virginiacommonwealth university	 the georgewashington university cancer center	 the university of north carolina at chapel hill
+
+abs436.txt	 university of brasília	 university of north carolina at chapel hill	 federal university of goiás
+
+abs221.txt	 fudan university 	 tongji university 	 university of north carolina atchapel hill
+
+abs375.txt	 china medical university	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs17.txt	xperimental and clinical pharmacology unit	 university of north carolina	 cro aviano national cancer institute	 cro aviano national cancer institute	 cro aviano national cancer institute	 university of florence	NOT DETECTED / OTHER: medical oncology unit, ospedale cà foncello, piazzale ospedale 1, treviso,italy	 san filippo neri hospital"
+
+abs169.txt	 ohio state university college of public health	 ohio state university college of medicine	 ohio state university college ofmedicine	 hershey medicalcenter/pennsylvania state university	 memorial sloan kettering cancer center	ashington university school of medicine	 medical university of south carolina	 university of oklahoma	 womenand infants hospital/brown university	 roswell park cancer institute	 university of colorado cancer center	 university of minnesota	 case western reserve university	 university of north carolina	 state university of new york at stony brook	 university of maryland	niversity of kentucky	 national cancer institute
+
+abs329.txt	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 north carolina central university
+
+abs413.txt	 university of north carolina	university of north carolina	 university of north carolina	new york university
+
+abs115.txt	NOT DETECTED / OTHER: department of obstetrics & gynecology, cambridge health alliance, cambridge,ma	university of north carolina	NOT DETECTED / OTHER: department of biostatistics, synteract, inc., morrisville, nc	orth carolina central university	ast carolina university	NOT DETECTED / OTHER: american sexual health association, research triangle park, nc	university of north carolina	 university of north carolina	 university of north carolina school ofmedicine
+
+abs167.txt	NOT DETECTED / OTHER: division of general internal medicine, department of medicine, weill cornellmedicine, 525 east 68th street, box 331, new york, ny, 10065, usa.lcp2003@med.cornell.edu	uke university	niversity of north carolina at chapel hill	anderbilt university
+
+abs64.txt	university of north carolina at chapel hill 	 university of northcarolina at chapel hill 	 unc lineberger comprehensive cancer center 
+
+abs78.txt	 university of british columbiayewang@bccrc	 university of british columbia	 british columbia cancer agency	 british columbia cancer research centre	 british columbia cancer researchcentre	 university of north carolinaat chapel hill	 translational genomics researchinstitute (tgen)	 british columbia cancer research centre	 hannover medical school	 university of british columbia	 brtish columbia cancer agency	 university of britishcolumbia
+
+abs273.txt	 university of north carolina	hio state university comprehensive cancer center	est virginia university	NOT DETECTED / OTHER: cancer trials ireland, dublin, ireland	outheastern medical oncology center	 lee moffit cancer center	ocky mountain cancer center	 mayo clinic	ew york university langone medical center	niversity of cincinnati	NOT DETECTED / OTHER: georgia cancer specialists, atlanta, georgia	inship cancer institute of emory university	oses cone regional cancer center	ake forest university	ndiana university
+
+abs426.txt	 federal university of saopaulo	 university of north carolina
+
+abs50.txt	enter for health services research in primary care	 duke university	enter for health services research in primary care	 duke university	NOT DETECTED / OTHER: durham veterans affairs health care system, durham, nc, usa	 education and clinical center(mirecc)	 duke university medicalcenter	 university of north carolina at chapel hill	NOT DETECTED / OTHER: salisbury veterans affairs health care system, salisbury, nc, usa	 walter reed national military medicalcenter	 duke university	 duke university
+
+abs214.txt	 troy university	 university of north carolina	 tuskegee university	 troy university
+
+abs261.txt	 brigham andwomen's hospital and harvard medical school	 chan school of public health	 university of north carolina	 baylor university medical center	 university of north carolina
+
+abs184.txt	 the university of northcarolina at chapel hill	 public health sciences division fred hutchinson cancerresearch center	 the university of northcarolina at chapel hill
+
+abs45.txt	 acadia university 	 the university of north carolina atgreensboro 	entre for innovative and collaborative health services research 	 university of houston 	 university health network 
+
+abs352.txt	NOT DETECTED / OTHER: department of radiation oncology, beaumont health, royal oak, michigan	 beaumont research institute	 university ofnorth carolina school of medicine	NOT DETECTED / OTHER: department of radiation oncology, beaumont health, royal oak, michigan.prakash.chinnaiyan@beaumont.edu	akland university william beaumont school of medicine
+
+abs328.txt	 university of northcarolina at chapel hill school of medicine	 university of north carolinaat chapel hill school of medicine
+
+abs93.txt	he university of arizona cancer center	niversity of north carolina medical center	niversity of chicago medicine	NOT DETECTED / OTHER: amgen inc., thousand oaks, ca, usa	ary crowley cancer research center
+
+abs164.txt	 university of north carolina at chapel hill	ex hospital raleigh radiation oncology	NOT DETECTED / OTHER: unc health care clayton radiation oncology, clayton, nc	 university of virginia	NOT DETECTED / OTHER: high point regional radiation oncology, high point, nc	 georgetown university school of medicine	ew hanover regional medical center radiation oncology	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs131.txt	 university of south carolina	 university of south carolina
+
+abs293.txt	 university of north carolina at chapel hill	 johns hopkins university	 university of north carolina at chapel hill	 northwestern university	 university of north carolina at chapel hill	 the ohio state university	niversity of california	 johns hopkins university	 university of north carolina at chapel hill
+
+abs139.txt	 memorial sloan-ketteringcancer center	eill cornell medical college	 university ofnorth carolina at chapel hill	 memorial sloan-kettering cancer center	 memorial sloan-kettering cancercenter	 memorial sloan-kettering cancercenter
+
+abs190.txt	 cambridge university	 university of california	 university of california	 university of northcarolina	 washington university in st	nternational agency for research on cancer	 university of north carolina-chapel hill
+
+abs156.txt	 kanazawa university 	university of north carolina at chapel hill 	okyo university of pharmacy and life sciences 	NOT DETECTED / OTHER: nih special volunteer , wayne , pennsylvania 19087 , united states	 national cancer institute 	 national cancerinstitute 	 china medical universityand hospital 
+
+abs203.txt	 the university of north carolina at chapel hill	 the university of north carolina at chapel hill
+
+abs421.txt	 university of north carolina	 and the university of northern coloradocancer rehabilitation institute
+
+abs299.txt	 and mcmaster university
+
+abs168.txt	 university of kansas	 southwest medical university	 southeast university	NOT DETECTED / OTHER: protein production group, nih cobre in protein structure and function,lawrence, usa	 university of kansas	 fox chase cancer center	 university of north carolina	 university of kansas	 university of kansas cancer center
+
+abs280.txt	 duke university	 stanford university	 duke university	 jude children's research hospital	evine cancer center	 university of north carolina school ofmedicine	 duke university
+
+abs91.txt	 university of north carolina at chapel hill	 universityof north carolina at chapel hill
+
+abs313.txt	 university of north carolina at chapel hill	 duke university medical center	 samuel oschin comprehensive cancer institute	 dana-farber cancer institute	 boston children's hospital	NOT DETECTED / OTHER: applied photophysics, beverly, ma, usa	 university of washington	linical research division	 oregon health and science university	 oregon health and science university	 duke university medical center	 samuel oschin comprehensive cancer institute	 veterans affairs medical center
+
+abs12.txt	 university of north carolina at chapel hill	 university of north carolina at chapelhill	 university of northcarolina at chapel hill	university of north carolina at chapel hill
+
+abs370.txt	university of north carolina at chapel hill	 brigham and women's hospital and harvard medical school	 university of north carolinaat chapel hill
+
+abs67.txt	 university of north carolina at chapel hill	ineberger comprehensive cancer center	 memorial cancer institute	 university of north carolina at chapel hill	 university of northcarolina at chapel hill
+
+abs290.txt	 university ofcalifornia san francisco	 duke university	 indiana university school of medicine	 university of chicago comprehensive cancer	 riken center for integrative medicalsciences	 yale university school of medicine	 university of southern california	outheast clinical oncology research consortium	 university of california san francisco	 thomas jeffersonuniversity	ebartolo family personalized medicine institute	 university of northcarolina at chapel hill	 duke university school ofmedicine	 university ofcalifornia san francisco
+
+abs194.txt	 princeton university	university of utah school of medicine	 university of udine	 cro aviano national cancer institute	niversity of north carolina school of public health	 university of northcarolina at chapel hill	 lausanne universityhospital (chuv)	 ucla school of public health	 university of michigan	 universityof milano - bicocca	 brownuniversity	 boston university school of publichealth	NOT DETECTED / OTHER: department of otolaryngology, new york eye and ear infirmary, new york, ny,usa	he tisch cancer institute	nstitute of population health sciences	 university of utah school of medicine	department of clinical sciences and community health	 dana-farber cancerinstitute	 chan school of public health
+
+abs336.txt	lineberger comprehensive cancer center	NOT DETECTED / OTHER: department of microbiology and immunology, and	 the university of northcarolina at chapel hill
+
+abs310.txt	ational cancer institute	 and university of northcarolina gillings school of global public health	ational center for hiv/aids
+
+abs235.txt	 international agency for research oncancer	indhoek central hospital	akerere university	ederal medical centre	bia state university teaching hospital	niversity of north carolina	 london school of hygiene& tropical medicine	 international agency for research oncancer
+
+abs38.txt	 university of northcarolina at chapel hill	 university of north carolina at chapelhill	 university of north carolina at chapelhill	university of north carolina at chapel hill	 university of north carolina atchapel hill	 university of northcarolina at chapel hill
+
+abs1.txt	 university of north carolina	 university of north carolina	 university of north carolina	 vanderbilt university	 massachusetts general hospital	 university of north carolina	 dana farber cancerinstitute
+
+abs70.txt	 university of north carolina at chapel hill
+
+abs302.txt	 university of north carolina atcharlotte 	 university of north carolina at charlotte 	 levine cancer institute
+
+abs143.txt	 the university of northcarolina at chapel hill	 the university of north carolina atchapel hill	 the university of northcarolina at chapel hill
+
+abs252.txt	 university of north carolina at chapelhill	 vanderbilt university medical center	 vanderbilt university medical center	 german cancer research center (dfkz)	 national cancer institute	 national cancer center	 chinese academy of medical sciences andpeking union medial college	 seoul nationaluniversity college of medicine	 seoul national university college ofmedicine	 yonsei university	 research institute	 duke university and cancer controland population sciences program
+
+abs210.txt	 university of north carolina	 university of north carolina	 duke university	niversity of utah	ana farber cancer institute	emorial sloan kettering cancer center	ational cancer institute	lliance statistics and data center	he research institute at nationwide children's hospital	 university of north carolina
+
+abs176.txt	 university of georgia	 university of georgia	 university of north carolina	 university of california sandiego	 university of georgia	 university of georgia
+
+abs212.txt	 massachusetts general hospital cancercenter	 lee moffitt cancer center and researchinstitute	 mayo clinic	 university ofnorth carolina hospitals	university of minnesota	epartment of clinical research division	 mayo clinic	anderbilt university medical center	 massachusetts general hospital cancercenter
+
+abs305.txt	 baylorcollege of medicine	 baylor college of medicine	ester and sue smith breast center	 baylor college of medicine	institute of biophysics	 baylorcollege of medicine	 baylor college of medicine	an l duncan comprehensive cancer center	 the university oftexas md anderson cancer center	 baylor college of medicine	 baylor college ofmedicine	 university of north carolina atchapel hill	 baylorcollege of medicine
+
+abs249.txt	 university of north carolina medical center	 university of north carolina	 university of north carolina	 university of north carolina medical center	 university of north carolina	 university of north carolina
+
+abs367.txt	 university ofsouth carolina	 university ofsouth carolina	university of north carolina at charlotte	 university ofsouth carolina	NOT DETECTED / OTHER: fairfield behavioral health services, winnsboro, south carolina	 clemson university	 university of massachusettsmedical school
+
+abs136.txt	 european organisation for research and treatmentof cancer (eortc)	 mayo clinic	 university of north carolina	 universityhospital of besançon	 university of birmingham	NOT DETECTED / OTHER: 6 genentech, san francisco, ca, usa	 the university of texas md anderson cancercenter	NOT DETECTED / OTHER: 8 adelphi values, bollington, uk	 mayo clinic	NOT DETECTED / OTHER: 10 office of health economics, london, uk	 universityof magdeburg	 university of british columbia	 medical university graz	NOT DETECTED / OTHER: 14 boehringer ingelheim, frankfurt, germany	 university of copenhagen and bispebjerghospital	 university hospital of angersunam	 university of sydney	NOT DETECTED / OTHER: 18 us food and drug administration, silver spring, md, usa	 university hospital regensburg	 university of arizona	 national cancer institute	2 fred hutchinson cancer research center	3 medicines and healthcare products regulatory agency	NOT DETECTED / OTHER: 24 international brain tumour alliance, surrey, uk	NOT DETECTED / OTHER: 25 internal medicine/oncology, institut jules bordet, brussels, belgium	6 blueclinical phase i	NOT DETECTED / OTHER: 27 centro de estudos e investigação em saúde da universidade de coimbra,coimbra, portugal	8 european centre for disease prevention and control	9 vu university medical center	0 institute for quality and efficiency in health care	NOT DETECTED / OTHER: 31 health canada, ottawa, on, canada	2 leiden university medical center/haaglanden medical center	 university of leeds
+
+abs217.txt	 university of north carolina atgreensboro	NOT DETECTED / OTHER: current address: department of natural products, instituto de química,universidad nacional autónoma de méxico, ciudad de méxico, méxico	jordan university of science and technology	NOT DETECTED / OTHER: los muros, rimont, france	epartment of cancer biology and comprehensive cancer center	 university of northcarolina at greensboro
+
+abs195.txt	 university of cincinnaticollege of medicine	 university of miamileonard m miller school of medicine	 university of wisconsinschool of medicine and public health	 university of northcarolina school of medicine	 university of louisvilleschool of medicine	 northwestern universityfeinberg school of medicine	 vanderbilt universitymedical center	 emory university
+
+abs28.txt	 university of northcarolina	niversity of north carolina school of medicine	 washington university	 university of north carolina
+
+abs25.txt	 university of north carolina at chapel hill	linical pharmacology	 universityof north carolina at chapel hill	 university of north carolina atchapel hill	 johns hopkins universityschool of medicine	NOT DETECTED / OTHER: scitovation llc, research triangle park, nc, 27709, usa	 university ofnorth carolina medical center	 universityof north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina atchapel hill	 university of northcarolina at chapel hill
+
+abs106.txt	 memorial sloan kettering cancer center	 memorial sloan kettering cancer center	 university of south florida	 university of california	NOT DETECTED / OTHER: department of surgery, john muir health, concord, california	 university of vermont	 washington university	 washington state university	 oregon health & science university	 university of north carolina	 university of chicago	 university of chicago	 creighton university medical center	 university of california	 university hospitals cleveland medical center
+
+abs346.txt	unc lineberger comprehensive cancer center and	 university of north carolina atchapel hill (unc)
+
+abs88.txt	NOT DETECTED / OTHER: healthcore-neri, watertown, ma, usa	 queen's university	emorial sloan kettering cancer center	 harvard medical school	 boston children's hospital	 university of north carolina at chapel hill	 massachusetts general hospital
+
+abs398.txt	 cannon research center	 university of north carolina atcharlotte	 cannon research center	 university of north carolina atcharlotte
+
+abs376.txt	 university of north carolina	 university of north carolina	 university of chicago	 university of north carolina	 university of north carolina	 university of north carolina	 university of north carolina
+
+abs192.txt	university of florida	 university of north carolina regionalphysicians
+
+abs215.txt	 shanghai jiaotong university affiliated sixth peoplehospital south campus shanghai	 university of north carolina at chapel hillchapel hill	 capitalmedical university beijing	 university of north carolina at chapelhill chapel hill	 capital medical university beijing
+
+abs128.txt	 memorial sloan kettering cancercenter	 university of north carolina at chapel hill
+
+abs23.txt	 university of north carolina at chapel hillnicolen@live	 university of north carolina at chapel hill	 national institute ofenvironmental health sciences	 national institute of environmental health sciences
+
+abs154.txt	 the university of north carolina at chapel hill	 the university of north carolina atchapel hill	 the university of north carolina at chapel hill
+
+abs155.txt	 university of north carolina at chapel hill	 duke university medicalcenter	 duke university medical center	orth shore university health system	orthwestern university	niversity of california at san francisco	offitt cancer center	niversity of chicago	enter for genomic medicine	ayo clinic
+
+abs6.txt	 center for bioethics	 johns hopkins school of medicine	he university of north carolina at chapel hill	ana-farber/harvard cancer center	 johns hopkins school of nursing
+
+abs41.txt	 san diegostate university	 university of north carolina at chapel hill
+
+abs298.txt	 university of north carolina at chapel hill	 university of north carolina at chapelhill	 university of north carolina atchapel hill	 university of north carolina at chapel hill
+
+abs159.txt	 radboud university medical center
+
+abs206.txt	 the ohio state university collegeof medicine	he ohio state university-james comprehensive cancer center	NOT DETECTED / OTHER: , new rochelle, usa	 feinsteininstitute for medical research	 university of arizona	 university of north carolina school ofmedicine	 universityof washington	he ohio state university-james comprehensive cancer center	 the ohio state universitycollege of medicine	 albert einstein college ofmedicine
+
+abs133.txt	university of north carolina at chapel hill	 helen joseph hospital	 university of thewitwatersrand	 university of north carolina at chapel hill	 kamuzu central hospital	 university of malawi	 osborn family health center
+
+abs213.txt	 yale university school of medicine	 yale university school of medicine	 yaleuniversity school of medicine	 university of north carolina at chapelhill	 university of north carolina atchapel hill	 yale university school of medicine	 yale university school ofmedicine	 yale school of public health
+
+abs311.txt	 brigham and women's hospital	 university of north carolina
+
+abs390.txt	 duncan comprehensive cancercenter	 university ofwashington	 roswell parkcancer institute	 fred hutchinson cancer research center	university of cambridge	california; san francisco medical center	 university of north carolinaschool of medicine	 karolinska institutet	 university of leeds	 mayo clinic	 yale school of public health	 university of cambridge	 university of cambridge	 university of cambridge	 ontario cancer institute	 university of north carolina	 md anderson cancer center	 beckman research institute and city ofhope comprehensive cancer center	 university of sheffield	 karolinska institutet	 university of southern california/norriscomprehensive cancer center	 queen's university belfast	 qimr berghofer medical research institute	 qimr berghofer medical research institute	 duncan comprehensive cancercenter
+
+abs389.txt	 university of northcarolina	 university of north carolina
+
+abs108.txt	ana-farber cancer institute	assachusetts general hospital	edars sinai medical center	niversity of alabama comprehensive cancer center	eth israel deaconess medical center	uke university medical center	niversity of north carolina at chapel hill	oswell park cancer institute	ana-farber cancer institute	NOT DETECTED / OTHER: tracon pharmaceuticals, inc., san diego, california, usa.
+
+abs226.txt	 beth israel deaconess medical center andharvard medical school	 beth israel deaconess medical center and harvardmedical school	 universityof north carolina at chapel hill	 university of north carolina at chapel hill	 beth israel deaconess medical center andharvard medical school	 dana-farber/brigham and women's cancer center andharvard medical school
+
+abs241.txt	 university of miami	university of miami	 mayo clinic	 university of miami	 university of north carolina at chapel hill	 university of texashealth science center at san antonio	 university of michigan	 university of minnesota	 university of virginia health science center	 university of chicago	 ohio state university	 vanderbilt university medical center	 loyola university medical center	 university of washington	brigham and women's hospital	NOT DETECTED / OTHER: cancer research and biostatistics, seattle, wa, usa	 oklahoma university of oklahoma	 university of california at irvine	 stanford university	 university of texashealth science center at san antonio
+
+abs348.txt	 zhejiang chinese medical university	 zhejiang chinese medical university	 university of northcarolina at chapel hill	 zhejiang chinese medical university
+
+abs347.txt	 washington university school of medicine	niversity of rochester medical center	emorial sloan kettering cancer center	NOT DETECTED / OTHER: city of hope, duarte, ca, usa	uke university	pstate university hospital	ake forest university	ase western reserve university school of medicine	ale university	 university of north carolina	homas jefferson university
+
+abs7.txt	 murdock research institute	 university of north carolina at chapel hill nutrition researchinstitute
+
+abs144.txt	 and university of north carolina atchapel hill	 and university of north carolina atchapel hill	 and university of north carolina atchapel hill	 and university of north carolina atchapel hill	 and university of north carolina atchapel hill	 and university of north carolina atchapel hill
+
+abs122.txt	 university of oslo	 university of oslo	 university of oslo	 university of oslo	 university of oslo	 university of oslo	 university of north carolina at chapel hill	 university of oslo	 university of oslo
+
+abs368.txt	 academic medical center	 university of north carolina at chapel hill	 d'annunzio university	 national cancer institute mexico	 academic medical center	NOT DETECTED / OTHER: department of internal medicine, hopital louis mourier, paris, france	 slotervaart hospital	 university medical center groningen	aboratory of experimental clinical chemistry
+
+abs187.txt	 university of california losangeles david geffen school of medicine	university of north carolina at chapel hill	 university of california losangeles	NOT DETECTED / OTHER: andor technology	 university of california los angeles davidgeffen school of medicine	 university of california losangeles david geffen school of medicine; dshackelford@mednet
+
+abs430.txt	 university of north carolina	 duke university medical center	 university of north carolina
+
+abs294.txt	 university of north carolina	 emoryuniversity
+
+abs342.txt	 university of washington
+
+abs75.txt	 university of north carolina	 rush university medical college
+
+abs170.txt	 wake forest baptist medical center	 wake forest baptist medical center	 swedishneuroscience institute	 university of north carolina school ofmedicine	 university of california san franciscoschool of medicine	 wake forest baptist medical center	rain tumor center of excellence	 wake forest baptist medical center	 wake forest baptist medical center	 wake forest baptist medical center	 wake forest baptist medical center	 wake forest baptist medical center
+
+abs222.txt	NOT DETECTED / OTHER: women's malignancies branch, ccr, nci, bethesda, 20892, md, usa.grilbrun@mail.nih.gov	NOT DETECTED / OTHER: women's malignancies branch, ccr, nci, bethesda, 20892, md, usa	 university of north carolina atwilmington	NOT DETECTED / OTHER: laboratory of pathology, ccr, nci, bethesda, 20892, md, usa	NOT DETECTED / OTHER: genomics laboratory, frederick national laboratory for cancer research,frederick, 21702, md, usa	 varmia & masuria university	 copernicus hospital gdańsk	 medical university of gdańsk	 copernicus hospital gdańsk	 military institute of medicine	 medical university of gdańsk	 medical university of gdańsk	 massachusetts general hospital cancer center	NOT DETECTED / OTHER: genitourinary malignancies branch, ccr, nci, bethesda, 20892, md, usa	NOT DETECTED / OTHER: chemical biology laboratory, ccr, nci, frederick, 21702, md, usa	NOT DETECTED / OTHER: laboratory animal sciences program, frederick national laboratory for cancerresearch, frederick, 21702, md, usa	NOT DETECTED / OTHER: département de neurochirurgie, hôpital privé clairval, ramsay général desanté, marseille, 13009, france	NOT DETECTED / OTHER: institut de neurophysiopathologie-umr 7051, aix-marseille université,marseille, 13344, france	NOT DETECTED / OTHER: women's malignancies branch, ccr, nci, bethesda, 20892, md, usa.steegp@mail.nih.gov.
+
+abs339.txt	 university of north carolina at chapel hill	 lineberger comprehensive cancercenter	NOT DETECTED / OTHER: bladder cancer advocacy network, bethesda, maryland	NOT DETECTED / OTHER: patient advocates, bladder cancer advocacy network, bethesda, maryland	 university of washington
+
+abs82.txt	 the university of north carolina at chapel hill
+
+abs255.txt	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs179.txt	 university of north carolina
+
+abs424.txt	 northwestern university feinberg school of medicine	 san diego state university/university of california	 san diego state university	 university of north carolina at chapel hill	 university of york	 albert einstein college of medicine	 south bay latino research center
+
+abs148.txt	school of medicine	lineberger comprehensive cancer center	NOT DETECTED / OTHER: curriculum in bioinformatics and computational biology	NOT DETECTED / OTHER: department of chemistry, and	 university of north carolina atchapel hill	 the university oftexas md anderson cancer center	 university of northcarolina at chapel hill
+
+abs171.txt	 university of wisconsin school of medicine	 university of colorado anschutz medical campus	 emory university	 emory university	 emory university school of medicine	 university ofnorth carolina at chapel hill	 university of north carolina at chapelhill	 university of wisconsin-madison	 aflac cancer and blood disorders center at children's healthcareof atlanta/emory university	 university of wisconsin school of medicinedlwheeler@wisc
+
+abs135.txt	 national cancer institute	university of latvia	university of latvia	university of latvia	university of latvia	 university of north carolina	 university medical center utrecht	university of latvia	 national cancer institute
+
+abs301.txt	 washington university medical center	 the university of north carolina	ancer center of hawaii	 washington university medical center	 washington university medical center
+
+abs35.txt	 university ofthe witwatersrand	 university of north carolina	 university of the witwatersrand	 university of north carolina	NOT DETECTED / OTHER: right to care, johannesburg, south africa	 university of witwatersrand
+
+abs56.txt	university of south carolina	university of arkansas for medical sciences	 university of california los angeles	 university of north carolina at chapelhill	 louisiana state university health sciences center	 university of north carolina at chapel hill	university of south carolina
+
+abs101.txt	 university of north carolina school ofmedicine	 university of north carolinahospitals	 university of northcarolina school of medicine	 university of florida hospitals	 university of florida hospitals	NOT DETECTED / OTHER: rex/unc healthcare, raleigh, north carolina.
+
+abs392.txt	 duke university medical center	 duke university school of medicine	 xi'an jiaotong university college of medicine	 fourth military medicaluniversity	 duke university medical center	 duke university medical center	 washington universityschool of medicine	university of north carolina at chapel hill	 the university of texas m	 the university of texas m	 duke university school of medicine
+
+abs32.txt	NOT DETECTED / OTHER: genedx, inc., gaithersburg, maryland	aylor college of medicine	NOT DETECTED / OTHER: ambry genetics, aliso viejo, california	NOT DETECTED / OTHER: tempus labs, chicago, illinois	tanford university school of medicine	 university hospitals southampton	 university ofsouthampton	ational cancer centre singapore	ase comprehensive cancer center	ase western reserve university school of medicine	NOT DETECTED / OTHER: counsyl, inc., san francisco, california	emorial sloan kettering cancer center	niversity of north carolina	mory university	NOT DETECTED / OTHER: perkinelmer genetics, pittsburgh, pennsylvania	leveland clinic genomic medicine institute
+
+abs65.txt	 chinapharmaceutical university	 university of north carolina at chapel hill	 chinapharmaceutical university	 chinapharmaceutical university
+
+abs341.txt	 university of north carolina school ofmedicine	 university of north carolina school ofmedicine	 university of north carolinahospitals	he university of north carolina	 university of northcarolina school of medicine	 university of north carolina school ofmedicine
+
+abs265.txt	unc-hiv cure center	NOT DETECTED / OTHER: departments of medicine	NOT DETECTED / OTHER: biostatistics	NOT DETECTED / OTHER: microbiology and immunology, and	 university of north carolina at chapel hill
+
+abs229.txt	 the university of texas health science center at houston	 colorado school of public health	 emory university	 university of south carolina	 university of washington	 the university of north carolina at chapel hill	 university of california davis
+
+abs163.txt	 university of california	ational cancer institute	niversity of north carolina lineberger comprehensive cancer center	 fielding school of public health at ucla	 university of california
+
+abs245.txt	 trinity college dublin	rinity centre for bioengineering	NOT DETECTED / OTHER: academic department of palliative medicine, our lady's hospice and careservices, dublin, ireland	 university college dublin	 trinity college dublin	NOT DETECTED / OTHER: academic department of palliative medicine, our lady's hospice and careservices, dublin, ireland. declan.walsh@carolinashealthcare.org	 university college dublin	 university of north carolina at chapelhill	 trinity college dublin
+
+abs80.txt	 the ohio state university	NOT DETECTED / OTHER: ventana medical systems, inc, tucson, arizona	 the ohio stateuniversity	 university of north carolina	 the ohio stateuniversity
+
+abs31.txt	shenzhen university	 university of california	 university of california	 university of north carolina atchapel hill and north carolina state university	 university of california	 university of california	 university of north carolina atchapel hill and north carolina state university	shenzhen university
+
+abs175.txt	 university of pennsylvania	evine cancer institute	 oregon health & science university	ocky mountain cancer centers	rizona clinical research center	NOT DETECTED / OTHER: texas oncology, longview, tx, united states	NOT DETECTED / OTHER: compass oncology, vancouver, wa, united states	ancer center of kansas	 sammons cancer center	NOT DETECTED / OTHER: celgene corporation, summit, nj, united states	avid geffen school of medicine at ucla	 university of north carolina
+
+abs79.txt	 the ohio stateuniversity 	 beaumont hospital oakwood campus 	 wayne state university 	 the ohio state university 	 university of north carolina school of globalpublic health 	 university of california at berkeley 	 wayne stateuniversity 
+
+abs276.txt	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapelhill	 university of tennessee health sciencescenter/west cancer center
+
+abs146.txt	 university of north carolina atchapel hill school of medicine	 university of north carolina at chapelhill school of medicine	 university of north carolina at chapel hill	 university of north carolina atchapel hill school of medicine	 hershey medical center	 university of north carolina atchapel hill school of medicine	 university of north carolina at chapel hill schoolof medicine
+
+abs330.txt	university of north carolina at chapel hill	 university of north carolina atchapel hill
+
+abs37.txt	 university of southern california	 university of north carolina	 university of washington center for mendeliangenomics	university of vermont	 university of vermont	 university of colorado denver	 canada;montrealheart institute	 university of wisconsin-milwaukee	 university of mississippi medicalcenter	NOT DETECTED / OTHER: department of medicine, national jewish health, denver, co, usa	 university of washington	 university of maryland	 university of minnesota	 boston university school of public health	harles bronfman institute for personalized medicine	 icahn school ofmedicine at mount sinai	indich child health and development institute	anderbilt genetics institute	 university of virginia	loodworks nw research institute	 university of washington	 university of washington	 fred hutchinson cancer research center
+
+abs363.txt	 johns hopkins bloomberg school of public health	 university of north carolina school ofmedicine	kenya medical research institute	NOT DETECTED / OTHER: from the department of microbiology, immunology and parasitology, and.
+
+abs335.txt	 university of north carolina at chapel hill	 university of texas at austin	 dalhousie university	 dalhousie university	 university of north carolina at chapel hill
+
+abs312.txt	NOT DETECTED / OTHER: cancer and aging research program, city of hope, duarte, california	 salvador zubiran national institute of medicalscience and nutrition	 memorial sloan kettering cancer center	 university of rochester medical center	con clinical research	 wake forest school of medicine	 case western reserve university	 yale school of medicine	niversity of north carolina school of medicine	 thomas jefferson university	 duke university medicalcenter	NOT DETECTED / OTHER: department of supportive care medicine, city of hope, duarte, california.
+
+abs8.txt	 university of north carolina school of medicine 	 university of buenosaires 	university of north carolina at chapel hill 	 memorial sloan kettering cancer center 	 university of north carolina 
+
+abs266.txt	 university of north carolina at chapel hill	university of north carolina at chapel hill	 university of north carolina atchapel hill	university of north carolina at chapel hill
+
+abs334.txt	uke university school of nursing	niversity of north carolina at greensboro	orth carolina a&t state university/university of north carolina atgreensboro
+
+abs351.txt	 university ofnorth carolina at chapel hill	 university of north carolina at chapel hill	nstitute of medicinal plant development (implad)	 jilin university
+
+abs209.txt	niversity of colorado	d anderson cancer center	hio state university	utgers cancer institute of new jersey	ashington university school of medicine	niversity of north carolina	niversity of pittsburgh	rincess margaret hospital	olorado state university	niversity of texas at austin dell medical school	niversity of colorado
+
+abs174.txt	 lester and sue smith breast center	 washington university in st	 washingtonuniversity in st	 washington university in st	 washington university in st	 lester and sue smith breast center	 baylor college of medicine	 university ofnorth carolina	 kitasato university school ofmedicine	 hamamatsu university school of medicine	 university of são paulo school ofmedicine (fmusp)	 stateuniversity of campinas - unicamp	 university of cambridge	 memorial sloankettering cancer center	uman genome sequencing center	niversity of texas southwestern medical center	 baylor college of medicine	 mayo clinic	 md anderson cancer center	 washington university in st	 mayo clinic comprehensive cancer center	 baylor college of medicine	 washington university in st	 lester and sue smith breast center
+
+abs414.txt	 karolinska institutet	 university of california san francisco	uck institute for research on aging	 karolinska institutet	 the universityof north carolina at chapel hill	 university of california san francisco	 university of california san francisco	 university of california davis	 university of southerncalifornia	 university of californiairvine	 university of california sandiego	linköping university	 karolinska institutet
+
+abs297.txt	 university of north carolina atchapel hill	NOT DETECTED / OTHER: department of microbiology, immunology, and cancer biology, and	 the university of virginia
+
+abs344.txt	 and the smilow cancer center atyale university	idney kimmel comprehensive cancer center at johns hopkins	linical research division	ineberger comprehensive cancer center at university of north carolina	uke cancer institute	olumbia university medical center	exas oncology at baylor university medical center	iteman cancer center at washington university	NOT DETECTED / OTHER: cancer therapy evaluation program, nih, bethesda, maryland	idney kimmel comprehensive cancer center at johns hopkins
+
+abs124.txt	untsman cancer institute	 university of utah	untsman cancer institute	 university of utah	 university of north carolina	nc lineberger comprehensive cancer center
+
+abs429.txt	 university of north carolina at chapel hill	 emory university	 oregon health & science university	 north carolina central university
+
+abs71.txt	 university of zambia school ofmedicine; kennedy lishimpi
+
+abs383.txt	 emoryuniversity	 the ohio state university james cancerhospital	 university of north carolina at chapel hilllineberger cancer center	 university of north carolinaat chapel hill lineberger cancer center	 ohsu knight cancer institute	 medical college of wisconsin cancercenter	evine cancer institute
+
+abs287.txt	 the university of north carolinaat chapel hill	 the university of north carolina atchapel hill
+
+abs105.txt	university of illinois at chicago 	NOT DETECTED / OTHER: capes foundation, ministry of education of brazil , brasília , federaldistrict 70040-020 , brazil	 theohio state university 	 university of north carolina atgreensboro 
+
+abs434.txt	NOT DETECTED / OTHER: a drug metabolism and pharmacokinetics, takeda pharmaceuticals internationalco , 35 landsdowne street, cambridge, ma , usa	NOT DETECTED / OTHER: b cancer pharmacology, takeda pharmaceuticals international co , 40 landsdownestreet, cambridge, ma , usa , and	 university of north carolina at chapel hill 
+
+abs185.txt	 wake forest university school of medicine	 university ofnorth carolina at chapel hill	 university of north carolina atchapel hill	 wake forest university school of medicine	 wake forest university school of medicine
+
+abs345.txt	university of north carolina	edars-sinai medical center
+
+abs317.txt	 university of north carolina at chapelhill	 university of north carolina at chapelhill	 university of north carolina at chapel hill	 university of north carolinaat chapel hill	 university of northcarolina at chapel hill	 university of north carolina at chapelhill	 university of northcarolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs405.txt	east carolina university	usda/ars grand forks human nutrition research center	east carolina university	usda/ars children's nutrition research center	university of north carolina at chapel hill	university ofminnesota
+
+abs58.txt	 washingtonuniversity in st	university of north carolina-chapel hill	university of north carolina-chapel hill	 university of north carolina-chapelhill	 university ofnorth carolina-chapel hill	 roswell park cancer institute	 university of buffalo school of medicine andbiotechnology	 louisiana state university health science center	 washingtonuniversity in st
+
+abs304.txt	 university ofcolorado school of medicine	 university of northcarolina at chapel hill	niversity of colorado school of medicine	 university of northcarolina at chapel hill	 university of north carolina at chapelhill	 duke school ofmedicine	 university of northcarolina at chapel hill
+
+abs127.txt	niversity of pennsylvania	niversity of north carolina	edical university of south carolina	red hutchinson cancer research center	ak ridge institute for science education	niversity of pennsylvania
+
+abs97.txt	rti international–university of north carolina at chapel hill evidence-basedpractice center
+
+abs90.txt	 university of north carolina	 university of north carolina
+
+abs319.txt	 centers for disease control andprevention	NOT DETECTED / OTHER: information systems, northrop grumman corporation, atlanta, ga, usa	 national institute of environmental health sciences	 university of bergen	 university of north carolina gillings school ofglobal public health	NOT DETECTED / OTHER: social and scientific systems, inc., durham, nc, usa	 national institute of environmental health sciences
+
+abs353.txt	 university of north carolinaschool of medicine	arvard medical school	 university of pittsburgh	aiser permanente of washington health research institute	 university ofpittsburgh medical center
+
+abs338.txt	 university of north carolina at chapel hill	 university of north carolina at chapelhill	 university of northcarolina at chapel hill	 columbia university college of physicians and surgeons	 emory university	 university of north carolina at chapel hill
+
+abs27.txt	 university of north carolina 	university of north carolina 	university of north carolina 	 university of north carolina 
+
+abs314.txt	 university of kansas 	 university of north carolina at chapel hill 	 university of michigan 	 university of michigan 
+
+abs274.txt	ana-farber cancer institute	road institute of harvard and mit	 brigham and women's hospital	arvard medical school	ana-farber cancer institute	 brigham and women's hospital	 dana-farber cancerinstitute/brigham and women's hospital	 chan school of public health	 stony brookuniversity	assachusetts general hospital cancer center	 brigham and women's hospital	 brigham and women's hospital	 brigham and women's hospital	NOT DETECTED / OTHER: department of medical affairs, guardant health, inc., redwood city,california	NOT DETECTED / OTHER: biomed valley discoveries, kansas city, missouri	NOT DETECTED / OTHER: cold spring harbor laboratory, cold spring harbor, new york; lustgartenfoundation pancreatic cancer research laboratory, cold spring harbor, new york	 university of north carolina
+
+abs22.txt	 huntsman cancer institute	 huntsman cancer institute	 university hospital heidelberg	 huntsman cancer institute	 university of utah	NOT DETECTED / OTHER: huntsman cancer insitute	huntsman cancer institute	 german cancer research center	 heidelberguniversity hospital	university hospital heidelberg	 university clinic of heidelberg	 national center for tumor diseases	 lee moffittcancer center & research institute	university of tennessee health science center	 heidelberg universityhospital	 university ofheidelberg	 university of north carolina at chapel hill	 university of heidelberg	NOT DETECTED / OTHER: huntsman cancer insitute neli.ulrich@hci.utah.edu.
+
+abs286.txt	enter for health research - kaiser permanente northwest	 university of north carolina	enter for health research - kaiser permanente northwest	NOT DETECTED / OTHER: ideo, san francisco, ca, usa	NOT DETECTED / OTHER: kaiser permanente northern california, oakland, ca, usa	 university of washington	 university of tennessee health science center	offitt cancer center
+
+abs374.txt	 university of pennsylvania	 george washington university	 university of north carolina	 national institutes of health
+
+abs126.txt	 shanghai jiao tonguniversity	 university of north carolina at chapel hill	 fudanuniversity	NOT DETECTED / OTHER: shanghai key lab of medical image computing and computer-assistedintervention, shanghai, 200040, china	eurosurgery department of huashan hospital	university of dundee	 shanghai jiao tonguniversity	 fudanuniversity	NOT DETECTED / OTHER: shanghai key lab of medical image computing and computer-assistedintervention, shanghai, 200040, china. hlujf@126.com	eurosurgery department of huashan hospital	 university of north carolina at chapelhill	 korea university
+
+abs385.txt	 the university of north carolinaat chapel hill	 dalhousie university	NOT DETECTED / OTHER: department of research and evaluation, kaiser permanente research, pasadena,ca, usa	 the university of north carolinaat chapel hill	 the university ofnorth carolina
+
+abs52.txt	uke university hospital	leveland clinic	niversity of north carolina medical center
+
+abs74.txt	 university hospital schleswig-holstein	 national cancer institute	 thomas' hospital	 johns hopkins university school ofmedicine	 the tisch cancer institute	 university of northcarolina	ale cancer center	arts cancer institute	 university of southern california	emorial sloan kettering cancer center	 the university of texas mdanderson cancer center	 dana farber cancerinstitute	 san camillo forlanini hospital
+
+abs332.txt	 lineberger comprehensive cancer centerat the university of north carolina	ineberger cancer center at the university of north carolina	 washington university school of medicine	 lineberger comprehensive cancer center atthe university of north carolina	 linebergercomprehensive cancer center at the university of north carolina	est cancer center
+
+abs322.txt	NOT DETECTED / OTHER: department of medicine and	 university of north carolina	 university of malawi	NOT DETECTED / OTHER: malawi cancer consortium and	egional center of research excellence for non-communicable diseases	 national cancer institute
+
+abs53.txt	eorgetown university school of medicine	ashington university school of medicine	ohns hopkins bloomberg school of public health	niversity of north carolina school of medicine	mory university school of medicine	niversity of southern california	niversity of california	aimonides medical center	lbert einstein college of medicine
+
+abs432.txt	university of north carolina	 university of north carolina	niversity of north carolina lineberger comprehensive cancer center	 university of northcarolina	 harvard medical school	 university of north carolina at chapelhill school of medicine	 brigham and women's hospital
+
+abs270.txt	NOT DETECTED / OTHER: harvard radiation oncology program, boston, ma 02114, usa. electronic address:jdbyrne@partners.org	 university of north carolina at chapelhill	 university of north carolina at chapelhill
+
+abs220.txt	saint louis university school of medicine	 university of northcarolina school of medicine	 memorial sloan kettering cancercenter	 university of north carolina	university of north carolina	 duke university	 university of north carolina school of medicine	 university of northcarolina school of medicine	 the university of texas md anderson cancercenter	 national cancerinstitute	 national cancer institute	NOT DETECTED / OTHER: semanticbits, herndon, va, united states	 national cancerinstitute	uke cancer institute	NOT DETECTED / OTHER: fhi 360, durham, nc, united states	 duke university school of medicine	 dana-farber cancer institute	 mayo clinic	NOT DETECTED / OTHER: flatiron health, new york, ny, united states.
+
+abs263.txt	 hospital alemán of buenos aires	 university of north carolina	 hospital alemán of buenos aires	university of north carolina at chapel hill	 university of north carolina
+
+abs191.txt	 psl research university	 psl research university	NOT DETECTED / OTHER: universidad de buenos aires. facultad de medicina. instituto de oncología a.h. roffo. área de investigación. san martin 5481, buenos aires, c1417dtb,argentina	NOT DETECTED / OTHER: member of consejo nacional de investigaciones científicas y técnicas(conicet), buenos aires, argentina	 psl research university	 psl research university	 psl research university	university of cologne	 psl research university	 the university of north carolina at chapel hill	 universityhospital bergmannsheil	 paris descartes university	 psl research university
+
+abs259.txt	 university of north carolina	 university of north carolina	 university of north carolina	 federal university of saopaulo	 university of north carolina
+
+abs40.txt	NOT DETECTED / OTHER: département de médecine sociale et préventive, école de santé publique,université de montréal, 7101 park ave, montréal, québec, canada h3n 1x9	entre de recherche du centre hospitalier de l'université de montréal(crchum)	 university ofedinburgh	 university oftoronto	university of north carolina at chapel hill	 university ofedinburgh
+
+abs223.txt	university of north carolina at chapel hill	 massey cancer center at virginia commonwealthuniversity
+
+abs359.txt	niversity of chicago comprehensive cancer center	 mayo clinic	ayo clinic	NOT DETECTED / OTHER: city of hope, duarte, ca, united states	 duke university medical center	niversity of north carolina at chapel hill	ashington university school of medicine	edstar georgetown university hospital	eill medical college of cornell university	he ohio state medical center	NOT DETECTED / OTHER: cardinal health, dublin, oh, united states. electronic address:chadi.nabhan@cardinalhealth.com.
+
+abs112.txt	 university of pennsylvania perelmanschool of medicine
+
+abs418.txt	 the university of north carolina 	 university ofpennsylvania 	 kaiser permanente washington health research institute 	 geisel school of medicine atdartmouth 	 university ofcalifornia 	 stanford university 	 university of utah school ofmedicine 	 the dartmouth institute for health policy and clinical practice and norriscotton cancer center 
+
+abs26.txt	university of north carolina at chapel hill	 university of northcarolina at chapel hill	 university of north carolina at chapelhill	 icahn school of medicine at mountsinai	 university of north carolina atchapel hill	 university of north carolina at chapel hill
+
+abs269.txt	ncology center of excellence	enter for drug evaluation and research	eisinger commonwealth school of medicine	edicines and healthcare products regulatory agency	 university of north carolina	NOT DETECTED / OTHER: pfizer inc., groton, ct, usa	 lurie comprehensive cancer center of northwestern university	 ut md andersoncancer center	uropean organisation for research and treatment of cancer (eortc) hq	ox chase cancer center	 colorado school of publichealth	NOT DETECTED / OTHER: patient representative, east lansing, mi, usa	ational cancer institute	NOT DETECTED / OTHER: genentech, south san francisco, ca, usa	NOT DETECTED / OTHER: merck research laboratories, merck & co., kenilworth, nj, usa	NOT DETECTED / OTHER: astrazeneca, gothenburg, sweden	NOT DETECTED / OTHER: therapeutic products directorate, health products and food branch, healthcanada, ottawa, on, canada	 mayo clinic	 university of leeds	 critical path institute
+
+abs354.txt	 university of north carolina	nc lineberger comprehensive cancer center
+
+abs137.txt	 university of north carolinaschool of medicine	 purdueuniversity school of pharmacy and the purdue center for cancer research	 national cancer institute	university of north carolina school of medicine
+
+abs157.txt	 university of northcarolina school of medicine	 university of north carolina at chapelhill	university of north carolina at chapel hill	university of north carolina at chapel hill	 university of northcarolina at chapel hill
+
+abs240.txt	 memorial sloankettering cancer center	NOT DETECTED / OTHER: department of medicine, weill cornell medicine, new york, new york	 university of virginia school of medicine	 cleveland clinic	 university ofmichigan health system	NOT DETECTED / OTHER: florida cancer specialists, fort myers	 university ofnorth carolina	 cedars-sinaimedical center	 university ofcalifornia san francisco helen diller family comprehensive cancer center	NOT DETECTED / OTHER: epic sciences, inc, san diego, california	NOT DETECTED / OTHER: bind therapeutics, inc, cambridge, massachusetts.
+
+abs439.txt	 king's college london	university of north carolina at chapel hill 
+
+abs250.txt	university of north carolina at chapel hill	 universityof north carolina at chapel hill	 university of north carolina atchapel hill	university of north carolina at chapel hill	 university of north carolina at chapel hill	 dana-farber cancer institute
+
+abs438.txt	 university of north carolina medical center	 university of north carolina eshelman school of pharmacy	 lineberger comprehensive cancer center biostatistics core
+
+abs234.txt	 duke university	 university of north carolina	 duke university	NOT DETECTED / OTHER: gtx, memphis, tennessee	 duke cancer institute
+
+abs111.txt	 zhejianguniversity school of medicine	 the union hospital of fujian medicaluniversity	 university of north carolina at chapel hill	 zhejiang university school ofmedicine
+
+abs233.txt	 university of north carolinaschool of medicine	 university of washington	 veterans affairs puget sound healthcaresystem and university of washington	 veterans affairs puget sound healthcare systemand university of washington	 veterans affairs san diego healthcare system anduniversity of california	NOT DETECTED / OTHER: research and development, veterans affairs puget sound healthcare system,seattle, washington	 veterans affairs puget sound healthcare systemand university of washington
+
+abs327.txt	 university of north carolina school ofmedicine	 rutgers cancer institute of new jersey	 rutgers robert wood johnson medical school	 washington university school of medicine	utgers school of public health	 washington university school of medicine	 rutgers cancer institute of new jersey	 jacobi medical center	 university of colorado	 washington university school of medicine
+
+abs253.txt	university of north carolina	 universityof north carolina	 university of north carolina
+
+abs36.txt	 north carolina centraluniversity	university of north carolina chapel hill	 university of north carolina chapelhill
+
+abs219.txt	NOT DETECTED / OTHER: cancer program, unc project-malawi, lilongwe, malawi	 university of northcarolina	 duke university school of medicine	 northwestern university feinberg schoolof medicine	aylor college of medicine children's foundation malawi	 texas children'shospital	 university of north carolina	 university of malawi
+
+abs13.txt	rench reference center for paraneoplastic neurological syndrome	NOT DETECTED / OTHER: institut neuromyogene inserm u1217/cnrs umr 5310, université de lyon -université claude bernard lyon 1, f-69372, lyon, france	niversity of lyon	 university of north carolina	 hirosaki universitygraduate school of medicine	niversity grenoble alpes	groupement hospitalier est	 lyon-sud hospital	rench reference center for paraneoplastic neurological syndrome	NOT DETECTED / OTHER: institut neuromyogene inserm u1217/cnrs umr 5310, université de lyon -université claude bernard lyon 1, f-69372, lyon, france.jerome.honnorat@chu-lyon.fr	niversity of lyon	NOT DETECTED / OTHER: neuro-oncologie, hôpital neurologique pierre wertheimer, 59 boulevard pinel,69677, bron cedex, france. jerome.honnorat@chu-lyon.fr.
+
+abs21.txt	 university of north carolinaat chapel hill	 university of northcarolina	 university of north carolina at chapel hill	 university of north carolinaat chapel hill	 university of northcarolina
+
+abs260.txt	 the institute of cancer research	 university of north carolina gillings school ofglobal public health	 national institute ofenvironmental health sciences	 karolinska institutet	 chan school of public health	 university of pisa	 beckman research institute of city of hope	lone epidemiology center at boston university	 centre d'etude des supports de publicité	 university oftromsø	 new yorkuniversity school of medicine	 johns hopkins bloomberg school of public health	ublic health direction and biodonostia research institute and centro deinvestigación biomédica en red de epidemiología y salud pública	 international agency for research oncancer	 brigham andwomen's hospital	NOT DETECTED / OTHER: cancer epidemiology and intelligence division, cancer council victoria,melbourne, victoria, australia	 university of melbourne	 university of massachusetts	 german cancer research center	 university of oxford	 university of toronto	national cancer institute	 duke-nus (national university ofsingapore) medical school	 karolinska institutet	 cancer research andprevention institute	 imperial college	 aarhus university	NOT DETECTED / OTHER: radiation effects research foundation, hiroshima, japan	niversity medical center	 albert einstein college ofmedicine	 umeå university	NOT DETECTED / OTHER: hellenic health foundation, athens, greece	 institute of population-based cancer research	 university of oslo	 university of southern california	 norwegian university of science and technology	university of helsinki	 chan school of public health	niversity of pittsburgh graduate school of public health and upmc hillmancancer center	 national institute of environmental health sciences	 the institute of cancer research
+
+abs271.txt	 china medical university	 china medical university	 national cheng kung university	university of north carolina	 china medical universityhospital	 china medical university
+
+abs433.txt	 university of north carolina	 stanforduniversity school of medicine	nstitute for disease modeling	 johns hopkins university	 university of north carolina	 san diego state university
+
+abs395.txt	 the university of northcarolina	 the university of north carolina	 the university of northcarolina	 theuniversity of north carolina
+
+abs360.txt	 university of north carolina at chapel hill	 trinity translationalmedicine institute	 chan school of public health	 duke university school ofmedicine	amuel oschin comprehensive cancer institute	 university of illinois at chicago	NOT DETECTED / OTHER: research and development, glaxosmithkline, inc., king of prussia,pennsylvania	 washington university	 veterans affairs medical center
+
+abs92.txt	 capitalmedical university beijing	 university of north carolina at chapel hillchapel hill	 capital medical university beijing	 university of north carolina at chapelhill chapel hill	NOT DETECTED / OTHER: oncoceutics philadelphia, pa, usa.
+
+abs158.txt	 case western university	 university of north carolina	temple university
+
+abs30.txt	niversity of north carolina school of medicine	niversity of north carolina school of medicine	niversity of texas southwestern medical center	illings school of global public health	NOT DETECTED / OTHER: gi quality improvement consortium	ake forest school of medicine
+
+abs325.txt	 university of north carolina	 university of north carolina	 university of north carolina	northwestern university
+
+abs415.txt	 university of north carolina at chapel hill	 hospital alemán of buenos aires	 university of north carolina at chapel hill	university of north carolina at chapel hill	 university of north carolina
+
+abs118.txt	niversity of colorado anschutz medical center	rchbold medical center	NOT DETECTED / OTHER: minneapolis va health care system, minneapolis, mn, usa	ashington university	orthwestern university	niversity of kansas school of medicine	niversity of california in los angeles	niversity college hospital	niversity of nottingham	niversity of adelaide	niversity of north carolina	niversity of colorado anschutz medical center
+
+abs238.txt	niversity of north carolina	niversity of southern california	niversity of oklahoma	hio state university	 thomas jefferson university	niversity of wisconsin	ew york university school of medicine	e debakey va medical center	niversity of iowa	ohns hopkins university	olumbia university medical center	niversity of chicago	 university of texas	anderbilt university	niversity of minnesota	ontefiore medical center	leveland clinic	t southwestern medical center
+
+abs186.txt	aylor university medical center	 mayo clinic	 mayo clinic	orthwestern university	edical university of south carolina	 united arab emirateswashingtonuniversity school of medicine	aylor university medical center	NOT DETECTED / OTHER: franciscan health, indianapolis, in	he university of texas m	ugusta university	niversity of north carolina	ayo clinic	leveland clinic-weston	 oregon health and sciences university	ankenau hospital	niversity of colorado denver	chsner clinic foundation	ahey hospital & medical center	niversity of chicago medicine	lorida hospital medical group	tanford university school of medicine
+
+abs116.txt	university of north carolina at chapel hill	 colorado state university
+
+abs153.txt	 university of north carolina at charlotte	 university of north carolina at charlotte	 university of north carolina at charlotte
+
+abs428.txt	 university of north carolina chapel hill
+
+abs140.txt	 unc school of medicine	 university of north carolina at chapelhill	 vanderbilt university medical center	university of north carolina at chapel hill	 rutgers university	NOT DETECTED / OTHER: department of urology	NOT DETECTED / OTHER: division of hematology/oncology, department of medicine	NOT DETECTED / OTHER: department of genetics	NOT DETECTED / OTHER: department of biochemistry and biophysics, and	 unc school ofmedicine
+
+abs365.txt	NOT DETECTED / OTHER: division of infectious diseases, weill cornell medicine, new york, new york	enter for biostatistics in aids research	 icahn school of medicine at mount sinai	 national institutes of allergy and infectious diseases	 baylor college of medicine	NOT DETECTED / OTHER: social & scientific systems, inc., silver spring, maryland	 university of northcarolina at chapel hill	 university of washington	 university of washington	 university of washington	 washington university school of medicine	NOT DETECTED / OTHER: merck and company, inc., west point	 university of pittsburgh
+
+abs147.txt	university of north carolina-chapel hill	gillings school of global public	hemophilia and thrombosis center	dana-farber cancer institute	wake forest university	unc lineberger comprehensive cancer center	uke university
+
+abs134.txt	 university of texas health sciences centerat san antonio	 university of texas health sciences centerat san antonio	 university of north carolina
+
+abs396.txt	 university of north carolina at chapel hill	ineberger comprehensive cancer center	 university of north carolina at chapel hill	 university of north carolina atchapel hill	 duke university school of medicine	 north carolina state university	 virginia tech carilion school ofmedicine	 duke university school of medicine	 cedars-sinai medical center	 university ofwisconsin-madison
+
+abs73.txt	NOT DETECTED / OTHER: department of health policy and management	 university of north carolina at chapelhill	 weill cornell medical college	 university of texassouthwestern medical center	NOT DETECTED / OTHER: department of health behavior	NOT DETECTED / OTHER: division of hematology and oncology	 university of north carolina at chapel hill
+
+abs160.txt	 university of north carolina	 johns hopkins university	 hacettepe university	 university of north carolinahospitals
+
+abs380.txt	 universityof north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapelhill	 university of north carolina at chapel hill	 universityof north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 north carolina stateuniversity	 university of northcarolina at chapel hill
+
+abs381.txt	 university of north carolina	 university of north carolina
+
+abs57.txt	 memorial sloan kettering cancer center	 weill cornell medical college	 memorial sloan kettering cancer center	 weill cornell medical college	NOT DETECTED / OTHER: innocrin pharmaceuticals inc., durham, nc, usa	 university of north carolina	 university of north carolina	ohns hopkins sidney kimmel comprehensive cancer center	anderbilt university medical center	 university of colorado anschutz medical campus	 champalimaud clinical center/champalimaud foundation
+
+abs42.txt	 east carolina university	NOT DETECTED / OTHER: department of internal medicine, nyc health, new york, ny, usa	 baylor college of medicine	 university of north carolina	 osaka international cancer institute
+
+abs227.txt	 the ohio state university	NOT DETECTED / OTHER: equally contributing first authors	 university of north carolinaschool of medicine	 university of north carolina school ofmedicine
+
+abs323.txt	 medical university of south carolina	 medical university of south carolina	 medical university of south carolina	 medical university of southcarolina	 medical university of south carolina	 northwestern university	 university of north carolina school of medicine
+
+abs254.txt	he university of north carolina at chapel hill; and north carolina cancerhospital
+
+abs372.txt	 the university of texas md andersoncancer center; elshad hasanov
+
+abs388.txt	 university of north carolina at chapel hill	 university of north carolina atchapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
+abs242.txt	 dartmouth-hitchcock medical center	 memorial sloan kettering cancercenter	 nyu school of medicine	oswell park cancer institute	 dartmouth college	 the universityof north carolina at chapel hill	 case western reserve university	 university of new mexico	 baylor college of medicine
+
+abs120.txt	university of north carolina	university of north carolina	university of north carolina
+
+abs69.txt	 university of north carolina gillings school of global publichealth
+
+abs236.txt	 the university of north carolina at chapel hill schoolof medicine	 the university of north carolinaat chapel hill school of medicine	 the university of north carolina atchapel hill school of medicine	 the university of north carolina at chapel hillschool of medicine	 the university of north carolina at chapel hill schoolof medicine
+
+abs350.txt	 north carolina stateuniversity	 north carolina stateuniversity	 north carolina state universityand university of north carolina at chapel hill
+
+abs256.txt	 university of north carolina
+
+abs60.txt	 university ofcalifornia	 university of southerncalifornia	university of north carolina	 wake forest universityschool of medicine	university of wisconsin school of medicine and public health
+
+abs384.txt	 university of north carolina	 georgia state university	NOT DETECTED / OTHER: department of biostatistics and bioinformatics	NOT DETECTED / OTHER: grady health system, atlanta, ga	 emory university
+
+abs324.txt	 august pi isunyer biomedical research institute (idibaps)	 hospital clínic de barcelona	 university of north carolina	 august pi isunyer biomedical research institute (idibaps)	 institute for research in biomedicine (irb barcelona) andciberonc	 hospital clínic de barcelona	 hospital clínic de barcelona
+
+abs188.txt	baylor college of medicine	 baylorcollege of medicine	enter for innovations in quality	 baylor college ofmedicine	exas medical center digestive disease center	 duncan cancer center at baylor college of medicine	enter for translational research on inflammatory diseases (ctrid)	baylor college of medicine	 baylorcollege of medicine	enter for innovations in quality	 baylor collegeof medicine	 university of north carolina at chapel hill	enter for innovations in quality	 baylor collegeof medicine	enter for innovations in quality	 baylor collegeof medicine	baylor college of medicine	eriatric research education and clinical center (grecc)	 university of washington	 baylorcollege of medicine	enter for innovations in quality	 baylor collegeof medicine	exas medical center digestive disease center	 duncan cancer center at baylor college of medicine	 baylorcollege of medicine	enter for innovations in quality	 baylor collegeof medicine	exas medical center digestive disease center	 duncan cancer center at baylor college of medicine	enter for translational research on inflammatory diseases (ctrid)
+
+abs130.txt	uke university school of nursing	uke cancer institute	NOT DETECTED / OTHER: the macdermott method, inc., 345 n. maple drive, suite 208, beverly hills, ca,90210, usa	uke university school of nursing	niversity of north carolina at chapel hill school of nursing	uke cancer institute
+
+abs321.txt	 universityof chicago
+
+abs46.txt	university of north carolina at chapel hill	 vanderbilt university medical center	 university of michigan	 university of north carolina at chapelhill	 university of north carolinaat chapel hill	university of north carolina at chapel hill
+
+abs81.txt	 university of arizona	 university of toronto	 university of north carolina andnorth carolina state university	 university of arizona
+
+abs96.txt	 university of north carolina at chapelhill	merican institutes for research	 university of north carolina at chapelhill	 university of north carolina at chapelhill	 university of north carolina at chapelhill
+
+abs267.txt	 chan school of public health	 university ofthe witwatersrand	 university of north carolina at chapelhill	 helen joseph hospital	 helen joseph hospital	university of north carolina	NOT DETECTED / OTHER: national health laboratory service, johannesburg, south africa	 university of thewitwatersrand	 bostonuniversity	 university of washington	NOT DETECTED / OTHER: path, seattle, wa	NOT DETECTED / OTHER: global coalition against cervical cancer, arlington, va.
+
+abs89.txt	entre hospitalier de l'université de montréal	 northwestern university	university of north carolina	niversity of duisburg-essen	 university of queensland	eorges pompidou hospital	 oregonhealth & science university	NOT DETECTED / OTHER: janssen research & development, horsham, pa, usa	NOT DETECTED / OTHER: janssen research & development, spring house, pa, usa	linical outcomes solutions	NOT DETECTED / OTHER: janssen research & development, raritan, nj, usa	NOT DETECTED / OTHER: janssen research & development, los angeles, ca, usa	assachusetts general hospital cancer center and harvard medical school	 university of california sanfrancisco
+
+abs279.txt	an andel research institute	 broad institute of massachusetts institute of technologyand harvard university	 university ofnorth carolina at chapel hill	 the universityof texas md anderson cancer center	 bc cancer agency	 memorial sloan kettering cancer center	nstitute for systems biology	 university of california	 the university oftexas md anderson cancer center	enter for molecular oncology	 university of pennsylvania	 university of pennsylvania	niversity of michigan hospital and health systems	 baylor college of medicine	niversity of wisconsin school of medicine and public health	 memorial sloankettering cancer center	 barretos cancer hospital	 university of ulm	 university hospital center zagreb	 barretos cancer hospital	he research institute at nationwide children's hospital	 broad institute of massachusetts institute oftechnology and harvard university	 broad institute of massachusetts institute oftechnology and harvard university	omputational biology center	uman genome sequencing center	ational cancer institute	ational human genome research institute	 broad institute of massachusetts institute oftechnology and harvard university	 university of pennsylvania	 university of southerncalifornia	 university ofnorth carolina at chapel hill
+
+abs246.txt	 university of north carolina atchapel hill	university of north carolina at chapel hill	 university of tennessee medicalcenter knoxville	 university of north carolina atchapel hill
+
+abs407.txt	 university of north carolina at chapelhill	 university of north carolina at chapelhill	 university of north carolina at chapelhill	 university of north carolina at chapelhill	 university of north carolina at chapelhill	 university of north carolina at chapelhill
+
+abs63.txt	chool of mathematics shandong university jinan 250100 p	tate key laboratory of microbial technology shandong university jinan 250100p	epartment of bioinformatics and genomics the university of north carolina atcharlotte 9201
+
+abs431.txt	uman genome sequencing center	 university of north carolina at chapel hill	NOT DETECTED / OTHER: laboratory for molecular medicine, partners healthcare personalized medicine,cambridge, massachusetts, usa	 brigham andwomen's hospital and harvard medical school	university of washington	 national human genome researchinstitute	 brigham & women's hospital and harvard medicalschool	 children's hospital ofphiladelphia	 children's hospital of philadelphia	 university of washington	udsonalpha institute for biotechnology	 university of michigan	 university of michigan medicalschool	road institute of mit and harvard	enaissance computing institute	 national human genome research institute	 university of pennsylvania	 children's hospital ofphiladelphia	dana-farber cancer institute	 brigham and women's hospital and harvard medicalschool	oward hughes medical institute	uman genome sequencing center	road institute of mit and harvard	dana-farber cancer institute	 brigham and women's hospital and harvard medicalschool
+
+abs411.txt	 university of north carolina at chapel hill	 university of north carolina at chapel hill	 university of north carolina at chapel hill
+
