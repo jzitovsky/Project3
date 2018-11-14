@@ -1,4 +1,5 @@
 library(stringr)
+library(readr)
 
 # a function that outputs a list containing a vector of collaborating authors and a vector of words appearing in the description from an inputted abstract
 processData = function(str) {
@@ -19,7 +20,7 @@ processData = function(str) {
       if (str_detect(x, keyWords[i])) {
         wordPlace = str_locate(x, keyWords[i])[1,1]
         commaPlaces = str_locate_all(x, '[,.]')[[1]][,1]
-	if (length(commaPlaces)==0) return(x) #return the whole string if there are no commas or periods
+        if (length(commaPlaces)==0) return(x) #return the whole string if there are no commas or periods
         begin=1
         end=str_length(x)+1
         for (j in 1:length(commaPlaces)) {
@@ -53,21 +54,26 @@ processData = function(str) {
   collab3 = c(ID, collab3) 
   words = c(ID, words)
   unqWords = c(ID, unqWords) #putting ID into lists
+
+  collabReformat = paste(collab3, collapse = "\t")
+  wordReformat = paste(words, collapse = "\t")
+  unqReformat = paste(unqWords, collapse = "\t")
   
-  matCollab = matrix(data = collab3, nrow=1)
-  matWords = matrix(data=words, nrow=1)
-  matUnq = matrix(data=unqWords, nrow=1)
-  
-  return(list(matCollab, matWords, matUnq))
+  return(list(collabReformat, wordReformat, unqReformat))
 }
 
 
+#extracting collaborator and word data
 args = commandArgs(trailingOnly = TRUE)
 str = readChar(args[1], file.info(args[1])$size)
 lista = processData(str)
-fileNameCollab = paste(toString(args[1]), ".collaborators.csv", sep="")
-fileNameWords = paste(toString(args[1]), ".words.csv", sep="")
-fileNameUnq = paste(toString(args[1]), ".unique.csv", sep="")
-write.csv(lista[[1]], fileNameCollab)
-write.csv(lista[[2]], fileNameWords)
-write.csv(lista[[3]], fileNameUnq)
+
+#creating names for the files to be created
+fileNameCollab = paste(toString(args[1]), ".collaborators.txt", sep="")
+fileNameWords = paste(toString(args[1]), ".words.txt", sep="")
+fileNameUnq = paste(toString(args[1]), ".unique.txt", sep="")
+
+#writing the data into .csv files
+write(lista[[1]], fileNameCollab)
+write(lista[[2]], fileNameWords)
+write(lista[[3]], fileNameUnq)
