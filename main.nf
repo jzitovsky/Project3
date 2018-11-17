@@ -28,12 +28,12 @@ process analyze_data {
 	file u from unq_out.collectFile(name: 'unqWords.txt', newLine: true)
 
 	output:
-	file '*.rds' into analout
+	file '*.csv' into results
  
 	"""
 	Rscript $baseDir/bin/analyzeData.R $c $w $u
 	"""
 }
 
-analout.subscribe{ println it }
+results.subscribe{ println it }
 
