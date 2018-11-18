@@ -1,6 +1,5 @@
 params.file_dir = 'data/p2_abstracts/*.txt'
-params.out_dir = 'data/'
-params.out_file = 'histogram.png'
+params.out_dir = 'shinyData/'
 
 file_channel = Channel.fromPath( params.file_dir )
 
@@ -21,6 +20,7 @@ process process_abstracts {
 }
 
 process analyze_data {
+	publishDir params.out_dir, mode: 'copy'
 
 	input: 
 	file c from col_out.collectFile(name: 'collaborators.txt', newLine: true)
@@ -34,6 +34,4 @@ process analyze_data {
 	Rscript $baseDir/bin/analyzeData.R $c $w $u
 	"""
 }
-
-results.subscribe{ println it }
 

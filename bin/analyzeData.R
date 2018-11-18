@@ -83,18 +83,45 @@ for (i in 1:10) {
 }
 
 
+#getting the words data from a list of data matrices to a single data matrix - each row gives the frequency (third column) of a word (second column) in abstracts with a particular collaborator (first column)
+wordsData = unlist(wordsByCol)
+frequencies = as.double(ifelse(str_detect(names(wordsData), "n\\d"), wordsData, NA))
+words = ifelse(str_detect(names(wordsData), "\\.\\d"), wordsData, NA)
+collaborators = vector("character", length(words)/2)
+numWords = lapply(wordsByCol, nrow) %>% unlist()
+j=0
+for (i in 1:10) {
+  collaborators[seq(j+1, j+numWords[i])] = rep(colTable$.[i], numWords[i])
+  j = j + numWords[i]
+}
 
-##saving data sets in the form of csvs (NOTE: Saving as an .rds file would be easier, but the instructions specified that Nextflow output csv data##
+frequencies = frequencies[!is.na(frequencies)]
+words = words[!is.na(words)]
+collaborators = collaborators[!is.na(collaborators)]
+wordsTableStrat = data.frame(frequencies, words, collaborators)
 
-#saving unstratified data sets
+#getting the subject/study-specific words into a similar format
+wordsData = unlist(filteredByCol)
+frequencies = as.double(ifelse(str_detect(names(wordsData), "n\\d"), wordsData, NA))
+words = ifelse(str_detect(names(wordsData), "\\.\\d"), wordsData, NA)
+collaborators = vector("character", length(words)/2)
+numWords = lapply(filteredByCol, nrow) %>% unlist()
+j=0
+for (i in 1:10) {
+  collaborators[seq(j+1, j+numWords[i])] = rep(colTable$.[i], numWords[i])
+  j = j + numWords[i]
+}
+
+frequencies = frequencies[!is.na(frequencies)]
+words = words[!is.na(words)]
+collaborators = collaborators[!is.na(collaborators)]
+filteredTableStrat = data.frame(frequencies, words, collaborators)
+
+
+
+##saving data sets in the form of csvs (NOTE: Saving as .rds files would be easier, but the instructions said csv data only)##
 write.csv(wordFreqTable, "wordsN.csv")
 write.csv(wordsFiltered, "filterWordsN.csv")
 write.csv(colTable, "collaboratorsN.csv")
-
-#saving all 20 data sets of words and filtered words by each of the top 10 collaborators
-for (i in 1:10) {
-  title1 = paste("words", toString(i), ".csv", sep="")
-  write.csv(wordsByCol[[i]], title1)
-  title2 = paste("filteredWords", toString(i), ".csv", sep="")
-  write.csv(filteredByCol[[i]], title2)
-}
+write.csv(wordsTableStrat, "wordsByCol.csv")
+write.csv(filteredTableStrat, "filterWordsByCol.csv")

@@ -63,3 +63,8 @@
 2018-11-14 14:17:12	2.2s	prickly_hypatia	OK	9fa4e101f24565f7410dcd601dae722e	87e4f5a8-fb1a-4e72-afb3-50c7ac3926b1	nextflow main.nf -resume
 2018-11-14 14:23:35	49.1s	suspicious_kalam	OK	3aaff1c94cf1ee2599587e7e37a224f1	6f475fa3-ab35-426d-b7e0-376c42f846f6	nextflow main.nf
 2018-11-14 14:53:16	48.5s	determined_spence	OK	3aaff1c94cf1ee2599587e7e37a224f1	d982b63d-48d3-4769-94ff-28dad4440d4c	nextflow main.nf
+2018-11-17 18:18:04	34s	ridiculous_mercator	OK	c617e11dcff682b1188d8684017f4d1c	d28a61b5-eb93-4c9e-a36f-770d50824361	nextflow main.nf
+2018-11-17 18:29:42	34.2s	naughty_poisson	OK	29ec4a09c4bc9b714c4dee09bf895e70	4761cb12-17f5-4acc-9d88-a521baec0dec	nextflow main.nf
+2018-11-17 19:35:07	34.3s	adoring_austin	ERR	29ec4a09c4bc9b714c4dee09bf895e70	4b40e2ba-8ccd-49f6-a131-563a585e8278	nextflow main.nf
+2018-11-17 19:36:36	5.9s	awesome_poisson	OK	29ec4a09c4bc9b714c4dee09bf895e70	4b40e2ba-8ccd-49f6-a131-563a585e8278	nextflow main.nf -resume
+2018-11-17 19:43:12	34.6s	crazy_linnaeus	OK	29ec4a09c4bc9b714c4dee09bf895e70	15dfa45a-17f5-43d0-b252-a4b371d951d2	nextflow main.nf
