@@ -1,5 +1,6 @@
 library(tidyverse)
 library(magrittr)
+library(strex)
 
 #reading in three text files where each new line represents another abstract, and tabs separate words/collaborators within abstracts
 args = commandArgs(trailingOnly = TRUE)
@@ -86,6 +87,8 @@ for (i in 1:10) {
 #getting the words data from a list of data matrices to a single data matrix - each row gives the frequency (third column) of a word (second column) in abstracts with a particular collaborator (first column)
 wordsData = unlist(wordsByCol)
 frequencies = as.double(ifelse(str_detect(names(wordsData), "n\\d"), wordsData, NA))
+frequencyValid = sum(str_can_be_numeric(frequencies) | is.na(frequencies)) == length(frequencies) #a boolean that's TRUE iff all elements in 'frequencies' can be converted to numeric (or are missing) 
+if (frequencyValid == F) stop("FREQUENCIES INVALID") #checking that we only have valid numeric frequencies, and throws error otherwise 
 words = ifelse(str_detect(names(wordsData), "\\.\\d"), wordsData, NA)
 collaborators = vector("character", length(words)/2)
 numWords = lapply(wordsByCol, nrow) %>% unlist()
@@ -96,6 +99,8 @@ for (i in 1:10) {
 }
 
 frequencies = frequencies[!is.na(frequencies)]
+frequencyValid = sum(str_can_be_numeric(frequencies) | is.na(frequencies)) == length(frequencies) 
+if (frequencyValid == F) stop("FREQUENCIES INVALID") 
 words = words[!is.na(words)]
 collaborators = collaborators[!is.na(collaborators)]
 wordsTableStrat = data.frame(frequencies, words, collaborators)

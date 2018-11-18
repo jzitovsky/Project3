@@ -1,95 +1,500 @@
-Nov-14 14:13:39.219 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf
-Nov-14 14:13:39.346 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
-Nov-14 14:13:39.355 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [disturbed_rubens] - revision: 9fa4e101f2
-Nov-14 14:13:39.426 [main] DEBUG nextflow.Session - Session uuid: 87e4f5a8-fb1a-4e72-afb3-50c7ac3926b1
-Nov-14 14:13:39.426 [main] DEBUG nextflow.Session - Run name: disturbed_rubens
-Nov-14 14:13:39.428 [main] DEBUG nextflow.Session - Executor pool size: 8
-Nov-14 14:13:39.441 [main] DEBUG nextflow.cli.CmdRun - 
+Nov-17 22:55:11.334 [main] DEBUG nextflow.cli.Launcher - $> /bin/nextflow main.nf -resume
+Nov-17 22:55:11.499 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 0.30.1
+Nov-17 22:55:11.508 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [agitated_babbage] - revision: 4dacd75d9c
+Nov-17 22:55:11.568 [main] DEBUG nextflow.Session - Session uuid: f47fd64f-5d6e-4350-9609-a60b25b6fa3a
+Nov-17 22:55:11.568 [main] DEBUG nextflow.Session - Run name: agitated_babbage
+Nov-17 22:55:11.570 [main] DEBUG nextflow.Session - Executor pool size: 8
+Nov-17 22:55:11.582 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 0.30.1 build 4844
   Modified: 11-06-2018 08:29 UTC (04:29 EDT)
   System: Linux 4.4.0-75-generic
   Runtime: Groovy 2.4.15 on Java HotSpot(TM) 64-Bit Server VM 1.8.0_171-b11
   Encoding: UTF-8 (UTF-8)
-  Process: 5363@bc02-n09.isis.unc.edu [152.19.196.234]
-  CPUs: 8 - Mem: 31.4 GB (30.2 GB) - Swap: 16 GB (16 GB)
-Nov-14 14:13:39.503 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
-Nov-14 14:13:39.650 [main] DEBUG nextflow.Session - Session start invoked
-Nov-14 14:13:39.657 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
-Nov-14 14:13:39.657 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
-Nov-14 14:13:39.890 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Nov-14 14:13:39.908 [main] DEBUG nextflow.Channel - files for syntax: glob; folder: data/p2_abstracts/; pattern: *40.txt; options: null
-Nov-14 14:13:40.069 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Nov-14 14:13:40.069 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Nov-14 14:13:40.074 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Nov-14 14:13:40.076 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
-Nov-14 14:13:40.081 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=31.4 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
-Nov-14 14:13:40.085 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
-Nov-14 14:13:40.085 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Nov-14 14:13:40.087 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
-Nov-14 14:13:40.132 [main] DEBUG nextflow.Session - >>> barrier register (process: process_abstracts)
-Nov-14 14:13:40.135 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > process_abstracts -- maxForks: 8
-Nov-14 14:13:40.192 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
-Nov-14 14:13:40.192 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
-Nov-14 14:13:40.192 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
-Nov-14 14:13:40.193 [main] DEBUG nextflow.Session - >>> barrier register (process: analyze_data)
-Nov-14 14:13:40.193 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > analyze_data -- maxForks: 8
-Nov-14 14:13:40.196 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
-Nov-14 14:13:40.196 [main] DEBUG nextflow.Session - Session await
-Nov-14 14:13:40.436 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:40.441 [Task submitter] INFO  nextflow.Session - [ca/9330c9] Submitted process > process_abstracts (1)
-Nov-14 14:13:40.457 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:40.458 [Task submitter] INFO  nextflow.Session - [94/18f9aa] Submitted process > process_abstracts (3)
-Nov-14 14:13:40.461 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:40.461 [Task submitter] INFO  nextflow.Session - [db/98531d] Submitted process > process_abstracts (2)
-Nov-14 14:13:40.464 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:40.465 [Task submitter] INFO  nextflow.Session - [2e/f7b959] Submitted process > process_abstracts (4)
-Nov-14 14:13:41.061 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: process_abstracts (1); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/ca/9330c9a937ae5c871e613a7fa23675]
-Nov-14 14:13:41.080 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: process_abstracts (3); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/94/18f9aab41b519185e744e88969caef]
-Nov-14 14:13:41.087 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: process_abstracts (2); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/db/98531de611abf55c1b95605ab29234]
-Nov-14 14:13:41.091 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: process_abstracts (4); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/2e/f7b959a0ba24d773a7f371756f68cd]
-Nov-14 14:13:41.194 [Actor Thread 8] DEBUG nextflow.Session - <<< barrier arrive (process: process_abstracts)
-Nov-14 14:13:41.296 [Actor Thread 3] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.013 s; external sort time: 0.002 s; total time: 0.015 s
-Nov-14 14:13:41.296 [Actor Thread 1] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.013 s; external sort time: 0.002 s; total time: 0.015 s
-Nov-14 14:13:41.296 [Actor Thread 5] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.012 s; external sort time: 0.003 s; total time: 0.015 s
-Nov-14 14:13:41.303 [Actor Thread 3] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /tmp/d33cc02b9c9aa08edaf64301d9859509.collect-file
-Nov-14 14:13:41.303 [Actor Thread 5] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /tmp/2cc0b156dca3f526468b9dd1b8dd25bf.collect-file
-Nov-14 14:13:41.303 [Actor Thread 1] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /tmp/151bada426f9bbaced29d865083b305f.collect-file
-Nov-14 14:13:41.311 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Nov-14 14:13:41.311 [Task submitter] INFO  nextflow.Session - [05/f74222] Submitted process > analyze_data (1)
-Nov-14 14:13:41.312 [Actor Thread 5] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-5322378427119816165
-Nov-14 14:13:41.312 [Actor Thread 1] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-9043803027932737960
-Nov-14 14:13:41.312 [Actor Thread 3] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-5019274813000515140
-Nov-14 14:13:41.481 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: analyze_data (1); status: COMPLETED; exit: 1; error: -; workDir: /home/joshz/Project3/work/05/f7422284ab941d5107ed22010a0ed1]
-Nov-14 14:13:41.505 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'analyze_data (1)'
-
-Caused by:
-  Process `analyze_data (1)` terminated with an error exit status (1)
-
-Command executed:
-
-  Rscript /home/joshz/Project3/bin/analyzeData.R collaborators.txt words.txt unqWords.txt
-
-Command exit status:
-  1
-
-Command output:
-  (empty)
-
-Command error:
-  Error in scan(file, what, nmax, sep, dec, quote, skip, nlines, na.strings,  : 
-    line 1 did not have 254 elements
-  Calls: read.table -> scan
-  Execution halted
-
-Work dir:
-  /home/joshz/Project3/work/05/f7422284ab941d5107ed22010a0ed1
-
-Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
-Nov-14 14:13:41.508 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: analyze_data)
-Nov-14 14:13:41.508 [main] DEBUG nextflow.Session - Session await > all process finished
-Nov-14 14:13:41.509 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `analyze_data (1)` terminated with an error exit status (1)
-Nov-14 14:13:41.524 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Nov-14 14:13:41.525 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
-Nov-14 14:13:41.532 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=4; failedCount=1; ignoredCount=0; cachedCount=0; succeedDuration=2.2s; failedDuration=85ms; cachedDuration=0ms]
-Nov-14 14:13:41.535 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
-Nov-14 14:13:41.548 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+  Process: 9249@bc02-n12.isis.unc.edu [152.19.196.237]
+  CPUs: 8 - Mem: 39.3 GB (37.3 GB) - Swap: 16 GB (16 GB)
+Nov-17 22:55:11.658 [main] DEBUG nextflow.Session - Work-dir: /home/joshz/Project3/work [ext2/ext3]
+Nov-17 22:55:11.872 [main] DEBUG nextflow.Session - Session start invoked
+Nov-17 22:55:11.880 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Nov-17 22:55:11.880 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Nov-17 22:55:12.115 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-17 22:55:12.132 [main] DEBUG nextflow.Channel - files for syntax: glob; folder: data/p2_abstracts/; pattern: *.txt; options: null
+Nov-17 22:55:12.232 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
+Nov-17 22:55:12.232 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
+Nov-17 22:55:12.238 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
+Nov-17 22:55:12.240 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
+Nov-17 22:55:12.244 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=39.3 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Nov-17 22:55:12.247 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
+Nov-17 22:55:12.248 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Nov-17 22:55:12.250 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
+Nov-17 22:55:12.295 [main] DEBUG nextflow.Session - >>> barrier register (process: process_abstracts)
+Nov-17 22:55:12.297 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > process_abstracts -- maxForks: 8
+Nov-17 22:55:12.484 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
+Nov-17 22:55:12.484 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
+Nov-17 22:55:12.484 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
+Nov-17 22:55:12.485 [main] DEBUG nextflow.Session - >>> barrier register (process: analyze_data)
+Nov-17 22:55:12.485 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > analyze_data -- maxForks: 8
+Nov-17 22:55:12.487 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Nov-17 22:55:12.487 [main] DEBUG nextflow.Session - Session await
+Nov-17 22:55:12.633 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [e9/8247ae] Cached process > process_abstracts (3)
+Nov-17 22:55:12.633 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [a8/9e8697] Cached process > process_abstracts (7)
+Nov-17 22:55:12.633 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [a9/368add] Cached process > process_abstracts (8)
+Nov-17 22:55:12.633 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [29/a5561d] Cached process > process_abstracts (2)
+Nov-17 22:55:12.633 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [e0/e8aba9] Cached process > process_abstracts (6)
+Nov-17 22:55:12.633 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [77/1d41b3] Cached process > process_abstracts (1)
+Nov-17 22:55:12.633 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [4a/807d69] Cached process > process_abstracts (4)
+Nov-17 22:55:12.633 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [ec/dd1612] Cached process > process_abstracts (5)
+Nov-17 22:55:12.652 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [ab/9c67d0] Cached process > process_abstracts (14)
+Nov-17 22:55:12.652 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [16/384497] Cached process > process_abstracts (9)
+Nov-17 22:55:12.652 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [93/fa7623] Cached process > process_abstracts (10)
+Nov-17 22:55:12.654 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [45/8890d3] Cached process > process_abstracts (12)
+Nov-17 22:55:12.656 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [09/b8315e] Cached process > process_abstracts (11)
+Nov-17 22:55:12.663 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [6e/325d66] Cached process > process_abstracts (17)
+Nov-17 22:55:12.663 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [82/873c6b] Cached process > process_abstracts (18)
+Nov-17 22:55:12.665 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [30/980e18] Cached process > process_abstracts (19)
+Nov-17 22:55:12.665 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [f7/0137da] Cached process > process_abstracts (16)
+Nov-17 22:55:12.672 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [67/ed0a28] Cached process > process_abstracts (15)
+Nov-17 22:55:12.674 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [89/ca917f] Cached process > process_abstracts (20)
+Nov-17 22:55:12.674 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [9f/08b3ac] Cached process > process_abstracts (22)
+Nov-17 22:55:12.675 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [ed/8823a4] Cached process > process_abstracts (13)
+Nov-17 22:55:12.676 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [0e/93a83f] Cached process > process_abstracts (24)
+Nov-17 22:55:12.676 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [c5/e58ecd] Cached process > process_abstracts (25)
+Nov-17 22:55:12.677 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [dc/9de790] Cached process > process_abstracts (23)
+Nov-17 22:55:12.676 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [fd/7f9cf6] Cached process > process_abstracts (21)
+Nov-17 22:55:12.678 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [f5/c6e1d5] Cached process > process_abstracts (26)
+Nov-17 22:55:12.678 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [89/88e767] Cached process > process_abstracts (28)
+Nov-17 22:55:12.678 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [f5/0d6404] Cached process > process_abstracts (27)
+Nov-17 22:55:12.680 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [5b/be00ac] Cached process > process_abstracts (30)
+Nov-17 22:55:12.680 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [05/08c6b8] Cached process > process_abstracts (29)
+Nov-17 22:55:12.682 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [dd/8da508] Cached process > process_abstracts (31)
+Nov-17 22:55:12.683 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [65/0a9769] Cached process > process_abstracts (33)
+Nov-17 22:55:12.684 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [ed/77d17c] Cached process > process_abstracts (35)
+Nov-17 22:55:12.684 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [36/2918c5] Cached process > process_abstracts (36)
+Nov-17 22:55:12.684 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [e7/3aa4c4] Cached process > process_abstracts (34)
+Nov-17 22:55:12.684 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [09/d58b70] Cached process > process_abstracts (37)
+Nov-17 22:55:12.686 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [e3/ba850b] Cached process > process_abstracts (32)
+Nov-17 22:55:12.687 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [9d/11efa1] Cached process > process_abstracts (38)
+Nov-17 22:55:12.688 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [41/1073f9] Cached process > process_abstracts (40)
+Nov-17 22:55:12.689 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [7b/453f24] Cached process > process_abstracts (41)
+Nov-17 22:55:12.690 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [95/ef4474] Cached process > process_abstracts (42)
+Nov-17 22:55:12.690 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [8a/82dfa2] Cached process > process_abstracts (43)
+Nov-17 22:55:12.690 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [4a/954f4d] Cached process > process_abstracts (44)
+Nov-17 22:55:12.691 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [b6/8a60c9] Cached process > process_abstracts (39)
+Nov-17 22:55:12.694 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [20/4e5752] Cached process > process_abstracts (45)
+Nov-17 22:55:12.694 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [8f/93336c] Cached process > process_abstracts (46)
+Nov-17 22:55:12.694 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [97/1941c1] Cached process > process_abstracts (47)
+Nov-17 22:55:12.695 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [6c/bec4dc] Cached process > process_abstracts (49)
+Nov-17 22:55:12.697 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [86/d059d0] Cached process > process_abstracts (48)
+Nov-17 22:55:12.698 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [ea/6611df] Cached process > process_abstracts (52)
+Nov-17 22:55:12.698 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [cd/5865ce] Cached process > process_abstracts (54)
+Nov-17 22:55:12.700 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [c7/a6252b] Cached process > process_abstracts (53)
+Nov-17 22:55:12.701 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [fe/12d6ac] Cached process > process_abstracts (50)
+Nov-17 22:55:12.702 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [bf/061bd0] Cached process > process_abstracts (55)
+Nov-17 22:55:12.702 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [cc/5385b2] Cached process > process_abstracts (51)
+Nov-17 22:55:12.702 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [a0/662917] Cached process > process_abstracts (56)
+Nov-17 22:55:12.704 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [bb/d6d4f6] Cached process > process_abstracts (57)
+Nov-17 22:55:12.705 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [ff/02a346] Cached process > process_abstracts (58)
+Nov-17 22:55:12.706 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [49/650d77] Cached process > process_abstracts (62)
+Nov-17 22:55:12.706 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [79/e114ab] Cached process > process_abstracts (59)
+Nov-17 22:55:12.706 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [25/bd0382] Cached process > process_abstracts (63)
+Nov-17 22:55:12.706 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [5f/aef046] Cached process > process_abstracts (64)
+Nov-17 22:55:12.708 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [c2/20340b] Cached process > process_abstracts (65)
+Nov-17 22:55:12.709 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [59/a71a9e] Cached process > process_abstracts (60)
+Nov-17 22:55:12.709 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [4b/a97148] Cached process > process_abstracts (66)
+Nov-17 22:55:12.709 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [c1/63460d] Cached process > process_abstracts (61)
+Nov-17 22:55:12.735 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [52/2f7d2a] Cached process > process_abstracts (67)
+Nov-17 22:55:12.735 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [2a/80492f] Cached process > process_abstracts (69)
+Nov-17 22:55:12.735 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [bf/6cd6a3] Cached process > process_abstracts (71)
+Nov-17 22:55:12.736 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [61/334902] Cached process > process_abstracts (70)
+Nov-17 22:55:12.736 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [39/b7f096] Cached process > process_abstracts (72)
+Nov-17 22:55:12.737 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [b2/e42ca8] Cached process > process_abstracts (68)
+Nov-17 22:55:12.738 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [fc/1910ac] Cached process > process_abstracts (74)
+Nov-17 22:55:12.739 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [8b/b4573e] Cached process > process_abstracts (76)
+Nov-17 22:55:12.739 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [97/ea48d1] Cached process > process_abstracts (78)
+Nov-17 22:55:12.739 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [99/b19feb] Cached process > process_abstracts (75)
+Nov-17 22:55:12.740 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [95/3d7746] Cached process > process_abstracts (73)
+Nov-17 22:55:12.740 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [46/6e8f0e] Cached process > process_abstracts (77)
+Nov-17 22:55:12.740 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [fe/eb0814] Cached process > process_abstracts (79)
+Nov-17 22:55:12.742 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [c9/bc7063] Cached process > process_abstracts (80)
+Nov-17 22:55:12.746 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [d3/6abb55] Cached process > process_abstracts (81)
+Nov-17 22:55:12.746 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [5e/a301f2] Cached process > process_abstracts (83)
+Nov-17 22:55:12.746 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [d0/bc8d45] Cached process > process_abstracts (82)
+Nov-17 22:55:12.750 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [68/247b77] Cached process > process_abstracts (87)
+Nov-17 22:55:12.750 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [5b/ceca76] Cached process > process_abstracts (86)
+Nov-17 22:55:12.750 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [f8/4d47c3] Cached process > process_abstracts (84)
+Nov-17 22:55:12.751 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [bf/dcae37] Cached process > process_abstracts (89)
+Nov-17 22:55:12.751 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [91/d30334] Cached process > process_abstracts (88)
+Nov-17 22:55:12.753 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [31/c4cb05] Cached process > process_abstracts (85)
+Nov-17 22:55:12.754 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [90/822fae] Cached process > process_abstracts (91)
+Nov-17 22:55:12.754 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [f5/9b24e8] Cached process > process_abstracts (90)
+Nov-17 22:55:12.757 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [31/269f41] Cached process > process_abstracts (93)
+Nov-17 22:55:12.757 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [27/4018c8] Cached process > process_abstracts (92)
+Nov-17 22:55:12.761 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [b8/b67d63] Cached process > process_abstracts (95)
+Nov-17 22:55:12.761 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [11/37ec5e] Cached process > process_abstracts (96)
+Nov-17 22:55:12.762 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [03/2ae6d2] Cached process > process_abstracts (94)
+Nov-17 22:55:12.765 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [a5/19f956] Cached process > process_abstracts (98)
+Nov-17 22:55:12.765 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [3a/f4a61e] Cached process > process_abstracts (97)
+Nov-17 22:55:12.766 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [2b/8129c8] Cached process > process_abstracts (100)
+Nov-17 22:55:12.766 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [04/4f9020] Cached process > process_abstracts (99)
+Nov-17 22:55:12.767 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [a0/d9112f] Cached process > process_abstracts (101)
+Nov-17 22:55:12.769 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [f7/8a07f4] Cached process > process_abstracts (102)
+Nov-17 22:55:12.769 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [1d/8300bd] Cached process > process_abstracts (103)
+Nov-17 22:55:12.771 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [a3/35d92b] Cached process > process_abstracts (104)
+Nov-17 22:55:12.771 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [d9/9a650f] Cached process > process_abstracts (105)
+Nov-17 22:55:12.773 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [22/bc0db1] Cached process > process_abstracts (107)
+Nov-17 22:55:12.773 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [80/958f89] Cached process > process_abstracts (108)
+Nov-17 22:55:12.774 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [d1/423e3a] Cached process > process_abstracts (109)
+Nov-17 22:55:12.774 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [e0/798464] Cached process > process_abstracts (106)
+Nov-17 22:55:12.777 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [b6/55b6a9] Cached process > process_abstracts (112)
+Nov-17 22:55:12.778 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [c2/580adb] Cached process > process_abstracts (115)
+Nov-17 22:55:12.778 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [eb/6e31bf] Cached process > process_abstracts (116)
+Nov-17 22:55:12.780 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [86/e989cc] Cached process > process_abstracts (117)
+Nov-17 22:55:12.780 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [dd/7e8c70] Cached process > process_abstracts (114)
+Nov-17 22:55:12.782 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [ef/801297] Cached process > process_abstracts (110)
+Nov-17 22:55:12.782 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [2f/89eeab] Cached process > process_abstracts (119)
+Nov-17 22:55:12.783 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [74/f113c4] Cached process > process_abstracts (118)
+Nov-17 22:55:12.783 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [7a/432e5e] Cached process > process_abstracts (113)
+Nov-17 22:55:12.783 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [88/eccd65] Cached process > process_abstracts (111)
+Nov-17 22:55:12.783 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [dc/95365b] Cached process > process_abstracts (120)
+Nov-17 22:55:12.787 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [50/94aa9e] Cached process > process_abstracts (122)
+Nov-17 22:55:12.787 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [0a/b204c0] Cached process > process_abstracts (123)
+Nov-17 22:55:12.788 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [4f/88d836] Cached process > process_abstracts (121)
+Nov-17 22:55:12.790 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [5e/ce7f7b] Cached process > process_abstracts (124)
+Nov-17 22:55:12.791 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [33/6c74f2] Cached process > process_abstracts (125)
+Nov-17 22:55:12.791 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [a7/c92390] Cached process > process_abstracts (127)
+Nov-17 22:55:12.792 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [bc/96ac35] Cached process > process_abstracts (126)
+Nov-17 22:55:12.792 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [ae/dc6760] Cached process > process_abstracts (129)
+Nov-17 22:55:12.793 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [25/eeb166] Cached process > process_abstracts (130)
+Nov-17 22:55:12.794 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [db/5f7fe2] Cached process > process_abstracts (128)
+Nov-17 22:55:12.795 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [d7/fc0e03] Cached process > process_abstracts (133)
+Nov-17 22:55:12.796 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [36/ee94b5] Cached process > process_abstracts (131)
+Nov-17 22:55:12.796 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [f0/dde9ab] Cached process > process_abstracts (135)
+Nov-17 22:55:12.796 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [15/64c048] Cached process > process_abstracts (132)
+Nov-17 22:55:12.796 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [8a/148248] Cached process > process_abstracts (134)
+Nov-17 22:55:12.797 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [ca/994ff9] Cached process > process_abstracts (136)
+Nov-17 22:55:12.800 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [47/d04d5b] Cached process > process_abstracts (138)
+Nov-17 22:55:12.800 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [82/f5aefb] Cached process > process_abstracts (140)
+Nov-17 22:55:12.800 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [38/4f72fe] Cached process > process_abstracts (141)
+Nov-17 22:55:12.800 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [b2/74287a] Cached process > process_abstracts (139)
+Nov-17 22:55:12.797 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [b3/e875ab] Cached process > process_abstracts (137)
+Nov-17 22:55:12.801 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [6b/f02770] Cached process > process_abstracts (142)
+Nov-17 22:55:12.802 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [1b/68e28a] Cached process > process_abstracts (143)
+Nov-17 22:55:12.802 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [75/fd54bb] Cached process > process_abstracts (144)
+Nov-17 22:55:12.804 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [95/65aa77] Cached process > process_abstracts (145)
+Nov-17 22:55:12.805 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [98/b5ae51] Cached process > process_abstracts (148)
+Nov-17 22:55:12.805 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [c3/806948] Cached process > process_abstracts (147)
+Nov-17 22:55:12.805 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [c8/879d3a] Cached process > process_abstracts (150)
+Nov-17 22:55:12.807 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [e2/44e693] Cached process > process_abstracts (149)
+Nov-17 22:55:12.807 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [9b/e662a0] Cached process > process_abstracts (152)
+Nov-17 22:55:12.808 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [b7/65d1f7] Cached process > process_abstracts (146)
+Nov-17 22:55:12.808 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [c2/4c41de] Cached process > process_abstracts (151)
+Nov-17 22:55:12.809 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [a7/3fd13f] Cached process > process_abstracts (155)
+Nov-17 22:55:12.809 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [c2/90667f] Cached process > process_abstracts (153)
+Nov-17 22:55:12.810 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [a4/44d0e6] Cached process > process_abstracts (156)
+Nov-17 22:55:12.811 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [90/9af04e] Cached process > process_abstracts (157)
+Nov-17 22:55:12.812 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [8a/46665c] Cached process > process_abstracts (160)
+Nov-17 22:55:12.812 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [52/5c7529] Cached process > process_abstracts (159)
+Nov-17 22:55:12.813 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [ee/144f31] Cached process > process_abstracts (158)
+Nov-17 22:55:12.814 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [ea/3ab53e] Cached process > process_abstracts (161)
+Nov-17 22:55:12.815 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [d9/f27a23] Cached process > process_abstracts (163)
+Nov-17 22:55:12.816 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [a8/4bb024] Cached process > process_abstracts (154)
+Nov-17 22:55:12.816 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [96/9772b8] Cached process > process_abstracts (162)
+Nov-17 22:55:12.816 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [8b/abecc4] Cached process > process_abstracts (165)
+Nov-17 22:55:12.817 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [23/0d2bf7] Cached process > process_abstracts (166)
+Nov-17 22:55:12.817 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [9c/ae93f1] Cached process > process_abstracts (167)
+Nov-17 22:55:12.819 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [2b/ded799] Cached process > process_abstracts (169)
+Nov-17 22:55:12.821 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [b3/7a09e8] Cached process > process_abstracts (168)
+Nov-17 22:55:12.823 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [ff/f3a85f] Cached process > process_abstracts (175)
+Nov-17 22:55:12.823 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [6a/88cefa] Cached process > process_abstracts (164)
+Nov-17 22:55:12.824 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [0b/4d28f7] Cached process > process_abstracts (172)
+Nov-17 22:55:12.824 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [ce/b682dd] Cached process > process_abstracts (170)
+Nov-17 22:55:12.825 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [3a/53a264] Cached process > process_abstracts (173)
+Nov-17 22:55:12.826 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [1d/13619d] Cached process > process_abstracts (174)
+Nov-17 22:55:12.827 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [21/c9b97e] Cached process > process_abstracts (177)
+Nov-17 22:55:12.827 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [02/4769bd] Cached process > process_abstracts (176)
+Nov-17 22:55:12.828 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [d6/140a0a] Cached process > process_abstracts (178)
+Nov-17 22:55:12.828 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [a8/d01d3c] Cached process > process_abstracts (171)
+Nov-17 22:55:12.829 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [ec/827c26] Cached process > process_abstracts (179)
+Nov-17 22:55:12.829 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [0c/0c9b1d] Cached process > process_abstracts (180)
+Nov-17 22:55:12.830 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [c7/c1acee] Cached process > process_abstracts (181)
+Nov-17 22:55:12.831 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [77/0920d2] Cached process > process_abstracts (182)
+Nov-17 22:55:12.831 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [5a/d0640d] Cached process > process_abstracts (183)
+Nov-17 22:55:12.832 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [50/4c29a0] Cached process > process_abstracts (184)
+Nov-17 22:55:12.832 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [a1/f62bf2] Cached process > process_abstracts (185)
+Nov-17 22:55:12.834 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [86/a9a74e] Cached process > process_abstracts (187)
+Nov-17 22:55:12.834 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [ab/ae2408] Cached process > process_abstracts (186)
+Nov-17 22:55:12.835 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [2b/bc14c8] Cached process > process_abstracts (188)
+Nov-17 22:55:12.835 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [e8/ed170e] Cached process > process_abstracts (189)
+Nov-17 22:55:12.837 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [67/098584] Cached process > process_abstracts (192)
+Nov-17 22:55:12.838 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [e4/c9416a] Cached process > process_abstracts (193)
+Nov-17 22:55:12.838 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [ce/a0b36d] Cached process > process_abstracts (191)
+Nov-17 22:55:12.838 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [5d/73f6ea] Cached process > process_abstracts (195)
+Nov-17 22:55:12.839 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [a0/908dbe] Cached process > process_abstracts (196)
+Nov-17 22:55:12.841 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [ba/6d1e44] Cached process > process_abstracts (197)
+Nov-17 22:55:12.841 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [09/59d3c1] Cached process > process_abstracts (198)
+Nov-17 22:55:12.841 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [ce/a610d8] Cached process > process_abstracts (199)
+Nov-17 22:55:12.841 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [06/06f3e2] Cached process > process_abstracts (200)
+Nov-17 22:55:12.842 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [59/6afb30] Cached process > process_abstracts (201)
+Nov-17 22:55:12.845 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [c7/85c152] Cached process > process_abstracts (202)
+Nov-17 22:55:12.845 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [cd/803010] Cached process > process_abstracts (203)
+Nov-17 22:55:12.845 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [89/e7efa6] Cached process > process_abstracts (204)
+Nov-17 22:55:12.846 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [fe/86d44c] Cached process > process_abstracts (207)
+Nov-17 22:55:12.847 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [17/a4a849] Cached process > process_abstracts (190)
+Nov-17 22:55:12.847 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [89/b4a7d7] Cached process > process_abstracts (206)
+Nov-17 22:55:12.847 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [1c/f1c9bc] Cached process > process_abstracts (205)
+Nov-17 22:55:12.849 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [e9/b40da8] Cached process > process_abstracts (208)
+Nov-17 22:55:12.850 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [fb/82b9fd] Cached process > process_abstracts (194)
+Nov-17 22:55:12.850 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [28/8210a8] Cached process > process_abstracts (209)
+Nov-17 22:55:12.850 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [dc/bf49da] Cached process > process_abstracts (211)
+Nov-17 22:55:12.850 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [fe/4cd592] Cached process > process_abstracts (210)
+Nov-17 22:55:12.851 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [ba/ddd136] Cached process > process_abstracts (212)
+Nov-17 22:55:12.852 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [62/e0d933] Cached process > process_abstracts (213)
+Nov-17 22:55:12.853 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [ed/40fcb6] Cached process > process_abstracts (214)
+Nov-17 22:55:12.853 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [8b/aaf787] Cached process > process_abstracts (215)
+Nov-17 22:55:12.856 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [80/4158d4] Cached process > process_abstracts (217)
+Nov-17 22:55:12.856 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [02/b7002d] Cached process > process_abstracts (218)
+Nov-17 22:55:12.856 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [28/d8f1dd] Cached process > process_abstracts (216)
+Nov-17 22:55:12.856 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [85/0dcb76] Cached process > process_abstracts (221)
+Nov-17 22:55:12.856 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [55/5c29bf] Cached process > process_abstracts (220)
+Nov-17 22:55:12.857 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [cb/641ce6] Cached process > process_abstracts (222)
+Nov-17 22:55:12.858 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [b5/364de1] Cached process > process_abstracts (223)
+Nov-17 22:55:12.859 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [c1/6946fe] Cached process > process_abstracts (219)
+Nov-17 22:55:12.860 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [a0/36b123] Cached process > process_abstracts (224)
+Nov-17 22:55:12.860 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [bb/440fbf] Cached process > process_abstracts (225)
+Nov-17 22:55:12.861 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [8e/d67efb] Cached process > process_abstracts (227)
+Nov-17 22:55:12.861 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [44/7ca64a] Cached process > process_abstracts (226)
+Nov-17 22:55:12.861 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [33/c70288] Cached process > process_abstracts (228)
+Nov-17 22:55:12.863 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [0e/3b61ca] Cached process > process_abstracts (230)
+Nov-17 22:55:12.863 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [a7/32de78] Cached process > process_abstracts (231)
+Nov-17 22:55:12.864 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [1b/2be200] Cached process > process_abstracts (229)
+Nov-17 22:55:12.864 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [56/c2adfb] Cached process > process_abstracts (232)
+Nov-17 22:55:12.864 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [b2/b47616] Cached process > process_abstracts (233)
+Nov-17 22:55:12.865 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [08/b43236] Cached process > process_abstracts (234)
+Nov-17 22:55:12.865 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [39/c507bf] Cached process > process_abstracts (235)
+Nov-17 22:55:12.866 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [a7/cb464f] Cached process > process_abstracts (236)
+Nov-17 22:55:12.867 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [f9/81b857] Cached process > process_abstracts (237)
+Nov-17 22:55:12.867 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [98/5c85b1] Cached process > process_abstracts (238)
+Nov-17 22:55:12.869 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [1c/23de20] Cached process > process_abstracts (241)
+Nov-17 22:55:12.869 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [6d/6959ca] Cached process > process_abstracts (240)
+Nov-17 22:55:12.870 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [29/28d4dd] Cached process > process_abstracts (242)
+Nov-17 22:55:12.870 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [a0/b660c5] Cached process > process_abstracts (243)
+Nov-17 22:55:12.871 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [48/be54b0] Cached process > process_abstracts (239)
+Nov-17 22:55:12.873 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [dc/f99b8c] Cached process > process_abstracts (246)
+Nov-17 22:55:12.873 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [81/1d041b] Cached process > process_abstracts (245)
+Nov-17 22:55:12.873 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [37/f0254d] Cached process > process_abstracts (247)
+Nov-17 22:55:12.873 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [34/29f46a] Cached process > process_abstracts (249)
+Nov-17 22:55:12.874 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [0f/34146a] Cached process > process_abstracts (250)
+Nov-17 22:55:12.875 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [43/edeac1] Cached process > process_abstracts (251)
+Nov-17 22:55:12.875 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [3f/8b336e] Cached process > process_abstracts (248)
+Nov-17 22:55:12.876 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [ec/0f7388] Cached process > process_abstracts (244)
+Nov-17 22:55:12.877 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [30/9616cc] Cached process > process_abstracts (252)
+Nov-17 22:55:12.877 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [d2/e2b935] Cached process > process_abstracts (253)
+Nov-17 22:55:12.879 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [a7/440e75] Cached process > process_abstracts (255)
+Nov-17 22:55:12.879 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [c9/a255a8] Cached process > process_abstracts (254)
+Nov-17 22:55:12.879 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [9e/e1a564] Cached process > process_abstracts (256)
+Nov-17 22:55:12.880 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [5e/180d06] Cached process > process_abstracts (257)
+Nov-17 22:55:12.881 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [55/54e1dd] Cached process > process_abstracts (260)
+Nov-17 22:55:12.881 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [55/3adf19] Cached process > process_abstracts (258)
+Nov-17 22:55:12.882 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [b9/9bf3dd] Cached process > process_abstracts (261)
+Nov-17 22:55:12.883 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [5f/e7d26b] Cached process > process_abstracts (262)
+Nov-17 22:55:12.883 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [a7/534ae7] Cached process > process_abstracts (259)
+Nov-17 22:55:12.885 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [c0/21e0d7] Cached process > process_abstracts (263)
+Nov-17 22:55:12.885 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [d9/7d4881] Cached process > process_abstracts (264)
+Nov-17 22:55:12.885 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [1f/593cfa] Cached process > process_abstracts (265)
+Nov-17 22:55:12.887 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [de/f7d7bc] Cached process > process_abstracts (266)
+Nov-17 22:55:12.887 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [90/087952] Cached process > process_abstracts (268)
+Nov-17 22:55:12.887 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [20/063303] Cached process > process_abstracts (267)
+Nov-17 22:55:12.888 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [54/2f6965] Cached process > process_abstracts (271)
+Nov-17 22:55:12.889 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [59/4ecea3] Cached process > process_abstracts (272)
+Nov-17 22:55:12.889 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [0d/ed190d] Cached process > process_abstracts (269)
+Nov-17 22:55:12.889 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [db/f623bc] Cached process > process_abstracts (273)
+Nov-17 22:55:12.891 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [f3/766729] Cached process > process_abstracts (270)
+Nov-17 22:55:12.891 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [63/5e392b] Cached process > process_abstracts (274)
+Nov-17 22:55:12.891 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [b9/331881] Cached process > process_abstracts (275)
+Nov-17 22:55:12.892 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [c1/db816f] Cached process > process_abstracts (277)
+Nov-17 22:55:12.893 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [b3/f732c5] Cached process > process_abstracts (278)
+Nov-17 22:55:12.893 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [c5/5a8e8c] Cached process > process_abstracts (279)
+Nov-17 22:55:12.894 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [03/4e94a9] Cached process > process_abstracts (280)
+Nov-17 22:55:12.894 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [5b/66a36c] Cached process > process_abstracts (281)
+Nov-17 22:55:12.894 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [b9/b88052] Cached process > process_abstracts (282)
+Nov-17 22:55:12.895 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [be/92924a] Cached process > process_abstracts (283)
+Nov-17 22:55:12.895 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [8e/930bf4] Cached process > process_abstracts (276)
+Nov-17 22:55:12.895 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [33/bc73d9] Cached process > process_abstracts (284)
+Nov-17 22:55:12.898 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [4d/76b077] Cached process > process_abstracts (286)
+Nov-17 22:55:12.898 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [1e/dac3da] Cached process > process_abstracts (288)
+Nov-17 22:55:12.898 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [ec/023ef5] Cached process > process_abstracts (285)
+Nov-17 22:55:12.898 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [6f/94d0b1] Cached process > process_abstracts (287)
+Nov-17 22:55:12.899 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [86/23ba06] Cached process > process_abstracts (289)
+Nov-17 22:55:12.900 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [ea/500f41] Cached process > process_abstracts (290)
+Nov-17 22:55:12.901 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [bf/73c8f9] Cached process > process_abstracts (291)
+Nov-17 22:55:12.902 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [91/e63cb9] Cached process > process_abstracts (292)
+Nov-17 22:55:12.902 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [0b/46c989] Cached process > process_abstracts (294)
+Nov-17 22:55:12.902 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [d3/bc9a82] Cached process > process_abstracts (293)
+Nov-17 22:55:12.903 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [c9/b51c5f] Cached process > process_abstracts (295)
+Nov-17 22:55:12.905 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [59/e72b13] Cached process > process_abstracts (297)
+Nov-17 22:55:12.905 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [5d/8fe679] Cached process > process_abstracts (299)
+Nov-17 22:55:12.905 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [33/eb3a09] Cached process > process_abstracts (296)
+Nov-17 22:55:12.906 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [81/4280d4] Cached process > process_abstracts (300)
+Nov-17 22:55:12.906 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [9f/9837ff] Cached process > process_abstracts (301)
+Nov-17 22:55:12.907 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [2f/43d6ef] Cached process > process_abstracts (298)
+Nov-17 22:55:12.907 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [12/a88073] Cached process > process_abstracts (302)
+Nov-17 22:55:12.910 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [1f/e9d88d] Cached process > process_abstracts (303)
+Nov-17 22:55:12.911 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [c6/ddf744] Cached process > process_abstracts (308)
+Nov-17 22:55:12.911 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [6d/7d98ee] Cached process > process_abstracts (307)
+Nov-17 22:55:12.911 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [7a/6dd41e] Cached process > process_abstracts (309)
+Nov-17 22:55:12.911 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [70/7399ba] Cached process > process_abstracts (306)
+Nov-17 22:55:12.911 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [f5/1e8013] Cached process > process_abstracts (305)
+Nov-17 22:55:12.911 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [9e/23984b] Cached process > process_abstracts (310)
+Nov-17 22:55:12.913 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [9a/59631a] Cached process > process_abstracts (304)
+Nov-17 22:55:12.914 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [ff/d3f148] Cached process > process_abstracts (311)
+Nov-17 22:55:12.915 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [12/fedb0b] Cached process > process_abstracts (312)
+Nov-17 22:55:12.915 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [36/384bd9] Cached process > process_abstracts (316)
+Nov-17 22:55:12.915 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [e1/d956d2] Cached process > process_abstracts (317)
+Nov-17 22:55:12.915 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [d1/910bed] Cached process > process_abstracts (315)
+Nov-17 22:55:12.918 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [de/49d2e2] Cached process > process_abstracts (314)
+Nov-17 22:55:12.919 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [40/c49b46] Cached process > process_abstracts (321)
+Nov-17 22:55:12.919 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [ba/7954ec] Cached process > process_abstracts (320)
+Nov-17 22:55:12.919 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [1b/b8f617] Cached process > process_abstracts (319)
+Nov-17 22:55:12.919 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [e4/60a6f6] Cached process > process_abstracts (322)
+Nov-17 22:55:12.919 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [7f/ab991e] Cached process > process_abstracts (318)
+Nov-17 22:55:12.921 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [91/34f57d] Cached process > process_abstracts (323)
+Nov-17 22:55:12.922 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [ca/df984c] Cached process > process_abstracts (313)
+Nov-17 22:55:12.926 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [37/64e98f] Cached process > process_abstracts (326)
+Nov-17 22:55:12.926 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [75/f36a4b] Cached process > process_abstracts (325)
+Nov-17 22:55:12.926 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [e1/45dd8f] Cached process > process_abstracts (327)
+Nov-17 22:55:12.926 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [6e/888475] Cached process > process_abstracts (324)
+Nov-17 22:55:12.927 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [60/9b44d0] Cached process > process_abstracts (329)
+Nov-17 22:55:12.928 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [5e/a5a23d] Cached process > process_abstracts (330)
+Nov-17 22:55:12.929 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [7d/825ffb] Cached process > process_abstracts (328)
+Nov-17 22:55:12.929 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [f6/0aab30] Cached process > process_abstracts (332)
+Nov-17 22:55:12.930 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [2d/2fe80c] Cached process > process_abstracts (331)
+Nov-17 22:55:12.930 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [20/345bba] Cached process > process_abstracts (335)
+Nov-17 22:55:12.930 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [03/6f603f] Cached process > process_abstracts (333)
+Nov-17 22:55:12.931 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [bd/9e79b2] Cached process > process_abstracts (334)
+Nov-17 22:55:12.932 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [72/69d060] Cached process > process_abstracts (337)
+Nov-17 22:55:12.933 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [55/4e745e] Cached process > process_abstracts (338)
+Nov-17 22:55:12.933 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [ff/6173b4] Cached process > process_abstracts (339)
+Nov-17 22:55:12.934 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [44/9e9939] Cached process > process_abstracts (341)
+Nov-17 22:55:12.935 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [22/4ed622] Cached process > process_abstracts (336)
+Nov-17 22:55:12.936 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [1f/d56d01] Cached process > process_abstracts (342)
+Nov-17 22:55:12.936 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [a1/332d19] Cached process > process_abstracts (344)
+Nov-17 22:55:12.937 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [4b/fb7b48] Cached process > process_abstracts (345)
+Nov-17 22:55:12.937 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [0c/c1b561] Cached process > process_abstracts (343)
+Nov-17 22:55:12.937 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [c0/d49dd2] Cached process > process_abstracts (340)
+Nov-17 22:55:12.938 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [8b/887849] Cached process > process_abstracts (346)
+Nov-17 22:55:12.939 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [24/7b751f] Cached process > process_abstracts (348)
+Nov-17 22:55:12.939 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [ae/23fc56] Cached process > process_abstracts (349)
+Nov-17 22:55:12.940 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [f0/b95321] Cached process > process_abstracts (347)
+Nov-17 22:55:12.940 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [9d/57c4eb] Cached process > process_abstracts (350)
+Nov-17 22:55:12.941 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [fa/a34b49] Cached process > process_abstracts (353)
+Nov-17 22:55:12.941 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [61/71c82a] Cached process > process_abstracts (351)
+Nov-17 22:55:12.942 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [73/65fce8] Cached process > process_abstracts (354)
+Nov-17 22:55:12.942 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [14/a04f4e] Cached process > process_abstracts (355)
+Nov-17 22:55:12.943 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [2f/947a3f] Cached process > process_abstracts (357)
+Nov-17 22:55:12.943 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [7e/19efcd] Cached process > process_abstracts (356)
+Nov-17 22:55:12.943 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [9b/83b47b] Cached process > process_abstracts (358)
+Nov-17 22:55:12.944 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [35/702bc7] Cached process > process_abstracts (359)
+Nov-17 22:55:12.947 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [61/b1da99] Cached process > process_abstracts (361)
+Nov-17 22:55:12.947 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [1f/55d4c4] Cached process > process_abstracts (363)
+Nov-17 22:55:12.947 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [e1/cf97ce] Cached process > process_abstracts (364)
+Nov-17 22:55:12.947 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [52/a1e4c7] Cached process > process_abstracts (360)
+Nov-17 22:55:12.948 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [c2/bd774b] Cached process > process_abstracts (365)
+Nov-17 22:55:12.949 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [7e/4145e0] Cached process > process_abstracts (362)
+Nov-17 22:55:12.950 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [76/b6fb37] Cached process > process_abstracts (366)
+Nov-17 22:55:12.950 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [83/183d8d] Cached process > process_abstracts (368)
+Nov-17 22:55:12.950 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [c5/d02532] Cached process > process_abstracts (367)
+Nov-17 22:55:12.950 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [85/f7b8c6] Cached process > process_abstracts (369)
+Nov-17 22:55:12.951 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [f9/a756ff] Cached process > process_abstracts (370)
+Nov-17 22:55:12.951 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [59/e67f9a] Cached process > process_abstracts (352)
+Nov-17 22:55:12.952 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [94/386d50] Cached process > process_abstracts (371)
+Nov-17 22:55:12.952 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [aa/2dabc7] Cached process > process_abstracts (372)
+Nov-17 22:55:12.955 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [27/2c144c] Cached process > process_abstracts (374)
+Nov-17 22:55:12.956 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [7a/c0ce13] Cached process > process_abstracts (373)
+Nov-17 22:55:12.956 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [cc/6a3669] Cached process > process_abstracts (375)
+Nov-17 22:55:12.956 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [07/d9efdb] Cached process > process_abstracts (376)
+Nov-17 22:55:12.956 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [c7/01f202] Cached process > process_abstracts (377)
+Nov-17 22:55:12.956 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [85/d54482] Cached process > process_abstracts (378)
+Nov-17 22:55:12.958 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [84/a113f8] Cached process > process_abstracts (379)
+Nov-17 22:55:12.959 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [f5/93d4df] Cached process > process_abstracts (380)
+Nov-17 22:55:12.959 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [31/fc749c] Cached process > process_abstracts (382)
+Nov-17 22:55:12.961 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [ce/ecdb87] Cached process > process_abstracts (381)
+Nov-17 22:55:12.962 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [73/5adde4] Cached process > process_abstracts (386)
+Nov-17 22:55:12.962 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [7b/a0aad1] Cached process > process_abstracts (385)
+Nov-17 22:55:12.963 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [5d/d248a4] Cached process > process_abstracts (383)
+Nov-17 22:55:12.966 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [18/e4db48] Cached process > process_abstracts (384)
+Nov-17 22:55:12.966 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [21/2670d5] Cached process > process_abstracts (389)
+Nov-17 22:55:12.966 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [4b/1f13f6] Cached process > process_abstracts (387)
+Nov-17 22:55:12.967 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [a8/9d9a2e] Cached process > process_abstracts (391)
+Nov-17 22:55:12.968 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [3f/3349fc] Cached process > process_abstracts (393)
+Nov-17 22:55:12.968 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [d4/3be462] Cached process > process_abstracts (388)
+Nov-17 22:55:12.968 [Actor Thread 19] INFO  nextflow.processor.TaskProcessor - [27/65c58d] Cached process > process_abstracts (392)
+Nov-17 22:55:12.969 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [e2/e76750] Cached process > process_abstracts (394)
+Nov-17 22:55:12.969 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [1b/48ec53] Cached process > process_abstracts (395)
+Nov-17 22:55:12.970 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [4f/ba1a02] Cached process > process_abstracts (396)
+Nov-17 22:55:12.971 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [d8/1ecb95] Cached process > process_abstracts (390)
+Nov-17 22:55:12.972 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [c6/be8433] Cached process > process_abstracts (398)
+Nov-17 22:55:12.972 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [4f/8efcb9] Cached process > process_abstracts (397)
+Nov-17 22:55:12.973 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [6e/1a6ebf] Cached process > process_abstracts (400)
+Nov-17 22:55:12.974 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [b2/3089e6] Cached process > process_abstracts (401)
+Nov-17 22:55:12.975 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [78/a9c9da] Cached process > process_abstracts (404)
+Nov-17 22:55:12.975 [Actor Thread 19] INFO  nextflow.processor.TaskProcessor - [f5/a830c6] Cached process > process_abstracts (403)
+Nov-17 22:55:12.975 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [69/839423] Cached process > process_abstracts (399)
+Nov-17 22:55:12.976 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [ee/5d5a4e] Cached process > process_abstracts (402)
+Nov-17 22:55:12.978 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [b6/c47730] Cached process > process_abstracts (407)
+Nov-17 22:55:12.978 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [b3/2af171] Cached process > process_abstracts (409)
+Nov-17 22:55:12.978 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [96/da0800] Cached process > process_abstracts (406)
+Nov-17 22:55:12.975 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [8b/9d9825] Cached process > process_abstracts (405)
+Nov-17 22:55:12.978 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [3a/386930] Cached process > process_abstracts (408)
+Nov-17 22:55:12.978 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [ce/8b08e3] Cached process > process_abstracts (410)
+Nov-17 22:55:12.979 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [8b/862a4a] Cached process > process_abstracts (411)
+Nov-17 22:55:12.981 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [1b/6cfbdd] Cached process > process_abstracts (412)
+Nov-17 22:55:12.981 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [a0/ca8653] Cached process > process_abstracts (414)
+Nov-17 22:55:12.981 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [96/c45cb6] Cached process > process_abstracts (415)
+Nov-17 22:55:12.981 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [16/ed8674] Cached process > process_abstracts (413)
+Nov-17 22:55:12.982 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [29/f00301] Cached process > process_abstracts (417)
+Nov-17 22:55:12.982 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [c1/147da8] Cached process > process_abstracts (416)
+Nov-17 22:55:12.983 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [0f/ef54e1] Cached process > process_abstracts (418)
+Nov-17 22:55:12.983 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [5b/4637cd] Cached process > process_abstracts (419)
+Nov-17 22:55:12.985 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [57/42f045] Cached process > process_abstracts (420)
+Nov-17 22:55:12.986 [Actor Thread 10] INFO  nextflow.processor.TaskProcessor - [7e/1b12a2] Cached process > process_abstracts (422)
+Nov-17 22:55:12.986 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [66/0a139a] Cached process > process_abstracts (421)
+Nov-17 22:55:12.986 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [45/5efb95] Cached process > process_abstracts (423)
+Nov-17 22:55:12.987 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [ef/4311b6] Cached process > process_abstracts (425)
+Nov-17 22:55:12.988 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [98/7137f4] Cached process > process_abstracts (427)
+Nov-17 22:55:12.989 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [c4/3112e0] Cached process > process_abstracts (428)
+Nov-17 22:55:12.989 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [b5/89d70d] Cached process > process_abstracts (429)
+Nov-17 22:55:12.990 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [8b/ec48fd] Cached process > process_abstracts (430)
+Nov-17 22:55:12.990 [Actor Thread 17] INFO  nextflow.processor.TaskProcessor - [60/7ad5eb] Cached process > process_abstracts (431)
+Nov-17 22:55:12.987 [Actor Thread 19] INFO  nextflow.processor.TaskProcessor - [fd/f4b348] Cached process > process_abstracts (426)
+Nov-17 22:55:12.991 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [69/cc2f3d] Cached process > process_abstracts (433)
+Nov-17 22:55:12.992 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [2c/10cc07] Cached process > process_abstracts (434)
+Nov-17 22:55:12.992 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [b0/e26c64] Cached process > process_abstracts (435)
+Nov-17 22:55:12.992 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [e7/ae30e3] Cached process > process_abstracts (424)
+Nov-17 22:55:12.993 [Actor Thread 19] INFO  nextflow.processor.TaskProcessor - [09/0b5b4e] Cached process > process_abstracts (436)
+Nov-17 22:55:12.993 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [b0/56cb58] Cached process > process_abstracts (432)
+Nov-17 22:55:12.994 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [07/086bc4] Cached process > process_abstracts (437)
+Nov-17 22:55:12.994 [Actor Thread 15] INFO  nextflow.processor.TaskProcessor - [73/654261] Cached process > process_abstracts (439)
+Nov-17 22:55:12.995 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [a1/583952] Cached process > process_abstracts (438)
+Nov-17 22:55:12.996 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [b8/63c4b3] Cached process > process_abstracts (440)
+Nov-17 22:55:12.998 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: process_abstracts)
+Nov-17 22:55:13.228 [Actor Thread 19] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 440; slices: 1; internal sort time: 0.205 s; external sort time: 0.021 s; total time: 0.226 s
+Nov-17 22:55:13.227 [Actor Thread 4] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 440; slices: 1; internal sort time: 0.205 s; external sort time: 0.02 s; total time: 0.225 s
+Nov-17 22:55:13.227 [Actor Thread 1] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 440; slices: 1; internal sort time: 0.205 s; external sort time: 0.02 s; total time: 0.225 s
+Nov-17 22:55:13.229 [Actor Thread 19] DEBUG nextflow.file.FileCollector - >> temp file exists? true
+Nov-17 22:55:13.229 [Actor Thread 1] DEBUG nextflow.file.FileCollector - >> temp file exists? true
+Nov-17 22:55:13.229 [Actor Thread 4] DEBUG nextflow.file.FileCollector - >> temp file exists? true
+Nov-17 22:55:13.230 [Actor Thread 4] DEBUG nextflow.file.FileCollector - Retrivied cached collect-files from: /tmp/4ddd6f4ca335883209d62875c0cf2e68.collect-file -- cached files: [/home/joshz/Project3/work/tmp/5d/e759ee2bda90e7564ab0f9bb5bec8c/collaborators.txt]
+Nov-17 22:55:13.230 [Actor Thread 1] DEBUG nextflow.file.FileCollector - Retrivied cached collect-files from: /tmp/76c8e9f4eb63a15c928bc98b6581a15e.collect-file -- cached files: [/home/joshz/Project3/work/tmp/7e/3d24d3260ef499eb92b789afb44415/words.txt]
+Nov-17 22:55:13.230 [Actor Thread 19] DEBUG nextflow.file.FileCollector - Retrivied cached collect-files from: /tmp/fc63d09d88cede78e96b5f2cdbf4f6e6.collect-file -- cached files: [/home/joshz/Project3/work/tmp/71/3fad0add075828c1120c7f32f9aa99/unqWords.txt]
+Nov-17 22:55:13.240 [Actor Thread 4] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-5866674120410709601
+Nov-17 22:55:13.240 [Actor Thread 19] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-2555722489744383801
+Nov-17 22:55:13.240 [Actor Thread 1] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-3357793780018857952
+Nov-17 22:55:13.270 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Nov-17 22:55:13.274 [Task submitter] INFO  nextflow.Session - [f6/6e95ca] Submitted process > analyze_data (1)
+Nov-17 22:55:16.485 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 441; name: analyze_data (1); status: COMPLETED; exit: 0; error: -; workDir: /home/joshz/Project3/work/f6/6e95ca8cb1f5bb20051c4847e2825e]
+Nov-17 22:55:16.497 [Actor Thread 2] DEBUG nextflow.Session - <<< barrier arrive (process: analyze_data)
+Nov-17 22:55:16.498 [main] DEBUG nextflow.Session - Session await > all process finished
+Nov-17 22:55:16.500 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
+Nov-17 22:55:16.500 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Nov-17 22:55:16.509 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=1; failedCount=0; ignoredCount=0; cachedCount=440; succeedDuration=3.1s; failedDuration=0ms; cachedDuration=3m 34s]
+Nov-17 22:55:16.516 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Nov-17 22:55:16.529 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

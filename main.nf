@@ -4,6 +4,7 @@ params.out_dir = 'shinyData/'
 file_channel = Channel.fromPath( params.file_dir )
 
 process process_abstracts {
+//	container 'rocker/tidyverse:3.5'
 
     	input:
     	file f from file_channel
@@ -20,6 +21,8 @@ process process_abstracts {
 }
 
 process analyze_data {
+//	container 'rocker/tidyverse:3.5'
+//	container 'strex_joshz'
 	publishDir params.out_dir, mode: 'copy'
 
 	input: 

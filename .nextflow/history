@@ -68,3 +68,18 @@
 2018-11-17 19:35:07	34.3s	adoring_austin	ERR	29ec4a09c4bc9b714c4dee09bf895e70	4b40e2ba-8ccd-49f6-a131-563a585e8278	nextflow main.nf
 2018-11-17 19:36:36	5.9s	awesome_poisson	OK	29ec4a09c4bc9b714c4dee09bf895e70	4b40e2ba-8ccd-49f6-a131-563a585e8278	nextflow main.nf -resume
 2018-11-17 19:43:12	34.6s	crazy_linnaeus	OK	29ec4a09c4bc9b714c4dee09bf895e70	15dfa45a-17f5-43d0-b252-a4b371d951d2	nextflow main.nf
+2018-11-17 20:47:03	32.5s	sleepy_volta	ERR	29ec4a09c4bc9b714c4dee09bf895e70	77316ed9-b9a8-41d1-a59e-e146e71de4f2	nextflow main.nf
+2018-11-17 20:59:29	3.9s	fabulous_feynman	ERR	29ec4a09c4bc9b714c4dee09bf895e70	77316ed9-b9a8-41d1-a59e-e146e71de4f2	nextflow main.nf -resume
+2018-11-17 21:00:31	5.8s	disturbed_cuvier	ERR	29ec4a09c4bc9b714c4dee09bf895e70	77316ed9-b9a8-41d1-a59e-e146e71de4f2	nextflow main.nf -resume
+2018-11-17 21:31:31	3.3s	backstabbing_galileo	ERR	499d506d134ef574d577e03fc1a410eb	77316ed9-b9a8-41d1-a59e-e146e71de4f2	nextflow main.nf -resume
+2018-11-17 21:33:34	4s	focused_morse	ERR	4dacd75d9ce7822ea8569a1700ac6e1a	77316ed9-b9a8-41d1-a59e-e146e71de4f2	nextflow main.nf -resume
+2018-11-17 22:44:44	32.4s	sad_darwin	ERR	4dacd75d9ce7822ea8569a1700ac6e1a	f47fd64f-5d6e-4350-9609-a60b25b6fa3a	nextflow main.nf
+2018-11-17 22:55:11	5.5s	agitated_babbage	OK	4dacd75d9ce7822ea8569a1700ac6e1a	f47fd64f-5d6e-4350-9609-a60b25b6fa3a	nextflow main.nf -resume
+2018-11-18 00:58:42	34.3s	fabulous_goldstine	OK	053ea4771980b7e9bee3520b31c3a839	e17d898c-9abf-45eb-a1ec-8e8b2e1ffab0	nextflow main.nf
+2018-11-18 01:01:36	33.9s	boring_yalow	OK	1bebc7da10aa4ab9161a02ba8152ef58	80cac923-b2f7-4416-af56-5dc6ca2fe8d0	nextflow main.nf
+2018-11-18 01:04:30	34.2s	admiring_ride	OK	5724672146aa0b04e279f744f8215641	b3d67b53-36a6-4271-862f-f9340664335a	nextflow main.nf
+2018-11-18 01:14:02	4m 58s	hopeful_bell	OK	5724672146aa0b04e279f744f8215641	1be1992a-2c69-4a1c-89f0-1dd5e9c0c647	nextflow main.nf
+2018-11-18 01:22:12	-	high_lovelace	-	88a1e3d04ce0223cfd745c6cb02402cb	460bd41f-dc9b-4374-bbf1-15cd5c7e24a6	nextflow main.nf
+2018-11-18 01:22:37	35.6s	cranky_brenner	OK	908991298ebd6b570dfb0ac37fda4e82	7faa3548-4306-4562-ac33-49337028cb87	nextflow main.nf
+2018-11-18 01:30:49	34.9s	fabulous_ardinghelli	ERR	908991298ebd6b570dfb0ac37fda4e82	ed398955-40ec-4110-bdaa-eba0ae4a4cf3	nextflow main.nf
+2018-11-18 01:33:29	35.6s	compassionate_khorana	OK	908991298ebd6b570dfb0ac37fda4e82	c06c96b1-b916-43bd-8292-aaa0d472289f	nextflow main.nf
