@@ -2,16 +2,16 @@ library(tidyverse)
 library(magrittr)
 library(strex)
 
-#reading in three text files where each new line represents another abstract, and tabs separate words/collaborators within abstracts
+#reading in two text files, one of words and one of collaborators, where each new line represents another abstract, and tabs separate words/collaborators within abstracts
 args = commandArgs(trailingOnly = TRUE)
 col = read_file(args[1])
 words = read_file(args[2])
 master = list(collaborators = col, words = words) #putting all data in a 'master' list 
 
-#reforming the three text objects into lists, where the ith element is a vector of collaborators/words for the ith abstract
+#reformating the two strings into lists, where the ith element is a vector of collaborators/words for the ith abstract
 for (i in 1:2) {                                                 #for each text object...
   master[[i]] = str_split(master[[i]], pattern="\n\n")[[1]] %>%  #each line becomes an element of a list
-    lapply(str_split, pattern="\t") %>%                          #elements transformed from a line of text to a vector of strings separated by tabs
+    lapply(str_split, pattern="\t") %>%                          #each element of the list (line of text) is split by tab characters into to a vector of strings
     lapply('[[', 1) %>%                                          #removing unnecesary nesting
     lapply(function(x) x[-1])                                    #first element of each vector is the abstract name, which can be removed
 }
@@ -20,8 +20,8 @@ for (i in 1:2) {                                                 #for each text 
 
 ##frequency table for collaborators##
 colTable = master[[1]] %>% 
-  lapply(str_replace_all, " ", "") %>%    #many collabroators are missing spaces in some abstracts and noto thers, and thus white space is removed so the same collaborator isn't treated as multiple collaborators   
-  lapply(unique) %>%                      #we want the # of abstracts associated with each collaborator, thus we don't want collaborators for any abstract to be counted more than once
+  lapply(str_replace_all, " ", "") %>%    #many collabroators are missing spaces in some abstracts but not in others, and thus white space will be removed so the same collaborator isn't accidently treated as different collaborators   
+  lapply(unique) %>%                      #removing repeat collaborators from each abstract, as we only want the # of abstracts associated with each collaborator
   unlist() %>%                            #transforming from list to vector of collaborators so the table() function can be used
   table() %>%                             #table of collaborator frequences (gives # of abstracts where each collaborator appeared)
   as.tibble() %>%                         #turing into tibble so that functions from 'dplyr' package can be applied
@@ -37,7 +37,7 @@ wordFreqTable = master[[2]] %>%
   table() %>%                            #table of word frequences (gives # of abstracts where each word appeared)
   as.tibble() %>%                        #turing into tibble so that functions from 'dplyr' package can be applied
   arrange(desc(n)) %>%                   #sorting words in descending order by frequency
-  filter(!(. %in% c("", " ")))           #removing 'words' that are just whitespace 
+  filter(!(. %in% c("", " ")))           #removing "words" that are just whitespace 
 
 
 
@@ -46,19 +46,19 @@ wordFreqTable = master[[2]] %>%
 #function that gets word frequencies for abstracts with an inputted collaborator name (without whitespace)
 getWords = function(col) {
   
-  #a boolean vector with the ith element TRUE iff the inputted collaborator (after removing whitespace) in the ith abstract
-  hasCol = master[[1]] %>%                   #getting list of collaborators for each abstract        
-    lapply(str_replace_all, " ", "") %>%     #remove whitespace
-    str_detect(col)                          #detects whether or not the inputted string is in each element of master[[1]] 
+  #a boolean vector with the ith element TRUE iff the inputted collaborator (after removing whitespace) is in the ith abstract
+  hasCol = master[[1]] %>%                         
+    lapply(str_replace_all, " ", "") %>%     
+    str_detect(col)                         
   
   wordTable = master[[2]] %>%
-    subset(hasCol) %>%                       #returns words in abstracts where hasCol is TRUE
+    subset(hasCol) %>%                       #returns words in abstracts where hasCol is TRUE (i.e. where inputted collaborator is present)
     unlist() %>%                             
     table() %>%                              
     as.tibble() %>%
     arrange(desc(n)) %>%
     filter(!(. %in% c("", " "))) %>%
-    filter(row_number() <= 100)              #to save space, only the top 100 words will be kept
+    filter(row_number() <= 100)              #to save space, memory and time, only the top 100 words will be kept
   
   
   return(wordTable)
@@ -66,32 +66,30 @@ getWords = function(col) {
 
 #getting word frequencies for the top 10 collaborators
 wordsByCol = vector("list", 10)                                      #the ith element of this list will be a word frequency table for abstracts with the ith top collaborator
-filteredByCol = vector("list", 10)                                   #the ith element of this list will be a medical and subject-realted word frequency table for abstracts with the ith top collaborator
 for (i in 1:10) {                                                   
-  wordTable = suppressWarnings(getWords(colTable$.[i]))              
-  wordsByCol[[i]] = wordTable                                        #word frequency table for abstracts with collaborator i
+  wordsByCol[[i]] = suppressWarnings(getWords(colTable$.[i]))                                             
 }
 
-
-#getting the words data from a list of data matrices to a single data matrix - each row gives the frequency (third column) of a word (second column) in abstracts with a particular collaborator (first column)
-wordsData = unlist(wordsByCol)
-frequencies = as.double(ifelse(str_detect(names(wordsData), "n\\d"), wordsData, NA))
+#getting the data from a list of data matrices to a single data matrix - each row giving the frequency (third column) of a word (second column) in abstracts with a particular collaborator (first column)
+wordsData = unlist(wordsByCol)                                                #this new named vector has a combination of words and frequencies                                       
+frequencies = ifelse(str_detect(names(wordsData), "n\\d"), wordsData, NA)     #frequencies have 'n' in their names
 frequencyValid = sum(str_can_be_numeric(frequencies) | is.na(frequencies)) == length(frequencies) #a boolean that's TRUE iff all elements in 'frequencies' can be converted to numeric (or are missing) 
-if (frequencyValid == F) stop("FREQUENCIES INVALID") #checking that we only have valid numeric frequencies, and throws error otherwise 
-words = ifelse(str_detect(names(wordsData), "\\.\\d"), wordsData, NA)
-collaborators = vector("character", length(words)/2)
-numWords = lapply(wordsByCol, nrow) %>% unlist()
-j=0
-for (i in 1:10) {
-  collaborators[seq(j+1, j+numWords[i])] = rep(colTable$.[i], numWords[i])
-  j = j + numWords[i]
-}
+if (frequencyValid == F) stop("FREQUENCIES INVALID")                          #checking that we only have valid numeric frequencies, and throws error otherwise 
+words = ifelse(str_detect(names(wordsData), "\\.\\d"), wordsData, NA)         #words have '.' in their names  
+frequencies = frequencies[!is.na(frequencies)]                                #Each word in the 'words' vector will correspond to the frequency in the 'frequencies' vector at the same index, after removing NA values
+words = words[!is.na(words)]      
 
-frequencies = frequencies[!is.na(frequencies)]
-frequencyValid = sum(str_can_be_numeric(frequencies) | is.na(frequencies)) == length(frequencies) 
-if (frequencyValid == F) stop("FREQUENCIES INVALID") 
-words = words[!is.na(words)]
-collaborators = collaborators[!is.na(collaborators)]
+           
+#getting collaborators associated with the words and frequencies in the 'words' and 'frequencies' vectors
+collaborators = vector("character", length(words)/2)                          
+numWords = lapply(wordsByCol, nrow) %>% unlist()               
+j=0
+for (i in 1:10) {                                             
+  collaborators[seq(j+1, j+numWords[i])] = rep(colTable$.[i], numWords[i])  #what's going on here is a bit complicated, but all you need to know is that the ith collaborator in this vector wil correspond to the ith word/frequency in the 'words' and 'frequencies' vectors v
+  j = j + numWords[i]
+}     
+
+#single data matrix where the third column gives frequencies for the words in the second column for abstracts involving institutions in the first column           
 wordsTableStrat = data.frame(frequencies, words, collaborators)
 
 
