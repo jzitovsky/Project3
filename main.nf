@@ -19,7 +19,7 @@ process process_abstracts {
     	"""
 }
 
-//This process combines the text files created previously into two giant text files (one for collaborators and one for words), where new lines separate values (i.e. collaborators/words) for different abstracts, and tabs separate values (i.e. collaborators/words) within each abstract. The Rscript then reads in these giant text files and spits out csvs containing  collaborator and word frequency counts  across abstracts
+//This process combines the text files created previously into two giant text files (one for collaborators and one for words), where new lines separate values (collaborators/words) for different abstracts, and tabs separate values (collaborators/words) within each abstract. The Rscript then reads in these giant text files and spits out csvs containing  collaborator and word frequency counts  across abstracts
 process analyze_data {
 	publishDir params.out_dir, mode: 'copy'
 
