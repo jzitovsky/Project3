@@ -82,7 +82,7 @@ shinyApp(
                                 choices = top10)),
              column(3, offset=5,
                     checkboxInput(inputId = "filter",                                 #a check box that will control whether generic words (e.g. 'the') get filtered out
-                                  label = "Hide words not related to research subjects/studies",
+                                  label = "Hide generic words",
                                   value = T)),
              column(12, hr(), DTOutput('x2'))),                                       #table output
     br(), br(),
@@ -146,17 +146,17 @@ shinyApp(
     })
     
     #rendering figure 3 word cloud
-    wordsNFilter = filter(wordsN, !(words %in% unimportant))       #'wordsN' excluding generic/garbage words
-    wordsColFilter = filter(wordsCol, !(words %in% unimportant))   #'wordsCol' excluding generic/garbage words 
+    wordsNFilter = filter(wordsN, !(words %in% unimportant))       # 'wordsN' excluding generic/garbage words
+    wordsColFilter = filter(wordsCol, !(words %in% unimportant))   # 'wordsCol' excluding generic/garbage words 
     output$x3 = renderPlot({
       if (input$colInput2 == "All") {
-        wordcloud(filter$words, filter$abstracts,                    #if "all" option of slide-down menu is selected (default), use all abstracts for plot
+        wordcloud(wordsNFilter$words, wordsNFilter$abstracts,                    #if "all" option of slide-down menu is selected (default), use all abstracts for plot
                   max.words = input$maxWords,                       #max words displayed based on slider input
                   colors = brewer.pal(8, "Dark2"))                  #give words different colors (improves readability
       } 
       else {
-        wordcloud(filter(filter2, collaborators == input$colInput2)$words,  #if "all" option is not selected, only uses abstracts involving selected collaborator when plotting
-                  filter(filter2, collaborators == input$colInput2)$abstracts,
+        wordcloud(filter(wordsColFilter, collaborators == input$colInput2)$words,  #if "all" option is not selected, only uses abstracts involving selected collaborator when plotting
+                  filter(wordsColFilter, collaborators == input$colInput2)$abstracts,
                   max.words = input$maxWords,
                   colors = brewer.pal(8, "Dark2"))
       }
