@@ -92,10 +92,10 @@ shinyApp(
                     div(style = "font-size:25px;",'Figure 3: Word Cloud')),           #title of figure
              column(4, 
                     sliderInput(inputId = "maxWords",                                 #a slider that will control the maximum words allowed on the plot
-                                    label = "Maximum words:",
-                                    min=1,
-                                    max=50,
-                                    value=100)),
+                                label = "Maximum words:",
+                                min=1,
+                                max=50,
+                                value=100)),
              column(4, offset = 4, 
                     selectInput(inputId = "colInput2",                                #a drop-down menu of collaborators - when a collaborator is selected, a word cloud gets plotted based on abstacts involving that collaborator
                                 label = "Collaborator",
@@ -131,36 +131,35 @@ shinyApp(
     
     #rending figure 2 table
     output$x2 = renderDT({
-        if (input$colInput == "All") {               
-          wordsN %>%                             #if "all" option of slide-down menu is selected (default), print overall word frequencies
-            filter(row_number() <= 100) %>%      #select top 100 words
-            { if(input$filter) filter(., !(words %in% unimportant)) else . } #if filter checkbox is checked, filter out undesired/generic/unimportant words (e.g. 'the', numbers etc.)
-        }
-          else {
-          wordsCol %>%                           
-            filter(collaborators == input$colInput) %>%                       #if "all" option of slide-down menu is not selected, only abstracts involving the selected collaborator is used
-            select(words, abstracts) %>%                                      #remove table saying the collaborator
-            filter(row_number() <= 100) %>%                                   #select top 100 words
-            { if(input$filter) filter(., !(words %in% unimportant)) else . }  #if filter checkbox is checked, filter out undesired words
-        }
-      })
+      if (input$colInput == "All") {               
+        wordsN %>%                             #if "all" option of slide-down menu is selected (default), print overall word frequencies
+          filter(row_number() <= 100) %>%      #select top 100 words
+          { if(input$filter) filter(., !(words %in% unimportant)) else . } #if filter checkbox is checked, filter out undesired/generic/unimportant words (e.g. 'the', numbers etc.)
+      }
+      else {
+        wordsCol %>%                           
+          filter(collaborators == input$colInput) %>%                       #if "all" option of slide-down menu is not selected, only abstracts involving the selected collaborator is used
+          select(words, abstracts) %>%                                      #remove table saying the collaborator
+          filter(row_number() <= 100) %>%                                   #select top 100 words
+          { if(input$filter) filter(., !(words %in% unimportant)) else . }  #if filter checkbox is checked, filter out undesired words
+      }
+    })
     
     #rendering figure 3 word cloud
     wordsNFilter = filter(wordsN, !(words %in% unimportant))       #'wordsN' excluding generic/garbage words
     wordsColFilter = filter(wordsCol, !(words %in% unimportant))   #'wordsCol' excluding generic/garbage words 
     output$x3 = renderPlot({
       if (input$colInput2 == "All") {
-      wordcloud(filter$words, filter$abstracts,                    #if "all" option of slide-down menu is selected (default), use all abstracts for plot
-                 max.words = input$maxWords,                       #max words displayed based on slider input
-                 colors = brewer.pal(8, "Dark2"))                  #give words different colors (improves readability
+        wordcloud(filter$words, filter$abstracts,                    #if "all" option of slide-down menu is selected (default), use all abstracts for plot
+                  max.words = input$maxWords,                       #max words displayed based on slider input
+                  colors = brewer.pal(8, "Dark2"))                  #give words different colors (improves readability
       } 
       else {
-          wordcloud(filter(filter2, collaborators == input$colInput2)$words,  #if "all" option is not selected, only uses abstracts involving selected collaborator when plotting
-                    filter(filter2, collaborators == input$colInput2)$abstracts,
-                    max.words = input$maxWords,
-                    colors = brewer.pal(8, "Dark2"))
+        wordcloud(filter(filter2, collaborators == input$colInput2)$words,  #if "all" option is not selected, only uses abstracts involving selected collaborator when plotting
+                  filter(filter2, collaborators == input$colInput2)$abstracts,
+                  max.words = input$maxWords,
+                  colors = brewer.pal(8, "Dark2"))
       }
     })   
-    )
   }
 )
