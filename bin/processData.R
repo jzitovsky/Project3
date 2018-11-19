@@ -52,14 +52,12 @@ processData = function(str) {
   
   ID = toString(args[1])  #making an ID (the file name)  that uniquely maps to the abstract
   collab3 = c(ID, collab3) 
-  words = c(ID, words)
   unqWords = c(ID, unqWords) #putting ID into lists
 
   collabReformat = paste(collab3, collapse = "\t")
-  wordReformat = paste(words, collapse = "\t")
-  unqReformat = paste(unqWords, collapse = "\t")
+  wordReformat = paste(unqWords, collapse = "\t")
   
-  return(list(collabReformat, wordReformat, unqReformat))
+  return(list(collabReformat, wordReformat))
 }
 
 
@@ -71,9 +69,7 @@ lista = processData(str)
 #creating names for the files to be created
 fileNameCollab = paste(toString(args[1]), ".collaborators.txt", sep="")
 fileNameWords = paste(toString(args[1]), ".words.txt", sep="")
-fileNameUnq = paste(toString(args[1]), ".unique.txt", sep="")
 
 #writing the data into .csv files
 write(lista[[1]], fileNameCollab)
 write(lista[[2]], fileNameWords)
-write(lista[[3]], fileNameUnq)

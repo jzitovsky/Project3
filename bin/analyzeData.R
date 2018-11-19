@@ -6,11 +6,10 @@ library(strex)
 args = commandArgs(trailingOnly = TRUE)
 col = read_file(args[1])
 words = read_file(args[2])
-unqWords = read_file(args[3])
-master = list(collaborators = col, words = words, uniqueWords = unqWords) #putting all data in a 'master' list 
+master = list(collaborators = col, words = words) #putting all data in a 'master' list 
 
 #reforming the three text objects into lists, where the ith element is a vector of collaborators/words for the ith abstract
-for (i in 1:3) {                                                 #for each text object...
+for (i in 1:2) {                                                 #for each text object...
   master[[i]] = str_split(master[[i]], pattern="\n\n")[[1]] %>%  #each line becomes an element of a list
     lapply(str_split, pattern="\t") %>%                          #elements transformed from a line of text to a vector of strings separated by tabs
     lapply('[[', 1) %>%                                          #removing unnecesary nesting
@@ -32,22 +31,13 @@ colTable = master[[1]] %>%
 
 
 ##frequency table for words##
-wordFreqTable = master[[3]] %>%
+wordFreqTable = master[[2]] %>%
   lapply(unique) %>%                     #we want the # of abstracts where each word appears, not the # of words that appear overall. Thus, we don't want any word to be counted more than once in each abstract.
   unlist() %>%                           #transforming from list to vector of words so table() can be used
   table() %>%                            #table of word frequences (gives # of abstracts where each word appeared)
   as.tibble() %>%                        #turing into tibble so that functions from 'dplyr' package can be applied
   arrange(desc(n)) %>%                   #sorting words in descending order by frequency
-  filter(!(. %in% c("", " ")))           #removing 'words' that are just whitespace
-
-#filtering out words that are not subject-related or study-related 
-unimportant = c("of", "the", "and", "to", "in", "a", "with", "for", "is", "were", "was", "we", "that", "this", "by", "from", 
-                "as", "on", "or", "are", "an", "at", "these", "be", "between", "which", "among", "but", "than", "after", "our", "their", 
-                "into", "not", "1", "0", "=", "2", "3", "have", "using", "=", "may", "2", "has", "however", "3", "had", "who", "no", 
-                "more", "all", "used", "high", "overall", "also", "not")
-
-wordsFiltered = wordFreqTable %>%                            
-  filter(!(. %in% unimportant)) 
+  filter(!(. %in% c("", " ")))           #removing 'words' that are just whitespace 
 
 
 
@@ -61,7 +51,7 @@ getWords = function(col) {
     lapply(str_replace_all, " ", "") %>%     #remove whitespace
     str_detect(col)                          #detects whether or not the inputted string is in each element of master[[1]] 
   
-  wordTable = master[[3]] %>%
+  wordTable = master[[2]] %>%
     subset(hasCol) %>%                       #returns words in abstracts where hasCol is TRUE
     unlist() %>%                             
     table() %>%                              
@@ -80,7 +70,6 @@ filteredByCol = vector("list", 10)                                   #the ith el
 for (i in 1:10) {                                                   
   wordTable = suppressWarnings(getWords(colTable$.[i]))              
   wordsByCol[[i]] = wordTable                                        #word frequency table for abstracts with collaborator i
-  filteredByCol[[i]] = wordTable[!(wordTable$. %in% unimportant),]   #filtering out words that are not subject and study-related
 }
 
 
@@ -105,28 +94,9 @@ words = words[!is.na(words)]
 collaborators = collaborators[!is.na(collaborators)]
 wordsTableStrat = data.frame(frequencies, words, collaborators)
 
-#getting the subject/study-specific words into a similar format
-wordsData = unlist(filteredByCol)
-frequencies = as.double(ifelse(str_detect(names(wordsData), "n\\d"), wordsData, NA))
-words = ifelse(str_detect(names(wordsData), "\\.\\d"), wordsData, NA)
-collaborators = vector("character", length(words)/2)
-numWords = lapply(filteredByCol, nrow) %>% unlist()
-j=0
-for (i in 1:10) {
-  collaborators[seq(j+1, j+numWords[i])] = rep(colTable$.[i], numWords[i])
-  j = j + numWords[i]
-}
-
-frequencies = frequencies[!is.na(frequencies)]
-words = words[!is.na(words)]
-collaborators = collaborators[!is.na(collaborators)]
-filteredTableStrat = data.frame(frequencies, words, collaborators)
-
 
 
 ##saving data sets in the form of csvs (NOTE: Saving as .rds files would be easier, but the instructions said csv data only)##
 write.csv(wordFreqTable, "wordsN.csv")
-write.csv(wordsFiltered, "filterWordsN.csv")
 write.csv(colTable, "collaboratorsN.csv")
 write.csv(wordsTableStrat, "wordsByCol.csv")
-write.csv(filteredTableStrat, "filterWordsByCol.csv")
