@@ -12,8 +12,16 @@ master = list(collaborators = col, words = words) #putting all data in a 'master
 for (i in 1:2) {                                                 #for each text object...
   master[[i]] = str_split(master[[i]], pattern="\n\n")[[1]] %>%  #each line becomes an element of a list
     lapply(str_split, pattern="\t") %>%                          #each element of the list (line of text) is split by tab characters into to a vector of strings
-    lapply('[[', 1) %>%                                          #removing unnecesary nesting
-    lapply(function(x) x[-1])                                    #first element of each vector is the abstract name, which can be removed
+    lapply('[[', 1)                                              #removing unnecesary nesting
+  
+    orderA = lapply(master[[i]], function(x) x[1])  %>%          #getting ordering of lists by abstract                           
+    unlist() %>%
+    order()
+  
+  master[[i]] = master[[i]][orderA] %>%                          #sorting lists by abstract so indices match up (i.e. the ith element of master[[1]] and master[[3]] refer to collaborators and description words of the same abstract)  
+    lapply(function(x) x[-1])                                    #removing abstract name element (as we have no more use for it)
+
+  
 }
 
 
