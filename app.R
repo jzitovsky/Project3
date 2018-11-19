@@ -150,7 +150,7 @@ shinyApp(
     wordsColFilter = filter(wordsCol, !(words %in% unimportant))   # 'wordsCol' excluding generic/garbage words 
     output$x3 = renderPlot({
       if (input$colInput2 == "All") {
-        wordcloud(wordsNFilter$words, wordsNFilter$abstracts,                    #if "all" option of slide-down menu is selected (default), use all abstracts for plot
+        wordcloud(wordsNFilter$words, wordsNFilter$abstracts,       #if "all" option of slide-down menu is selected (default), use all abstracts for plot
                   max.words = input$maxWords,                       #max words displayed based on slider input
                   colors = brewer.pal(8, "Dark2"))                  #give words different colors (improves readability
       } 
